@@ -1,0 +1,440 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/terminal-universe/schema/terminal.schema.json",
+  "title": "Terminal Universe Terminal Emulator Record v2.1",
+  "description": "Hybrid ontology schema. Multiplexers, embedded terminals, shells, and wrappers are out of scope.",
+  "type": "object",
+  "required": [
+    "id",
+    "Name",
+    "ScopeClass",
+    "Category",
+    "rendering_generation",
+    "ecosystem",
+    "era",
+    "Arch",
+    "RenderingSurface",
+    "Status",
+    "ActivitySignal",
+    "Confidence",
+    "PrimarySource"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^term_[a-z0-9_]+$"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "MultiProtocol": {
+      "type": "boolean"
+    },
+    "MaturityScore": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 3
+    },
+    "FirstReleaseYear": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1800,
+      "maximum": 2100
+    },
+    "PrimarySource": {
+      "type": "string"
+    },
+    "Notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "LineageSoftware_list": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "LineageConcept_list": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ScopeClass": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "console_terminal_emulator",
+        "historical_terminal_emulator",
+        "unix_linux_terminal_emulator",
+        "web_terminal_emulator",
+        null
+      ]
+    },
+    "Category": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "Experimental_UI",
+        "GPU_modern",
+        "Qt_ecosystem",
+        "VTE_ecosystem",
+        "X11_legacy",
+        null
+      ]
+    },
+    "rendering_generation": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "cpu_classic",
+        "gpu_modern",
+        "mixed_or_experimental",
+        null
+      ]
+    },
+    "ecosystem": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "experimental_ui",
+        "qt_kde",
+        "standalone",
+        "vte",
+        "x11_xterm_family",
+        null
+      ]
+    },
+    "era": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "legacy",
+        "modern",
+        null
+      ]
+    },
+    "Arch": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "native",
+        "tty",
+        "web",
+        null
+      ]
+    },
+    "LayoutModel": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "blocks",
+        "none",
+        "splits",
+        "tabs",
+        "tiling",
+        null
+      ]
+    },
+    "RenderingSurface": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "framebuffer",
+        "native_gui",
+        "web_runtime",
+        null
+      ]
+    },
+    "Status": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "Active",
+        "Experimental",
+        "Legacy",
+        "Maintenance",
+        null
+      ]
+    },
+    "ActivitySignal": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "active",
+        "archived",
+        "dormant",
+        null
+      ]
+    },
+    "DisplayDependency": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "display_agnostic",
+        "wayland_native",
+        "x11_compatible",
+        "x11_required",
+        null
+      ]
+    },
+    "PrimaryConnection": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "local",
+        "ssh",
+        "websocket",
+        null
+      ]
+    },
+    "EmulationTarget": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "linux_console",
+        "tek4010",
+        "vt_xterm",
+        "web_shell",
+        null
+      ]
+    },
+    "CoreEngine": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "KonsolePart",
+        "QTermWidget",
+        "VTE",
+        "custom",
+        "xterm.js",
+        null
+      ]
+    },
+    "EngineFamily": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "KDE_Konsole_lineage",
+        "Qt_QTermWidget_lineage",
+        "VTE_wrapper",
+        "console_framebuffer",
+        "custom_gpu",
+        "custom_native",
+        "rxvt_lineage",
+        "suckless_lineage",
+        "web_runtime_custom",
+        "web_xtermjs_lineage",
+        "xterm_lineage",
+        null
+      ]
+    },
+    "RenderingModel": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "dom",
+        "framebuffer",
+        "gpu_cells",
+        "text_grid",
+        "vector",
+        null
+      ]
+    },
+    "InteractionModel": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "block",
+        "repl",
+        "stream",
+        "structured",
+        null
+      ]
+    },
+    "AbstractionLevel": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "device_level",
+        "interface_level",
+        "terminal_level",
+        null
+      ]
+    },
+    "Extensibility": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "config",
+        "none",
+        "plugin",
+        "programmable",
+        null
+      ]
+    },
+    "StateModel": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "persistent",
+        "session-aware",
+        "stateless",
+        null
+      ]
+    },
+    "Confidence": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "high",
+        "low",
+        "medium",
+        null
+      ]
+    },
+    "Language": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "LanguageRole": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "metadata_only",
+        null
+      ]
+    },
+    "LineageSoftware": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "KonsolePart",
+        "Linux console",
+        "QTermWidget",
+        "VTE",
+        "custom_root",
+        "rxvt;xterm",
+        "st;xterm",
+        "web terminal component",
+        "xterm",
+        "xterm.js",
+        null
+      ]
+    },
+    "LineageConcept": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "framebuffer_console",
+        "framebuffer_console;configuration_driven",
+        "framebuffer_console;wayland_native_design;configuration_driven",
+        "web_terminal",
+        "xterm_compatibility",
+        "xterm_compatibility;block_interface;gpu_acceleration",
+        "xterm_compatibility;block_interface;structured_output",
+        "xterm_compatibility;block_interface;web_terminal;configuration_driven",
+        "xterm_compatibility;configuration_driven",
+        "xterm_compatibility;desktop_integration;configuration_driven",
+        "xterm_compatibility;gpu_acceleration;configuration_driven",
+        "xterm_compatibility;gpu_acceleration;wayland_native_design;configuration_driven",
+        "xterm_compatibility;gpu_acceleration;wayland_native_design;image_media_support",
+        "xterm_compatibility;lightweight_suckless;configuration_driven",
+        "xterm_compatibility;mobile_touch_terminal",
+        "xterm_compatibility;retro_visualization",
+        "xterm_compatibility;retro_visualization;configuration_driven",
+        "xterm_compatibility;rxvt_minimalism;configuration_driven",
+        "xterm_compatibility;rxvt_minimalism;image_media_support;configuration_driven",
+        "xterm_compatibility;rxvt_minimalism;tabbed_terminal;configuration_driven",
+        "xterm_compatibility;split_pane_terminal",
+        "xterm_compatibility;split_pane_terminal;desktop_integration;configuration_driven",
+        "xterm_compatibility;split_pane_terminal;gpu_acceleration;configuration_driven",
+        "xterm_compatibility;split_pane_terminal;gpu_acceleration;image_media_support",
+        "xterm_compatibility;split_pane_terminal;image_media_support;configuration_driven",
+        "xterm_compatibility;split_pane_terminal;structured_output",
+        "xterm_compatibility;tabbed_terminal",
+        "xterm_compatibility;tabbed_terminal;configuration_driven",
+        "xterm_compatibility;tabbed_terminal;desktop_integration;configuration_driven",
+        "xterm_compatibility;tabbed_terminal;gpu_acceleration",
+        "xterm_compatibility;tabbed_terminal;gpu_acceleration;configuration_driven",
+        "xterm_compatibility;tabbed_terminal;lightweight_suckless;configuration_driven",
+        "xterm_compatibility;tabbed_terminal;lightweight_suckless;drop_down_terminal",
+        "xterm_compatibility;tabbed_terminal;structured_output;configuration_driven",
+        "xterm_compatibility;tabbed_terminal;web_terminal;configuration_driven",
+        "xterm_compatibility;tabbed_terminal;web_terminal;repl_interface",
+        "xterm_compatibility;tiling_terminal;desktop_integration;configuration_driven",
+        null
+      ]
+    },
+    "LineageConfidence": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "high",
+        "inferred",
+        "medium",
+        null
+      ]
+    }
+  }
+}

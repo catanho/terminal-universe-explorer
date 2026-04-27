@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: Terminal Universe Explorer: A Periodic Table of Terminal Emulator Design
+message: If you use this dataset or software, please cite it using this metadata.
+type: software
+version: 2.3.0-alpha
+date-released: 2026-04-27
+authors:
+  - family-names: TBD
+    given-names: TBD
+license: MIT
+repository-code: https://github.com/TBD/terminal-universe-explorer
+abstract: A hybrid ontology and public explorer for Unix/Linux and related terminal emulator design.

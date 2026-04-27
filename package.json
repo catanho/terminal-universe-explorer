@@ -1,0 +1,13 @@
+{
+  "name": "terminal-universe-explorer",
+  "version": "2.7.0",
+  "private": false,
+  "description": "Hybrid ontology and public explorer for terminal emulator design.",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "validate": "python3 scripts/validate_release_candidate.py",
+    "audit": "node scripts/audit_functional.js",
+    "audit:data": "node scripts/audit_functional.js --data-only"
+  },
+  "license": "MIT"
+}
