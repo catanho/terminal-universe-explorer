@@ -1,9 +1,14 @@
 # Data and Text Licensing
 
-Recommended public-release licensing:
+This project uses the following licenses:
 
-- **Code:** MIT License.
-- **Dataset/ontology:** CC BY 4.0, or CC0 if you want maximal reuse.
-- **Paper text and figures:** CC BY 4.0.
+## Code
+Licensed under the MIT License.
 
-Before public release, replace this recommendation with the final license choice.
+## Dataset and ontology
+Licensed under CC BY 4.0.
+
+You are free to use, modify, and redistribute the dataset, provided proper attribution is given.
+
+## Documentation and text
+Licensed under CC BY 4.0.

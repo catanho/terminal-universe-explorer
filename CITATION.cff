@@ -1,12 +1,20 @@
 cff-version: 1.2.0
-title: Terminal Universe Explorer: A Periodic Table of Terminal Emulator Design
-message: If you use this dataset or software, please cite it using this metadata.
+title: Terminal Universe Explorer
+message: If you use this dataset or software, please cite it.
 type: software
-version: 2.3.0-alpha
-date-released: 2026-04-27
+version: 2.7.2
+date-released: 2026-04-28
+
 authors:
-  - family-names: TBD
-    given-names: TBD
+  - family-names: Catanho
+    given-names: Marcos
+
 license: MIT
-repository-code: https://github.com/TBD/terminal-universe-explorer
-abstract: A hybrid ontology and public explorer for Unix/Linux and related terminal emulator design.
+
+repository-code: https://github.com/catanho/terminal-universe-explorer
+
+abstract: >
+  Terminal Universe Explorer is an interactive map of Unix/Linux terminal emulators.
+  It models the design space across dimensions such as engine family, rendering model,
+  ecosystem, surface, and status, enabling exploration of structure and evolution
+  in terminal emulator design.

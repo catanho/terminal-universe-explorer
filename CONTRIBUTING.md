@@ -2,23 +2,32 @@
 
 Thanks for your interest.
 
-This project is a curated dataset and exploratory interface.
+This project combines a curated dataset with an exploratory interface.
 
-## You can help by:
+---
 
-- correcting metadata (language, year, classification)
-- fixing or updating source links
-- adding missing terminal emulators
-- suggesting better grouping models
+## Ways to contribute
+
+- Correct metadata (language, year, classification)
+- Fix or update source links
+- Add missing terminal emulators
+- Suggest improvements to grouping or modeling
+
+---
 
 ## Guidelines
 
-- keep changes small and explainable
-- prefer source-backed corrections
-- consistency > completeness
+- Keep changes small and explainable
+- Prefer source-backed corrections when possible
+- Maintain consistency across the dataset
+- Avoid speculative or subjective changes without justification
+
+---
 
 ## Philosophy
 
-This is not meant to be a perfect taxonomy.
+This is not intended to be a perfect or authoritative taxonomy.
 
-It is a working model to explore the structure of the terminal ecosystem.
+It is a working model designed to reveal structure in the terminal ecosystem.
+
+Improvements are welcome, especially when they make that structure clearer.
