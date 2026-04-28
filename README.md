@@ -25,6 +25,17 @@ https://catanho.github.io/terminal-universe-explorer/
 
 ---
 
+
+
+---
+
+## Why and direction
+
+- [Why this exists](docs/WHY.md)
+- [Project roadmap](docs/ROADMAP.md)
+- [Open questions](docs/OPEN_QUESTIONS.md)
+
+
 ## Dataset
 
 The Explorer is powered by a curated dataset of terminal emulators.
