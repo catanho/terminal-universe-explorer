@@ -1,80 +1,82 @@
 # Terminal Universe Explorer
 
-**A Periodic Table of Terminal Emulator Design**
+A way to explore the design space of Unix/Linux terminal emulators.
 
-Terminal Universe Explorer is an open, hybrid ontology and public explorer for Unix/Linux and related terminal emulators.
+---
 
-The project has two linked outputs:
+## What is this?
 
-1. **A Multidimensional Ontology of Unix/Linux Terminal Emulators** — the paper and formal dataset.
-2. **Terminal Universe Explorer** — a public-facing visual tool for developers, researchers, enthusiasts, and curious users.
+Terminal Universe Explorer is an interactive map of terminal emulators — not just as tools, but as a design space.
 
-## The hybrid decision
+Instead of listing terminals, it lets you:
 
-This project explicitly uses a **hybrid ontology model**:
+- browse them as a collection
+- group them by ecosystem, engine, surface, rendering, and status
+- compare their characteristics
+- explore how different approaches relate to each other
 
-- **Formal ontology layer:** controlled vocabulary, reproducible records, validation, and machine-readable data.
-- **Explorer layer:** readable labels, visual grouping, and plain-language summaries for the broader public.
+Think of it as a structured view of how terminals are built and how they evolved.
 
-This means the same data can support scientific review, software reuse, and casual exploration.
+---
 
-## Current public alpha
+## Explorer
 
-- Dataset records: **79**
-- Scope: standalone terminal emulators only; multiplexers, shells, embedded IDE terminals, and non-emulator wrappers are excluded.
-- Core data: `data/terminals_v2_3_public_alpha.csv`
-- JSON data: `data/terminals_v2_3_public_alpha.json`
-- Ontology spec: `ontology/HYBRID_ONTOLOGY_SPEC_v2_2.md`
-- Validation report: `docs/VALIDATION_REPORT_v2_2.md`
-- Explorer prototype: `app/index.html`
+https://catanho.github.io/terminal-universe-explorer/
 
-## Quick start
+---
 
-Open `app/index.html` in a browser, or serve the repository locally:
+## Dataset
 
-```bash
-python3 -m http.server 8000
-```
+The Explorer is powered by a curated dataset of terminal emulators.
 
-Then visit:
+### Key fields
 
-```text
-http://localhost:8000/app/
-```
+- PrimaryLanguage — main implementation language
+- FirstReleaseYear — historical introduction (when known)
+- EngineFamily — underlying terminal engine or lineage
+- RenderingSurface — display backend
+- rendering_generation — conceptual rendering model
+- public_status_label — active / inactive / experimental / archived
 
-## Validation
+### Provenance
 
-```bash
-python3 scripts/validate_release_candidate.py
-```
+This dataset is a curated synthesis of multiple sources:
 
-## Suggested publication route
+- project repositories (GitHub, GitLab, SourceForge)
+- documentation and man pages
+- historical and ecosystem knowledge
 
-- Archive tagged releases on Zenodo to mint a DOI.
-- Submit the software artifact to JOSS.
-- Submit the ontology/paper narrative to PeerJ Computer Science, F1000Research, or a similar open venue.
+Some classifications are interpretative and meant to reveal structure rather than serve as strict taxonomy.
 
-## Repository map
+---
 
-```text
-app/        Static public Explorer prototype
-data/       CSV/JSON/YAML ontology data
-docs/       Validation reports, checklist, release notes
-ontology/   Formal hybrid ontology specification
-paper/      Manuscript draft and JOSS notes
-schema/     JSON Schema
-scripts/    Validation utilities
-```
+## Scope
 
-## License
+This version focuses on:
 
-Code is MIT. Data/text licensing should be finalized before public release; see `DATA_LICENSE.md`.
+→ exploration and orientation
 
+It is intentionally:
 
-## v2.6 Functional Explorer
+- simple
+- readable
+- static (no backend)
 
-This release makes the Explorer interactive on GitHub Pages: terminal cards open detail views, periodic tiles are clickable, filtered results can be exported as CSV, and two terminals can be compared side by side.
+---
 
-## v2.5 Theme Integration
+## Contributing
 
-The Explorer includes persistent Light/Dark mode support with system-preference detection and a subtle tricolor identity palette.
+Contributions are welcome:
+
+- fix incorrect metadata
+- improve source links
+- add missing terminals
+- refine classifications
+
+Consistency matters more than completeness.
+
+---
+
+## Status
+
+Public Alpha — v2.7.2

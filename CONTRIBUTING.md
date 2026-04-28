@@ -1,13 +1,24 @@
 # Contributing
 
-Contributions are welcome in the Unix/Linux free and open-source spirit.
+Thanks for your interest.
 
-Please submit changes as pull requests that:
+This project is a curated dataset and exploratory interface.
 
-1. Add or update records in `data/terminals_v2_1_clean.csv`.
-2. Preserve the schema in `schema/terminal.schema.json`.
-3. Provide a `PrimarySource` for each changed record.
-4. Use confidence levels consistently: `high`, `medium`, `inferred`, or `low`.
-5. Do not add out-of-scope software such as multiplexers, shells, embedded IDE terminals, or wrappers.
+## You can help by:
 
-The project intentionally separates scientific labels from public labels. When proposing terminology changes, describe both the formal meaning and the public-facing wording.
+- correcting metadata (language, year, classification)
+- fixing or updating source links
+- adding missing terminal emulators
+- suggesting better grouping models
+
+## Guidelines
+
+- keep changes small and explainable
+- prefer source-backed corrections
+- consistency > completeness
+
+## Philosophy
+
+This is not meant to be a perfect taxonomy.
+
+It is a working model to explore the structure of the terminal ecosystem.
