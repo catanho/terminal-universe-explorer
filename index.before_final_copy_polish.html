@@ -46,7 +46,7 @@ main{max-width:1180px;margin:auto;padding:0 2rem 3rem}.notice{margin:1rem 0 1.25
 <div class="tricolor" aria-hidden="true"></div>
 <div class="topbar"><div class="eyebrow">Hybrid Ontology · Functional Explorer v2.7</div><button id="themeToggle" class="theme-toggle" title="Switch between light and dark themes. Dark mode is optimized for terminal-style workflows." aria-label="Switch color theme"><span class="icon" aria-hidden="true">🌙</span><span class="label">Dark mode</span></button></div>
 <h1 class="hero">Terminal Universe Explorer</h1>
-<p class="sub">Welcome to the Terminal Universe. Terminal emulators are not all the same: they differ in design, philosophy, lineage, and evolution. Search, filter, open cards, compare terminals, export results, and browse Explorer Groups.</p>
+<p class="sub">Welcome to the Terminal Universe. Terminal emulators are not all the same: they differ in design, philosophy, lineage, and evolution. Search, filter, open cards, compare terminals, export the current result set, and switch between Explorer and Scientific views.</p>
 <div class="mode-copy"><div class="mode"><strong>🌌 Explorer Mode</strong> Visual, simplified view for discovering terminals and their relationships.</div><div class="mode"><strong>🔬 Scientific Mode</strong> Full ontology view with detailed attributes, lineage, confidence, and source-backed data.</div></div>
 <div class="controls"><input id="search" list="terminalSuggestions" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Search terminal names…" aria-label="Search terminals" /><datalist id="terminalSuggestions"></datalist><select id="sort" aria-label="Sort results">
 <option value="">Sort by</option>
@@ -59,10 +59,23 @@ main{max-width:1180px;margin:auto;padding:0 2rem 3rem}.notice{margin:1rem 0 1.25
 <option value="maturity_high_low">Maturity: high → low</option>
 <option value="maturity_low_high">Maturity: low → high</option>
 </select><select id="rendering" aria-label="Filter by rendering generation"><option value="">All rendering types</option></select><select id="status" aria-label="Filter by status"><option value="">All statuses</option></select><select id="engine" aria-label="Filter by engine family"><option value="">All engine families</option></select><select id="language" aria-label="Filter by language"><option value="">Language</option></select>
-<select id="surface" aria-label="Filter by rendering surface"><option value="">All surfaces</option></select><button id="toggle" class="primary" aria-pressed="false">Scientific Mode: Later</button><button id="reset" class="secondary">Reset Filters</button><button id="exportCsv" class="ghost">Export current results CSV</button></div>
+<select id="surface" aria-label="Filter by rendering surface"><option value="">All surfaces</option></select><button id="toggle" class="primary" aria-pressed="false">Scientific Mode: Off</button><button id="reset" class="secondary">Reset Filters</button><button id="exportCsv" class="ghost">Export current results CSV</button></div>
 </header>
 <main>
-
+<section class="landing">
+  <h1>Terminal Universe Explorer</h1>
+  <p class="lead">
+    A map of Unix/Linux terminal emulators — not just as tools, but as a design space.
+  </p>
+  <p>
+    Explore how terminals differ across ecosystems, engines, rendering models, and history.
+    Use search and filters to find specific tools, or switch to <strong>Explorer Groups</strong>
+    to see the structure of the space.
+  </p>
+  <p class="hint">
+    Start by typing a name, or browse by ecosystem and rendering.
+  </p>
+</section>
 
 <section id="modeNotice" class="notice"><strong>Explorer Mode:</strong> simplified cards and public labels. Turn on Scientific Mode to expose ontology fields, confidence, lineage, engine family, rendering model, and source-backed details directly in the cards.</section>
 <section id="stats" class="stats"><div class="loading">Loading terminal dataset…</div></section>
@@ -167,13 +180,7 @@ function sortRows(rows){
   return rows;
 }
 
-function renderStats(rows){
-  const active = rows.filter(d => d.Status === 'Active').length;
-  const ecosystems = uniq(rows.map(d => d.ecosystem)).length;
-  const engines = uniq(rows.map(d => d.EngineFamily)).length;
-
-  stats.innerHTML = `<div class="stat"><strong>${rows.length}</strong><span>Visible emulators</span></div><div class="stat"><strong>${active}</strong><span>Active</span></div><div class="stat"><strong>${engines}</strong><span>Engine families</span></div><div class="stat"><strong>${ecosystems}</strong><span>Ecosystems</span></div>`;
-}
+function renderStats(rows){const active=rows.filter(d=>d.Status==='Active').length; const gpu=rows.filter(d=>d.rendering_generation==='gpu_modern').length; stats.innerHTML=`<div class="stat"><strong>${rows.length}</strong><span>visible emulators</span></div><div class="stat"><strong>${active}</strong><span>active</span></div><div class="stat"><strong>${gpu}</strong><span>GPU-modern</span></div><div class="stat"><strong>${uniq(rows.map(d=>d.EngineFamily)).length}</strong><span>engine families</span></div>`;}
 function shortMeta(d){return `<span class="pill wine">${esc(label(d.rendering_generation))}</span><span class="pill green">${esc(d.public_status_label)}</span><span class="pill">${esc(label(d.EngineFamily))}</span>`}
 function card(d){const sci='';return `<button class="card" data-open="${esc(d.id)}" title="Open ${esc(d.Name)} details"><h3>${esc(d.Name)}</h3>${shortMeta(d)}<p class="summary">${esc(d.explorer_summary||d.Notes||'')}</p>${sci}<span class="meta">Click for details · Shift-click to compare</span></button>`}
 function renderCards(rows){grid.className='grid';grid.innerHTML=rows.length?rows.map(card).join(''):`<div class="empty">No terminals match your current filters. Try adjusting or clearing filters to explore more of the universe.</div>`}
@@ -223,7 +230,7 @@ function renderExplorerGroups(rows){
     .join('');
 }
 function renderCompareBar(){const names=compareIds.map(id=>data.find(d=>d.id===id)?.Name).filter(Boolean);$('compareBar').hidden=!names.length;$('compareNames').textContent=names.join(' ↔ ');$('openCompare').disabled=names.length<2}
-function hasActiveFilters(){return search.value.trim()||renderingSel.value||statusSel.value||engineSel.value||surfaceSel.value||languageSel.value} function updateModeUI(rows){toggle.textContent='Scientific Mode: Later';toggle.setAttribute('aria-pressed','false');toggle.classList.add('primary');toggle.classList.remove('secondary');modeNotice.innerHTML='<strong>Explorer Mode:</strong> simplified cards and public labels. Scientific Mode is reserved for the future analytical workbench.';exportCsv.textContent=`Export current results CSV (${rows.length})`} function render(){let rows=filtered(); rows = sortRows(rows); count.textContent=`Showing ${rows.length} of ${data.length} terminal emulators${hasActiveFilters()?' after filters':''}`; updateModeUI(rows); renderStats(rows); view==='cards'?renderCards(rows):renderExplorerGroups(rows); renderCompareBar()}
+function hasActiveFilters(){return search.value.trim()||renderingSel.value||statusSel.value||engineSel.value||surfaceSel.value||languageSel.value} function updateModeUI(rows){toggle.textContent='Scientific Mode: Off';toggle.setAttribute('aria-pressed','false');toggle.classList.add('primary');toggle.classList.remove('secondary');modeNotice.innerHTML='<strong>Explorer Mode:</strong> simplified cards and public labels. Scientific Mode is reserved for the future analytical workbench.';exportCsv.textContent=`Export current results CSV (${rows.length})`} function render(){let rows=filtered(); rows = sortRows(rows); count.textContent=`Showing ${rows.length} of ${data.length} terminal emulators${hasActiveFilters()?' after filters':''}`; updateModeUI(rows); renderStats(rows); view==='cards'?renderCards(rows):renderExplorerGroups(rows); renderCompareBar()}
 function detailFields(d){return wanted.filter(k=>d[k]!==undefined&&d[k]!==null&&d[k]!==''&&!(Array.isArray(d[k])&&!d[k].length)).map(k=>`<div class="field"><span>${esc(label(k))}</span>${Array.isArray(d[k])?d[k].map(x=>`<span class="pill">${esc(label(x))}</span>`).join(' '):k==='PrimarySource'?`<a class="source" href="${esc(d[k])}" target="_blank" rel="noopener">${esc(d[k])}</a>`:esc(label(d[k]))}</div>`).join('')}
 function openDetails(id){const d=data.find(x=>x.id===id); if(!d)return; modalContent.innerHTML=`<div class="dialog-head"><div><h2 id="modalTitle">${esc(d.Name)}</h2>${shortMeta(d)}</div><button class="ghost" data-close>Close</button></div><p class="summary">${esc(d.explorer_summary||d.Notes||'')}</p><div class="controls"><button class="primary" data-compare="${esc(d.id)}">Add to compare</button></div><div class="details">${detailFields(d)}</div>`; modal.classList.add('open'); modal.querySelector('[data-close]').focus();}
 function openCompare(){const selected=compareIds.map(id=>data.find(d=>d.id===id)).filter(Boolean).slice(0,2); if(selected.length<2)return; const keys=['public_category_label','public_status_label','PrimaryLanguage','FirstReleaseYear','RenderingModel','RenderingSurface','DisplayDependency','EngineFamily','Extensibility','MaturityScore','Confidence','LineageConcept']; modalContent.innerHTML=`<div class="dialog-head"><div><h2 id="modalTitle">Compare terminals</h2><p class="meta">Side-by-side ontology comparison.</p></div><button class="ghost" data-close>Close</button></div><div class="compare">${selected.map(d=>`<section><h3>${esc(d.Name)}</h3>${shortMeta(d)}<div class="details">${keys.map(k=>`<div class="field"><span>${esc(label(k))}</span>${esc(label(d[k]))}</div>`).join('')}</div></section>`).join('')}</div>`; modal.classList.add('open'); modal.querySelector('[data-close]').focus();}

@@ -1,0 +1,80 @@
+Name,Language,ParsedLanguages,PrimarySource,Flags
+aixterm,C,C,https://www.ibm.com/docs/en/aix,non_repo_source_manual_check
+Alacritty,Rust,Rust,https://github.com/alacritty/alacritty,
+aterm,C,C,https://sourceforge.net/projects/aterm/,
+Black Box,Vala,Vala,https://gitlab.gnome.org/raggesilver/blackbox,
+Cantera Term,,,https://gitlab.com/alexanderalemayhu/cantera-term,missing_language
+color-xterm,C,C,https://invisible-island.net/xterm/,non_repo_source_manual_check
+Contour,C++,C,https://github.com/contour-terminal/contour,
+Cool Retro Term,"QML, C++",QML; C,https://github.com/Swordfish90/cool-retro-term,
+COSMIC Terminal,Rust,Rust,https://github.com/pop-os/cosmic-term,
+darktile,Go,Go,https://github.com/liamg/darktile,
+Deepin Terminal,C++,C,https://github.com/linuxdeepin/deepin-terminal,
+DomTerm,"JavaScript, C",JavaScript; C,https://github.com/PerBothner/DomTerm,
+Electerm,JavaScript,JavaScript,https://github.com/electerm/electerm,
+Eterm,C,C,https://sourceforge.net/projects/eterm/,
+evilvte,C,C,https://www.calno.com/evilvte/,non_repo_source_manual_check
+Extraterm,TypeScript,TypeScript,https://github.com/sedwards2009/extraterm,
+fauxterm,JavaScript,JavaScript,https://github.com/jcubic/jquery.terminal,
+fbpad,C,C,https://github.com/aligrudi/fbpad,
+fbterm,C++,C,https://github.com/zhcong/fbterm,
+Final Term,Vala,Vala,https://github.com/p-e-w/finalterm,
+fingerterm,C++,C,https://github.com/sailfishos/fingerterm,
+Foot,C,C,https://codeberg.org/dnkl/foot,non_repo_source_manual_check
+Footclient / foot-server,C,C,https://codeberg.org/dnkl/foot,non_repo_source_manual_check
+Ghostty,"Zig, C",Zig; C,https://github.com/ghostty-org/ghostty,
+GNOME Console (kgx),C,C,https://gitlab.gnome.org/GNOME/console,
+GNOME Terminal,C,C,https://gitlab.gnome.org/GNOME/gnome-terminal,
+gnome-terminator,Python,Python,https://github.com/gnome-terminator/terminator,
+gt,,,https://gitlab.com/jeang3nie/gt,missing_language
+Guake,Python,Python,https://github.com/Guake/guake,
+Hyper,JavaScript,JavaScript,https://github.com/vercel/hyper,
+kermit (VTE terminal),C,C,https://github.com/orhun/kermit,
+Kitty,"C, Python, Go",C; Python; Go,https://github.com/kovidgoyal/kitty,many_languages_check
+kmscon,C,C,https://github.com/dvdhrm/kmscon,
+Konsole,C++,C,https://invent.kde.org/utilities/konsole,non_repo_source_manual_check
+lcxterm,C,C,https://lcxterm.sourceforge.io/,
+lilyterm,C,C,https://github.com/Tetralet/LilyTerm,
+Linux console,C,C,https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git,non_repo_source_manual_check
+lterm,C,C,https://sourceforge.net/projects/lterm/,
+LXTerminal,C,C,https://github.com/lxde/lxterminal,
+Mate Terminal,C,C,https://github.com/mate-desktop/mate-terminal,
+mrxvt,C,C,https://github.com/razvanm/mrxvt,
+Pantheon Terminal,Vala,Vala,https://github.com/elementary/terminal,
+Ptyxis,C,C,https://gitlab.gnome.org/chergert/ptyxis,
+QTerminal,C++,C,https://github.com/lxqt/qterminal,
+RetroTerminal,,,https://andi2255.itch.io/retroterminal,missing_language; non_repo_source_manual_check
+Rio,Rust,Rust,https://github.com/raphamorim/rio,
+ROXTerm,C,C,https://github.com/realh/roxterm,
+rxvt,C,C,http://rxvt.sourceforge.net/,
+Sakura,C,C,https://github.com/dabisu/sakura,
+st (suckless terminal),C,C,https://st.suckless.org/,non_repo_source_manual_check
+st-flexipatch terminal,C,C,https://github.com/bakkeby/st-flexipatch,
+Station,"C++, QML",C; QML,https://github.com/mauikit/station,
+stjerm,C,C,https://code.google.com/archive/p/stjerm/,non_repo_source_manual_check
+svte,C,C,https://github.com/JamesLinus/svte,
+Tabby,TypeScript,TypeScript,https://github.com/Eugeny/tabby,
+Tek4010,Java,Java,https://github.com/rricharz/Tek4010,
+terminalpp,C++,C,https://github.com/terminalpp/terminalpp,
+Terminator,Python,Python,https://github.com/gnome-terminator/terminator,
+Terminology,C,C,https://git.enlightenment.org/enlightenment/terminology,non_repo_source_manual_check
+Termit,C,C,https://github.com/nonstop/termit,
+Termite,C,C,https://github.com/thestinger/termite,
+Terra Terminal,Python,Python,https://gitlab.com/sharan/terra-terminal,
+Tess,Python,Python,https://github.com/Squitch1/Tess,
+Tilda,C,C,https://github.com/lanoxx/tilda,
+Tilix,Vala,Vala,https://github.com/gnunn1/tilix,
+urxvt (rxvt-unicode),C++,C,http://software.schmorp.de/pkg/rxvt-unicode.html,non_repo_source_manual_check
+uxterm,"Shell, C",Shell; C,https://invisible-island.net/xterm/,non_repo_source_manual_check
+Warp,Rust,Rust,https://www.warp.dev/,non_repo_source_manual_check
+Wave Terminal,"Go, TypeScript",Go; TypeScript,https://github.com/wavetermdev/waveterm,
+wayst,C,C,https://github.com/91861/wayst,
+weston-terminal,C,C,https://gitlab.freedesktop.org/wayland/weston,
+WezTerm,Rust,Rust,https://github.com/wezterm/wezterm,
+xfce4-terminal,C,C,https://gitlab.xfce.org/apps/xfce4-terminal,
+xterm,C,C,https://invisible-island.net/xterm/,non_repo_source_manual_check
+xvt,C,C,https://manpages.ubuntu.com/manpages/bionic/man1/xvt.1.html,non_repo_source_manual_check
+yaft,C,C,https://github.com/uobikiemukot/yaft,
+Yakuake,C++,C,https://invent.kde.org/utilities/yakuake,non_repo_source_manual_check
+zerotty,JavaScript,JavaScript,https://gitlab.com/PaNDa2code/zerotty,
+zutty,C++,C,https://github.com/tomscii/zutty,

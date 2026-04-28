@@ -243,9 +243,7 @@
     "lineage_concept_list": [
       "xterm_compatibility"
     ],
-    "LanguageStack": [
-      "Unknown"
-    ],
+    "LanguageStack": [],
     "PrimaryLanguage": "Unknown"
   },
   {
@@ -394,6 +392,7 @@
       "configuration_driven"
     ],
     "LanguageStack": [
+      "QML",
       "C"
     ],
     "PrimaryLanguage": "C++"
@@ -597,7 +596,8 @@
       "repl_interface"
     ],
     "LanguageStack": [
-      "JavaScript"
+      "JavaScript",
+      "C"
     ],
     "PrimaryLanguage": "JavaScript"
   },
@@ -1198,7 +1198,8 @@
       "configuration_driven"
     ],
     "LanguageStack": [
-      "Zig"
+      "Zig",
+      "C"
     ],
     "PrimaryLanguage": "Zig"
   },
@@ -1398,9 +1399,7 @@
     "lineage_concept_list": [
       "xterm_compatibility"
     ],
-    "LanguageStack": [
-      "Unknown"
-    ],
+    "LanguageStack": [],
     "PrimaryLanguage": "Unknown"
   },
   {
@@ -1603,7 +1602,9 @@
       "image_media_support"
     ],
     "LanguageStack": [
-      "C"
+      "C",
+      "Python",
+      "Go"
     ],
     "PrimaryLanguage": "C"
   },
@@ -2257,9 +2258,7 @@
       "xterm_compatibility",
       "retro_visualization"
     ],
-    "LanguageStack": [
-      "Unknown"
-    ],
+    "LanguageStack": [],
     "PrimaryLanguage": "Unknown"
   },
   {
@@ -2593,7 +2592,7 @@
     "Extensibility": "config",
     "StateModel": "stateless",
     "Confidence": "medium",
-    "Language": "C++",
+    "Language": "C",
     "LanguageRole": "metadata_only",
     "MaturityScore": 2,
     "FirstReleaseYear": 2020,
@@ -2616,9 +2615,10 @@
       "configuration_driven"
     ],
     "LanguageStack": [
-      "C"
+      "C",
+      "QML"
     ],
-    "PrimaryLanguage": "C++"
+    "PrimaryLanguage": "C"
   },
   {
     "id": "term_stjerm",
@@ -3274,7 +3274,7 @@
       "configuration_driven"
     ],
     "LanguageStack": [
-      "D"
+      "Vala"
     ],
     "PrimaryLanguage": "D"
   },
@@ -3374,7 +3374,8 @@
       "configuration_driven"
     ],
     "LanguageStack": [
-      "Shell"
+      "Shell",
+      "C"
     ],
     "PrimaryLanguage": "Shell"
   },
@@ -3475,7 +3476,8 @@
       "configuration_driven"
     ],
     "LanguageStack": [
-      "Go"
+      "Go",
+      "TypeScript"
     ],
     "PrimaryLanguage": "Go"
   },

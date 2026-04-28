@@ -14,31 +14,6 @@ header{max-width:1180px;margin:auto;padding:2.3rem 2rem 1.5rem}.tricolor{height:
 main{max-width:1180px;margin:auto;padding:0 2rem 3rem}.notice{margin:1rem 0 1.25rem;padding:1rem 1.1rem;border-radius:20px;background:linear-gradient(90deg,var(--soft-green),var(--card),var(--soft-burgundy));border:1px solid var(--line)}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.8rem;margin:1rem 0}.stat{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:1rem;box-shadow:var(--shadow)}.stat strong{font-size:1.65rem;display:block;color:var(--flu-burgundy)}.tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin:1rem 0}.tabs button.active{outline:3px solid var(--focus);background:var(--soft-burgundy)}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:.85rem}.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:1rem;box-shadow:var(--shadow);transition:transform .15s ease,border-color .15s ease;text-align:left;width:100%}.card:hover{transform:translateY(-2px);border-color:var(--flu-burgundy)}.card h3{margin:.1rem 0 .35rem;font-size:1.07rem}.scientific-card{grid-column:span 2}.scientific-card .details{grid-template-columns:repeat(auto-fit,minmax(160px,1fr));font-size:.82rem}.meta{font-size:.82rem;color:var(--muted);line-height:1.48}.pill{display:inline-block;border-radius:999px;background:var(--pill);padding:.24rem .58rem;font-size:.75rem;margin:.25rem .25rem .25rem 0}.pill.green{background:var(--soft-green);color:var(--flu-green);font-weight:700}.pill.wine{background:var(--soft-burgundy);color:var(--flu-burgundy);font-weight:700}.summary{font-size:.87rem;color:var(--ink);line-height:1.45}.periodic{display:flex;flex-direction:column;gap:1.2rem}.group{background:var(--card);border:1px solid var(--line);border-radius:26px;padding:1rem;box-shadow:var(--shadow);overflow:hidden}.group h2{margin:.2rem 0 .8rem;color:var(--flu-green)}.subgroup{margin:.85rem 0}.subgroup h3{font-size:.95rem;margin:.35rem 0;color:var(--flu-burgundy)}.subgroup>div{display:flex;gap:.45rem;overflow-x:auto;padding:.25rem 0 .55rem;scrollbar-width:thin}.mini{display:inline-flex;align-items:center;justify-content:center;min-width:10rem;max-width:14rem;height:3.55rem;margin:0;border-radius:15px;border:1px solid var(--line);background:var(--field);font-size:.78rem;text-align:center;color:var(--ink);vertical-align:top;white-space:normal;line-height:1.15;padding:.35rem}.mini:hover{border-color:var(--flu-burgundy);background:var(--soft-burgundy)}.empty{padding:1.4rem;border:1px dashed var(--line);border-radius:22px;background:var(--card);color:var(--muted)}.footer{color:var(--muted);font-size:.9rem;margin-top:2rem;border-top:1px solid var(--line);padding-top:1rem}.comparebar{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin:.75rem 0;padding:.75rem;border:1px solid var(--line);border-radius:18px;background:var(--card-elevated)}
 .dialog-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.48);display:none;align-items:center;justify-content:center;padding:1rem;z-index:10}.dialog-backdrop.open{display:flex}.dialog{max-width:860px;width:min(860px,100%);max-height:88vh;overflow:auto;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:28px;box-shadow:0 24px 80px rgba(0,0,0,.35);padding:1.25rem}.dialog-head{display:flex;justify-content:space-between;gap:1rem;align-items:start}.dialog h2{margin:.2rem 0;color:var(--flu-burgundy)}.details{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:.7rem;margin:1rem 0}.field{border:1px solid var(--line);border-radius:16px;padding:.8rem;background:var(--field)}.field span{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800;margin-bottom:.25rem}.compare{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}.compare .dialog{display:block}.source{word-break:break-word}.loading{padding:1rem;border-radius:16px;background:var(--card);border:1px solid var(--line)}
 @media (prefers-reduced-motion:reduce){body,.card{transition:none}.card:hover{transform:none}}
-
-.landing{
-  margin:1rem 0 1.6rem;
-  padding:1rem 1.2rem;
-  border:1px solid var(--line);
-  border-radius:18px;
-  background:var(--card-elevated);
-  box-shadow:var(--shadow);
-}
-
-.landing h1{
-  margin:.2rem 0 .4rem;
-  font-size:1.4rem;
-}
-
-.landing .lead{
-  font-size:1rem;
-  opacity:.9;
-}
-
-.landing .hint{
-  font-size:.85rem;
-  opacity:.7;
-}
-
 </style>
 </head>
 <body>
@@ -46,7 +21,7 @@ main{max-width:1180px;margin:auto;padding:0 2rem 3rem}.notice{margin:1rem 0 1.25
 <div class="tricolor" aria-hidden="true"></div>
 <div class="topbar"><div class="eyebrow">Hybrid Ontology · Functional Explorer v2.7</div><button id="themeToggle" class="theme-toggle" title="Switch between light and dark themes. Dark mode is optimized for terminal-style workflows." aria-label="Switch color theme"><span class="icon" aria-hidden="true">🌙</span><span class="label">Dark mode</span></button></div>
 <h1 class="hero">Terminal Universe Explorer</h1>
-<p class="sub">Welcome to the Terminal Universe. Terminal emulators are not all the same: they differ in design, philosophy, lineage, and evolution. Search, filter, open cards, compare terminals, export results, and browse Explorer Groups.</p>
+<p class="sub">Welcome to the Terminal Universe. Terminal emulators are not all the same: they differ in design, philosophy, lineage, and evolution. Search, filter, open cards, compare terminals, export the current result set, and switch between Explorer and Scientific views.</p>
 <div class="mode-copy"><div class="mode"><strong>🌌 Explorer Mode</strong> Visual, simplified view for discovering terminals and their relationships.</div><div class="mode"><strong>🔬 Scientific Mode</strong> Full ontology view with detailed attributes, lineage, confidence, and source-backed data.</div></div>
 <div class="controls"><input id="search" list="terminalSuggestions" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Search terminal names…" aria-label="Search terminals" /><datalist id="terminalSuggestions"></datalist><select id="sort" aria-label="Sort results">
 <option value="">Sort by</option>
@@ -59,11 +34,9 @@ main{max-width:1180px;margin:auto;padding:0 2rem 3rem}.notice{margin:1rem 0 1.25
 <option value="maturity_high_low">Maturity: high → low</option>
 <option value="maturity_low_high">Maturity: low → high</option>
 </select><select id="rendering" aria-label="Filter by rendering generation"><option value="">All rendering types</option></select><select id="status" aria-label="Filter by status"><option value="">All statuses</option></select><select id="engine" aria-label="Filter by engine family"><option value="">All engine families</option></select><select id="language" aria-label="Filter by language"><option value="">Language</option></select>
-<select id="surface" aria-label="Filter by rendering surface"><option value="">All surfaces</option></select><button id="toggle" class="primary" aria-pressed="false">Scientific Mode: Later</button><button id="reset" class="secondary">Reset Filters</button><button id="exportCsv" class="ghost">Export current results CSV</button></div>
+<select id="surface" aria-label="Filter by rendering surface"><option value="">All surfaces</option></select><button id="toggle" class="primary" aria-pressed="false">Scientific Mode: Off</button><button id="reset" class="secondary">Reset Filters</button><button id="exportCsv" class="ghost">Export current results CSV</button></div>
 </header>
 <main>
-
-
 <section id="modeNotice" class="notice"><strong>Explorer Mode:</strong> simplified cards and public labels. Turn on Scientific Mode to expose ontology fields, confidence, lineage, engine family, rendering model, and source-backed details directly in the cards.</section>
 <section id="stats" class="stats"><div class="loading">Loading terminal dataset…</div></section>
 <div class="tabs"><button id="cardsBtn" class="active">Explorer cards</button><button id="periodicBtn">Explorer groups</button></div>
@@ -167,13 +140,7 @@ function sortRows(rows){
   return rows;
 }
 
-function renderStats(rows){
-  const active = rows.filter(d => d.Status === 'Active').length;
-  const ecosystems = uniq(rows.map(d => d.ecosystem)).length;
-  const engines = uniq(rows.map(d => d.EngineFamily)).length;
-
-  stats.innerHTML = `<div class="stat"><strong>${rows.length}</strong><span>Visible emulators</span></div><div class="stat"><strong>${active}</strong><span>Active</span></div><div class="stat"><strong>${engines}</strong><span>Engine families</span></div><div class="stat"><strong>${ecosystems}</strong><span>Ecosystems</span></div>`;
-}
+function renderStats(rows){const active=rows.filter(d=>d.Status==='Active').length; const gpu=rows.filter(d=>d.rendering_generation==='gpu_modern').length; stats.innerHTML=`<div class="stat"><strong>${rows.length}</strong><span>visible emulators</span></div><div class="stat"><strong>${active}</strong><span>active</span></div><div class="stat"><strong>${gpu}</strong><span>GPU-modern</span></div><div class="stat"><strong>${uniq(rows.map(d=>d.EngineFamily)).length}</strong><span>engine families</span></div>`;}
 function shortMeta(d){return `<span class="pill wine">${esc(label(d.rendering_generation))}</span><span class="pill green">${esc(d.public_status_label)}</span><span class="pill">${esc(label(d.EngineFamily))}</span>`}
 function card(d){const sci='';return `<button class="card" data-open="${esc(d.id)}" title="Open ${esc(d.Name)} details"><h3>${esc(d.Name)}</h3>${shortMeta(d)}<p class="summary">${esc(d.explorer_summary||d.Notes||'')}</p>${sci}<span class="meta">Click for details · Shift-click to compare</span></button>`}
 function renderCards(rows){grid.className='grid';grid.innerHTML=rows.length?rows.map(card).join(''):`<div class="empty">No terminals match your current filters. Try adjusting or clearing filters to explore more of the universe.</div>`}
@@ -223,7 +190,7 @@ function renderExplorerGroups(rows){
     .join('');
 }
 function renderCompareBar(){const names=compareIds.map(id=>data.find(d=>d.id===id)?.Name).filter(Boolean);$('compareBar').hidden=!names.length;$('compareNames').textContent=names.join(' ↔ ');$('openCompare').disabled=names.length<2}
-function hasActiveFilters(){return search.value.trim()||renderingSel.value||statusSel.value||engineSel.value||surfaceSel.value||languageSel.value} function updateModeUI(rows){toggle.textContent='Scientific Mode: Later';toggle.setAttribute('aria-pressed','false');toggle.classList.add('primary');toggle.classList.remove('secondary');modeNotice.innerHTML='<strong>Explorer Mode:</strong> simplified cards and public labels. Scientific Mode is reserved for the future analytical workbench.';exportCsv.textContent=`Export current results CSV (${rows.length})`} function render(){let rows=filtered(); rows = sortRows(rows); count.textContent=`Showing ${rows.length} of ${data.length} terminal emulators${hasActiveFilters()?' after filters':''}`; updateModeUI(rows); renderStats(rows); view==='cards'?renderCards(rows):renderExplorerGroups(rows); renderCompareBar()}
+function hasActiveFilters(){return search.value.trim()||renderingSel.value||statusSel.value||engineSel.value||surfaceSel.value||languageSel.value} function updateModeUI(rows){toggle.textContent='Scientific Mode: Off';toggle.setAttribute('aria-pressed','false');toggle.classList.add('primary');toggle.classList.remove('secondary');modeNotice.innerHTML='<strong>Explorer Mode:</strong> simplified cards and public labels. Scientific Mode is reserved for the future analytical workbench.';exportCsv.textContent=`Export current results CSV (${rows.length})`} function render(){let rows=filtered(); rows = sortRows(rows); count.textContent=`Showing ${rows.length} of ${data.length} terminal emulators${hasActiveFilters()?' after filters':''}`; updateModeUI(rows); renderStats(rows); view==='cards'?renderCards(rows):renderExplorerGroups(rows); renderCompareBar()}
 function detailFields(d){return wanted.filter(k=>d[k]!==undefined&&d[k]!==null&&d[k]!==''&&!(Array.isArray(d[k])&&!d[k].length)).map(k=>`<div class="field"><span>${esc(label(k))}</span>${Array.isArray(d[k])?d[k].map(x=>`<span class="pill">${esc(label(x))}</span>`).join(' '):k==='PrimarySource'?`<a class="source" href="${esc(d[k])}" target="_blank" rel="noopener">${esc(d[k])}</a>`:esc(label(d[k]))}</div>`).join('')}
 function openDetails(id){const d=data.find(x=>x.id===id); if(!d)return; modalContent.innerHTML=`<div class="dialog-head"><div><h2 id="modalTitle">${esc(d.Name)}</h2>${shortMeta(d)}</div><button class="ghost" data-close>Close</button></div><p class="summary">${esc(d.explorer_summary||d.Notes||'')}</p><div class="controls"><button class="primary" data-compare="${esc(d.id)}">Add to compare</button></div><div class="details">${detailFields(d)}</div>`; modal.classList.add('open'); modal.querySelector('[data-close]').focus();}
 function openCompare(){const selected=compareIds.map(id=>data.find(d=>d.id===id)).filter(Boolean).slice(0,2); if(selected.length<2)return; const keys=['public_category_label','public_status_label','PrimaryLanguage','FirstReleaseYear','RenderingModel','RenderingSurface','DisplayDependency','EngineFamily','Extensibility','MaturityScore','Confidence','LineageConcept']; modalContent.innerHTML=`<div class="dialog-head"><div><h2 id="modalTitle">Compare terminals</h2><p class="meta">Side-by-side ontology comparison.</p></div><button class="ghost" data-close>Close</button></div><div class="compare">${selected.map(d=>`<section><h3>${esc(d.Name)}</h3>${shortMeta(d)}<div class="details">${keys.map(k=>`<div class="field"><span>${esc(label(k))}</span>${esc(label(d[k]))}</div>`).join('')}</div></section>`).join('')}</div>`; modal.classList.add('open'); modal.querySelector('[data-close]').focus();}

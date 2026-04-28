@@ -62,7 +62,20 @@ main{max-width:1180px;margin:auto;padding:0 2rem 3rem}.notice{margin:1rem 0 1.25
 <select id="surface" aria-label="Filter by rendering surface"><option value="">All surfaces</option></select><button id="toggle" class="primary" aria-pressed="false">Scientific Mode: Later</button><button id="reset" class="secondary">Reset Filters</button><button id="exportCsv" class="ghost">Export current results CSV</button></div>
 </header>
 <main>
-
+<section class="landing">
+  <h1>Explore the terminal design space</h1>
+  <p class="lead">
+    A map of Unix/Linux terminal emulators — not just as tools, but as a design space.
+  </p>
+  <p>
+    Explore how terminals differ across ecosystems, engines, rendering models, and history.
+    Use search and filters to find specific tools, or switch to <strong>Explorer Groups</strong>
+    to see the structure of the space.
+  </p>
+  <p class="hint">
+    Start by typing a terminal name, or browse Explorer Groups.
+  </p>
+</section>
 
 <section id="modeNotice" class="notice"><strong>Explorer Mode:</strong> simplified cards and public labels. Turn on Scientific Mode to expose ontology fields, confidence, lineage, engine family, rendering model, and source-backed details directly in the cards.</section>
 <section id="stats" class="stats"><div class="loading">Loading terminal dataset…</div></section>
@@ -167,13 +180,7 @@ function sortRows(rows){
   return rows;
 }
 
-function renderStats(rows){
-  const active = rows.filter(d => d.Status === 'Active').length;
-  const ecosystems = uniq(rows.map(d => d.ecosystem)).length;
-  const engines = uniq(rows.map(d => d.EngineFamily)).length;
-
-  stats.innerHTML = `<div class="stat"><strong>${rows.length}</strong><span>Visible emulators</span></div><div class="stat"><strong>${active}</strong><span>Active</span></div><div class="stat"><strong>${engines}</strong><span>Engine families</span></div><div class="stat"><strong>${ecosystems}</strong><span>Ecosystems</span></div>`;
-}
+function renderStats(rows){const active=rows.filter(d=>d.Status==='Active').length; const gpu=rows.filter(d=>d.rendering_generation==='gpu_modern').length; stats.innerHTML=`<div class="stat"><strong>${rows.length}</strong><span>visible emulators</span></div><div class="stat"><strong>${active}</strong><span>active</span></div><div class="stat"><strong>${gpu}</strong><span>GPU modern</span></div><div class="stat"><strong>${uniq(rows.map(d=>d.EngineFamily)).length}</strong><span>engine families</span></div>`;}
 function shortMeta(d){return `<span class="pill wine">${esc(label(d.rendering_generation))}</span><span class="pill green">${esc(d.public_status_label)}</span><span class="pill">${esc(label(d.EngineFamily))}</span>`}
 function card(d){const sci='';return `<button class="card" data-open="${esc(d.id)}" title="Open ${esc(d.Name)} details"><h3>${esc(d.Name)}</h3>${shortMeta(d)}<p class="summary">${esc(d.explorer_summary||d.Notes||'')}</p>${sci}<span class="meta">Click for details · Shift-click to compare</span></button>`}
 function renderCards(rows){grid.className='grid';grid.innerHTML=rows.length?rows.map(card).join(''):`<div class="empty">No terminals match your current filters. Try adjusting or clearing filters to explore more of the universe.</div>`}
