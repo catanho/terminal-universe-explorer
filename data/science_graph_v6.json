@@ -1,0 +1,2716 @@
+{
+  "model": "v6-nearest-neighbor-pathway-relation-map",
+  "description": "Nodes are terminals. The default/downloaded graph shows core-similarity nearest-neighbor relationships. Optional UI toggles add lineage, semantic/workspace, or contextual edges.",
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "nodes": [
+    {
+      "id": "term_aixterm",
+      "name": "aixterm",
+      "group": "Classic",
+      "x": 957.54,
+      "y": 935.94,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#a9b4c2",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "terminal_widget_toolkit",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_aterm",
+      "name": "aterm",
+      "group": "Classic",
+      "x": 803.95,
+      "y": 867.86,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#a9b4c2",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "terminal_widget_toolkit",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_eterm",
+      "name": "Eterm",
+      "group": "Classic",
+      "x": 1017.1,
+      "y": 790.0,
+      "z": 0.484,
+      "degree": 10,
+      "color": "#a9b4c2",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "terminal_widget_toolkit",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_evilvte",
+      "name": "evilvte",
+      "group": "VTE",
+      "x": 221.2,
+      "y": 182.19,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_fbpad",
+      "name": "fbpad",
+      "group": "Minimal",
+      "x": 522.25,
+      "y": 895.22,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#d03d6c",
+      "rendering": "framebuffer_direct",
+      "engine": "minimal_native_engine",
+      "engine_group": "low_level_minimal",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "system_console"
+    },
+    {
+      "id": "term_foot",
+      "name": "Foot",
+      "group": "GPU-native",
+      "x": 1163.63,
+      "y": 427.12,
+      "z": 0.391,
+      "degree": 6,
+      "color": "#f5a623",
+      "rendering": "gpu_accelerated",
+      "engine": "custom_engine",
+      "engine_group": "custom_gpu_engine",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_gnome_console_kgx",
+      "name": "GNOME Console",
+      "group": "VTE",
+      "x": 501.45,
+      "y": 274.17,
+      "z": 0.93,
+      "degree": 29,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_gnome_terminal",
+      "name": "GNOME Terminal",
+      "group": "VTE",
+      "x": 395.5,
+      "y": 289.15,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "session_grouping"
+    },
+    {
+      "id": "term_kermit_vte_terminal",
+      "name": "kermit",
+      "group": "VTE",
+      "x": 210.89,
+      "y": 122.89,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_lcxterm",
+      "name": "lcxterm",
+      "group": "VTE",
+      "x": 285.0,
+      "y": 171.7,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_lilyterm",
+      "name": "lilyterm",
+      "group": "VTE",
+      "x": 324.39,
+      "y": 117.18,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_linux_console",
+      "name": "Linux console",
+      "group": "Minimal",
+      "x": 614.5,
+      "y": 790.0,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#d03d6c",
+      "rendering": "framebuffer_direct",
+      "engine": "minimal_native_engine",
+      "engine_group": "low_level_minimal",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "system_console"
+    },
+    {
+      "id": "term_lterm",
+      "name": "lterm",
+      "group": "VTE",
+      "x": 348.8,
+      "y": 182.19,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_lxterminal",
+      "name": "LXTerminal",
+      "group": "VTE",
+      "x": 348.8,
+      "y": 317.81,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_mate_terminal",
+      "name": "Mate Terminal",
+      "group": "VTE",
+      "x": 359.11,
+      "y": 377.11,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_mrxvt",
+      "name": "mrxvt",
+      "group": "Classic",
+      "x": 732.9,
+      "y": 790.0,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#a9b4c2",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "terminal_widget_toolkit",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_ptyxis",
+      "name": "Ptyxis",
+      "group": "VTE",
+      "x": 245.61,
+      "y": 382.82,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_roxterm",
+      "name": "ROXTerm",
+      "group": "VTE",
+      "x": 221.2,
+      "y": 317.81,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_rxvt",
+      "name": "rxvt",
+      "group": "Classic",
+      "x": 633.96,
+      "y": 762.25,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#a9b4c2",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "terminal_widget_toolkit",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_sakura",
+      "name": "Sakura",
+      "group": "VTE",
+      "x": 142.67,
+      "y": 352.94,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_st_suckless_terminal",
+      "name": "st",
+      "group": "Minimal",
+      "x": 245.5,
+      "y": 790.0,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#d03d6c",
+      "rendering": "text_grid_cpu",
+      "engine": "minimal_native_engine",
+      "engine_group": "low_level_minimal",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_stjerm",
+      "name": "stjerm",
+      "group": "Minimal",
+      "x": 337.75,
+      "y": 684.78,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#d03d6c",
+      "rendering": "text_grid_cpu",
+      "engine": "minimal_native_engine",
+      "engine_group": "low_level_minimal",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_svte",
+      "name": "svte",
+      "group": "VTE",
+      "x": 427.33,
+      "y": 147.06,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_terminology",
+      "name": "Terminology",
+      "group": "Classic",
+      "x": 946.05,
+      "y": 867.86,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#a9b4c2",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "terminal_widget_toolkit",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_termit",
+      "name": "Termit",
+      "group": "VTE",
+      "x": 77.86,
+      "y": 295.48,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_termite",
+      "name": "Termite",
+      "group": "VTE",
+      "x": 157.4,
+      "y": 250.0,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_tilda",
+      "name": "Tilda",
+      "group": "VTE",
+      "x": 174.5,
+      "y": 210.85,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_wayst",
+      "name": "wayst",
+      "group": "GPU-native",
+      "x": 1019.03,
+      "y": 210.18,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#f5a623",
+      "rendering": "gpu_accelerated",
+      "engine": "custom_engine",
+      "engine_group": "custom_gpu_engine",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_xfce4_terminal",
+      "name": "xfce4-terminal",
+      "group": "VTE",
+      "x": 395.5,
+      "y": 210.85,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_xterm",
+      "name": "xterm",
+      "group": "Classic",
+      "x": 792.46,
+      "y": 644.06,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#a9b4c2",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "terminal_widget_toolkit",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_xvt",
+      "name": "xvt",
+      "group": "Classic",
+      "x": 946.05,
+      "y": 712.14,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#a9b4c2",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "terminal_widget_toolkit",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_yaft",
+      "name": "yaft",
+      "group": "Minimal",
+      "x": 522.25,
+      "y": 684.78,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#d03d6c",
+      "rendering": "framebuffer_direct",
+      "engine": "minimal_native_engine",
+      "engine_group": "low_level_minimal",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "system_console"
+    },
+    {
+      "id": "term_kitty",
+      "name": "Kitty",
+      "group": "GPU-native",
+      "x": 955.57,
+      "y": 432.9,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#f5a623",
+      "rendering": "gpu_accelerated",
+      "engine": "custom_engine",
+      "engine_group": "custom_gpu_engine",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "session_grouping"
+    },
+    {
+      "id": "term_contour",
+      "name": "Contour",
+      "group": "GPU-native",
+      "x": 1136.79,
+      "y": 363.02,
+      "z": 0.367,
+      "degree": 5,
+      "color": "#f5a623",
+      "rendering": "gpu_accelerated",
+      "engine": "custom_engine",
+      "engine_group": "custom_gpu_engine",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_deepin_terminal",
+      "name": "Deepin Terminal",
+      "group": "Qt",
+      "x": 737.59,
+      "y": 325.92,
+      "z": 1.0,
+      "degree": 32,
+      "color": "#4db6e8",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "qt_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "session_grouping"
+    },
+    {
+      "id": "term_fbterm",
+      "name": "fbterm",
+      "group": "Minimal",
+      "x": 337.75,
+      "y": 895.22,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#d03d6c",
+      "rendering": "framebuffer_direct",
+      "engine": "minimal_native_engine",
+      "engine_group": "low_level_minimal",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "system_console"
+    },
+    {
+      "id": "term_fingerterm",
+      "name": "fingerterm",
+      "group": "Classic",
+      "x": 716.49,
+      "y": 908.19,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#a9b4c2",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "terminal_widget_toolkit",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_konsole",
+      "name": "Konsole",
+      "group": "Qt",
+      "x": 511.21,
+      "y": 289.91,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#4db6e8",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "qt_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "session_grouping"
+    },
+    {
+      "id": "term_qterminal",
+      "name": "QTerminal",
+      "group": "Qt",
+      "x": 511.21,
+      "y": 200.09,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#4db6e8",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "qt_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_urxvt",
+      "name": "urxvt",
+      "group": "Classic",
+      "x": 803.95,
+      "y": 712.14,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#a9b4c2",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "terminal_widget_toolkit",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_yakuake",
+      "name": "Yakuake",
+      "group": "Qt",
+      "x": 737.59,
+      "y": 164.08,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#4db6e8",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "qt_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "session_grouping"
+    },
+    {
+      "id": "term_zutty",
+      "name": "zutty",
+      "group": "GPU-native",
+      "x": 1136.79,
+      "y": 226.98,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#f5a623",
+      "rendering": "gpu_accelerated",
+      "engine": "custom_engine",
+      "engine_group": "custom_gpu_engine",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_station",
+      "name": "Station",
+      "group": "Qt",
+      "x": 611.96,
+      "y": 144.09,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#4db6e8",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "qt_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "session_grouping"
+    },
+    {
+      "id": "term_darktile",
+      "name": "darktile",
+      "group": "GPU-native",
+      "x": 855.9,
+      "y": 206.77,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#f5a623",
+      "rendering": "gpu_accelerated",
+      "engine": "custom_engine",
+      "engine_group": "custom_gpu_engine",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_wave_terminal",
+      "name": "Wave Terminal",
+      "group": "Web/Electron",
+      "x": 1477.84,
+      "y": 472.42,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#a88cff",
+      "rendering": "dom_document",
+      "engine": "web_runtime_engine",
+      "engine_group": "electron_web_stack",
+      "interaction": "workflow_augmented",
+      "semantic": "workflow",
+      "workspace": "workspace_orchestrated"
+    },
+    {
+      "id": "term_tek4010",
+      "name": "Tek4010",
+      "group": "Classic",
+      "x": 1116.04,
+      "y": 817.75,
+      "z": 0.461,
+      "degree": 9,
+      "color": "#a9b4c2",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "terminal_widget_toolkit",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_electerm",
+      "name": "Electerm",
+      "group": "Web/Electron",
+      "x": 1477.84,
+      "y": 697.58,
+      "z": 0.367,
+      "degree": 5,
+      "color": "#a88cff",
+      "rendering": "dom_document",
+      "engine": "web_runtime_engine",
+      "engine_group": "electron_web_stack",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "session_grouping"
+    },
+    {
+      "id": "term_hyper",
+      "name": "Hyper",
+      "group": "Web/Electron",
+      "x": 1189.72,
+      "y": 647.48,
+      "z": 0.367,
+      "degree": 5,
+      "color": "#a88cff",
+      "rendering": "dom_document",
+      "engine": "web_runtime_engine",
+      "engine_group": "electron_web_stack",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "session_grouping"
+    },
+    {
+      "id": "term_domterm",
+      "name": "DomTerm",
+      "group": "Web/Electron",
+      "x": 1549.0,
+      "y": 585.0,
+      "z": 0.367,
+      "degree": 5,
+      "color": "#a88cff",
+      "rendering": "dom_document",
+      "engine": "web_runtime_engine",
+      "engine_group": "web_runtime_stack",
+      "interaction": "document_oriented",
+      "semantic": "document",
+      "workspace": "none"
+    },
+    {
+      "id": "term_guake",
+      "name": "Guake",
+      "group": "VTE",
+      "x": 452.75,
+      "y": 337.34,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "session_grouping"
+    },
+    {
+      "id": "term_terminator",
+      "name": "Terminator",
+      "group": "VTE",
+      "x": 174.5,
+      "y": 289.15,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "session_grouping"
+    },
+    {
+      "id": "term_terra_terminal",
+      "name": "Terra Terminal",
+      "group": "VTE",
+      "x": 68.55,
+      "y": 225.83,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_tess",
+      "name": "Tess",
+      "group": "Web/Electron",
+      "x": 1317.94,
+      "y": 444.61,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#a88cff",
+      "rendering": "dom_document",
+      "engine": "web_runtime_engine",
+      "engine_group": "web_runtime_stack",
+      "interaction": "document_oriented",
+      "semantic": "document",
+      "workspace": "none"
+    },
+    {
+      "id": "term_cool_retro_term",
+      "name": "Cool Retro Term",
+      "group": "Qt",
+      "x": 793.5,
+      "y": 245.0,
+      "z": 0.531,
+      "degree": 12,
+      "color": "#4db6e8",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "qt_based",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_alacritty",
+      "name": "Alacritty",
+      "group": "GPU-native",
+      "x": 1189.2,
+      "y": 295.0,
+      "z": 0.414,
+      "degree": 7,
+      "color": "#f5a623",
+      "rendering": "gpu_accelerated",
+      "engine": "custom_engine",
+      "engine_group": "custom_gpu_engine",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_cosmic_terminal",
+      "name": "COSMIC Terminal",
+      "group": "GPU-native",
+      "x": 1286.12,
+      "y": 321.85,
+      "z": 0.367,
+      "degree": 5,
+      "color": "#f5a623",
+      "rendering": "gpu_accelerated",
+      "engine": "custom_engine",
+      "engine_group": "custom_gpu_engine",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_rio",
+      "name": "Rio",
+      "group": "GPU-native",
+      "x": 924.59,
+      "y": 332.75,
+      "z": 0.391,
+      "degree": 6,
+      "color": "#f5a623",
+      "rendering": "gpu_accelerated",
+      "engine": "custom_engine",
+      "engine_group": "custom_gpu_engine",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_warp",
+      "name": "Warp",
+      "group": "GPU-native",
+      "x": 818.62,
+      "y": 334.84,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#f5a623",
+      "rendering": "gpu_accelerated",
+      "engine": "custom_engine",
+      "engine_group": "custom_gpu_engine",
+      "interaction": "workflow_augmented",
+      "semantic": "workflow",
+      "workspace": "workspace_orchestrated"
+    },
+    {
+      "id": "term_wezterm",
+      "name": "WezTerm",
+      "group": "GPU-native",
+      "x": 924.59,
+      "y": 257.25,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#f5a623",
+      "rendering": "gpu_accelerated",
+      "engine": "custom_engine",
+      "engine_group": "custom_gpu_engine",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "session_grouping"
+    },
+    {
+      "id": "term_extraterm",
+      "name": "Extraterm",
+      "group": "Qt",
+      "x": 611.96,
+      "y": 345.91,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#4db6e8",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "qt_based",
+      "interaction": "document_oriented",
+      "semantic": "document",
+      "workspace": "session_grouping"
+    },
+    {
+      "id": "term_tabby",
+      "name": "Tabby",
+      "group": "Web/Electron",
+      "x": 1189.72,
+      "y": 522.52,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#a88cff",
+      "rendering": "dom_document",
+      "engine": "web_runtime_engine",
+      "engine_group": "electron_web_stack",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "session_grouping"
+    },
+    {
+      "id": "term_black_box",
+      "name": "Black Box",
+      "group": "VTE",
+      "x": 412.6,
+      "y": 250.0,
+      "z": 1.0,
+      "degree": 32,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_final_term",
+      "name": "Final Term",
+      "group": "Web/Electron",
+      "x": 1317.94,
+      "y": 725.39,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#a88cff",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "terminal_widget_toolkit",
+      "interaction": "workflow_augmented",
+      "semantic": "workflow",
+      "workspace": "none"
+    },
+    {
+      "id": "term_pantheon_terminal",
+      "name": "Pantheon Terminal",
+      "group": "VTE",
+      "x": 285.0,
+      "y": 328.3,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_tilix",
+      "name": "Tilix",
+      "group": "VTE",
+      "x": 117.25,
+      "y": 162.66,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#38c98b",
+      "rendering": "text_grid_cpu",
+      "engine": "reused_widget_engine",
+      "engine_group": "vte_based",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "session_grouping"
+    },
+    {
+      "id": "term_zerotty",
+      "name": "zerotty",
+      "group": "GPU-native",
+      "x": 1039.35,
+      "y": 145.15,
+      "z": 0.32,
+      "degree": 3,
+      "color": "#f5a623",
+      "rendering": "gpu_accelerated",
+      "engine": "custom_engine",
+      "engine_group": "custom_gpu_engine",
+      "interaction": "classic_tty",
+      "semantic": "none",
+      "workspace": "none"
+    },
+    {
+      "id": "term_ghostty",
+      "name": "Ghostty",
+      "group": "GPU-native",
+      "x": 1019.03,
+      "y": 379.82,
+      "z": 0.344,
+      "degree": 4,
+      "color": "#f5a623",
+      "rendering": "gpu_accelerated",
+      "engine": "custom_engine",
+      "engine_group": "custom_gpu_engine",
+      "interaction": "multiplexed_ui",
+      "semantic": "none",
+      "workspace": "session_grouping"
+    }
+  ],
+  "edges": [
+    {
+      "source": "term_aixterm",
+      "target": "term_cool_retro_term",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_aixterm",
+      "target": "term_eterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_aixterm",
+      "target": "term_tek4010",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_aterm",
+      "target": "term_cool_retro_term",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_aterm",
+      "target": "term_eterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_aterm",
+      "target": "term_tek4010",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_cool_retro_term",
+      "target": "term_eterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_eterm",
+      "target": "term_tek4010",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_eterm",
+      "target": "term_termite",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_evilvte",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_evilvte",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_evilvte",
+      "target": "term_gnome_console_kgx",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_fbpad",
+      "target": "term_linux_console",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_fbpad",
+      "target": "term_fbterm",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_fbpad",
+      "target": "term_yaft",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_alacritty",
+      "target": "term_foot",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_foot",
+      "target": "term_rio",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_darktile",
+      "target": "term_foot",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_gnome_console_kgx",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_gnome_console_kgx",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_gnome_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_gnome_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_gnome_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_kermit_vte_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_kermit_vte_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_kermit_vte_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_lcxterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_lcxterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_lcxterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_lilyterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_lilyterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_lilyterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_fbterm",
+      "target": "term_linux_console",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_linux_console",
+      "target": "term_yaft",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_lterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_lterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_lterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_lxterminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_lxterminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_lxterminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_mate_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_mate_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_mate_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_mrxvt",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_mrxvt",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_mrxvt",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_ptyxis",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_ptyxis",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_ptyxis",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_roxterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_roxterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_roxterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_cool_retro_term",
+      "target": "term_rxvt",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_eterm",
+      "target": "term_rxvt",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_rxvt",
+      "target": "term_tek4010",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_sakura",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_sakura",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_sakura",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_st_suckless_terminal",
+      "target": "term_stjerm",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_cool_retro_term",
+      "target": "term_st_suckless_terminal",
+      "type": "similarity",
+      "weight": 0.65,
+      "label": "core similarity 65%"
+    },
+    {
+      "source": "term_eterm",
+      "target": "term_st_suckless_terminal",
+      "type": "similarity",
+      "weight": 0.65,
+      "label": "core similarity 65%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_stjerm",
+      "type": "similarity",
+      "weight": 0.65,
+      "label": "core similarity 65%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_stjerm",
+      "type": "similarity",
+      "weight": 0.65,
+      "label": "core similarity 65%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_svte",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_svte",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_svte",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_terminology",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_terminology",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_terminology",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_termit",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_termit",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_termit",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_cool_retro_term",
+      "target": "term_termite",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_tek4010",
+      "target": "term_termite",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_tilda",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_tilda",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_tilda",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_alacritty",
+      "target": "term_wayst",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_foot",
+      "target": "term_wayst",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_rio",
+      "target": "term_wayst",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_xfce4_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_xfce4_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_xfce4_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_cool_retro_term",
+      "target": "term_xterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_eterm",
+      "target": "term_xterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_tek4010",
+      "target": "term_xterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_xvt",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_xvt",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_xvt",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_fbterm",
+      "target": "term_yaft",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_cosmic_terminal",
+      "target": "term_kitty",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_contour",
+      "target": "term_kitty",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_ghostty",
+      "target": "term_kitty",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_contour",
+      "target": "term_cosmic_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_contour",
+      "target": "term_ghostty",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_deepin_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_cool_retro_term",
+      "target": "term_fingerterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_eterm",
+      "target": "term_fingerterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_fingerterm",
+      "target": "term_tek4010",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_konsole",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_konsole",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_konsole",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_qterminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_qterminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_qterminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_cool_retro_term",
+      "target": "term_urxvt",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_eterm",
+      "target": "term_urxvt",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_tek4010",
+      "target": "term_urxvt",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_yakuake",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_yakuake",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_yakuake",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_alacritty",
+      "target": "term_zutty",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_foot",
+      "target": "term_zutty",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_rio",
+      "target": "term_zutty",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_station",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_station",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_station",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_alacritty",
+      "target": "term_darktile",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_darktile",
+      "target": "term_rio",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_domterm",
+      "target": "term_wave_terminal",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_electerm",
+      "target": "term_wave_terminal",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_hyper",
+      "target": "term_wave_terminal",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_cool_retro_term",
+      "target": "term_tek4010",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_electerm",
+      "target": "term_hyper",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_electerm",
+      "target": "term_tabby",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_domterm",
+      "target": "term_electerm",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_hyper",
+      "target": "term_tabby",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_domterm",
+      "target": "term_hyper",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_domterm",
+      "target": "term_tess",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_guake",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_guake",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_guake",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_terminator",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_terminator",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_terminator",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_terra_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_terra_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_terra_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_electerm",
+      "target": "term_tess",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_hyper",
+      "target": "term_tess",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_alacritty",
+      "target": "term_rio",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_cosmic_terminal",
+      "target": "term_ghostty",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_alacritty",
+      "target": "term_warp",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_cosmic_terminal",
+      "target": "term_warp",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_contour",
+      "target": "term_warp",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_cosmic_terminal",
+      "target": "term_wezterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_contour",
+      "target": "term_wezterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_ghostty",
+      "target": "term_wezterm",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_extraterm",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_cool_retro_term",
+      "target": "term_extraterm",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_extraterm",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_domterm",
+      "target": "term_tabby",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_final_term",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_cool_retro_term",
+      "target": "term_final_term",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_final_term",
+      "type": "similarity",
+      "weight": 0.7,
+      "label": "core similarity 70%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_pantheon_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_pantheon_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_pantheon_terminal",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_black_box",
+      "target": "term_tilix",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_tilix",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_gnome_console_kgx",
+      "target": "term_tilix",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_alacritty",
+      "target": "term_zerotty",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_foot",
+      "target": "term_zerotty",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_rio",
+      "target": "term_zerotty",
+      "type": "similarity",
+      "weight": 1.0,
+      "label": "core similarity 100%"
+    },
+    {
+      "source": "term_eterm",
+      "target": "term_final_term",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: terminal_widget_toolkit"
+    },
+    {
+      "source": "term_final_term",
+      "target": "term_tek4010",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: terminal_widget_toolkit"
+    },
+    {
+      "source": "term_tek4010",
+      "target": "term_terminology",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: terminal_widget_toolkit"
+    },
+    {
+      "source": "term_aixterm",
+      "target": "term_terminology",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: terminal_widget_toolkit"
+    },
+    {
+      "source": "term_aixterm",
+      "target": "term_aterm",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: terminal_widget_toolkit"
+    },
+    {
+      "source": "term_aterm",
+      "target": "term_fingerterm",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: terminal_widget_toolkit"
+    },
+    {
+      "source": "term_fingerterm",
+      "target": "term_mrxvt",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: terminal_widget_toolkit"
+    },
+    {
+      "source": "term_mrxvt",
+      "target": "term_rxvt",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: terminal_widget_toolkit"
+    },
+    {
+      "source": "term_rxvt",
+      "target": "term_urxvt",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: terminal_widget_toolkit"
+    },
+    {
+      "source": "term_urxvt",
+      "target": "term_xterm",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: terminal_widget_toolkit"
+    },
+    {
+      "source": "term_xterm",
+      "target": "term_xvt",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: terminal_widget_toolkit"
+    },
+    {
+      "source": "term_gnome_terminal",
+      "target": "term_guake",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_guake",
+      "target": "term_lxterminal",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_lxterminal",
+      "target": "term_mate_terminal",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_mate_terminal",
+      "target": "term_pantheon_terminal",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_pantheon_terminal",
+      "target": "term_ptyxis",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_ptyxis",
+      "target": "term_roxterm",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_roxterm",
+      "target": "term_sakura",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_sakura",
+      "target": "term_terminator",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_terminator",
+      "target": "term_termit",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_termit",
+      "target": "term_termite",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_termite",
+      "target": "term_terra_terminal",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_terra_terminal",
+      "target": "term_tilda",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_tilda",
+      "target": "term_tilix",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_evilvte",
+      "target": "term_tilix",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_evilvte",
+      "target": "term_kermit_vte_terminal",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_kermit_vte_terminal",
+      "target": "term_lcxterm",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_lcxterm",
+      "target": "term_lilyterm",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_lilyterm",
+      "target": "term_lterm",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_lterm",
+      "target": "term_svte",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_svte",
+      "target": "term_xfce4_terminal",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: vte_based"
+    },
+    {
+      "source": "term_fbterm",
+      "target": "term_st_suckless_terminal",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: low_level_minimal"
+    },
+    {
+      "source": "term_stjerm",
+      "target": "term_yaft",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: low_level_minimal"
+    },
+    {
+      "source": "term_alacritty",
+      "target": "term_cosmic_terminal",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: custom_gpu_engine"
+    },
+    {
+      "source": "term_contour",
+      "target": "term_foot",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: custom_gpu_engine"
+    },
+    {
+      "source": "term_foot",
+      "target": "term_ghostty",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: custom_gpu_engine"
+    },
+    {
+      "source": "term_kitty",
+      "target": "term_rio",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: custom_gpu_engine"
+    },
+    {
+      "source": "term_rio",
+      "target": "term_warp",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: custom_gpu_engine"
+    },
+    {
+      "source": "term_warp",
+      "target": "term_wezterm",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: custom_gpu_engine"
+    },
+    {
+      "source": "term_darktile",
+      "target": "term_wezterm",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: custom_gpu_engine"
+    },
+    {
+      "source": "term_darktile",
+      "target": "term_wayst",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: custom_gpu_engine"
+    },
+    {
+      "source": "term_wayst",
+      "target": "term_zerotty",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: custom_gpu_engine"
+    },
+    {
+      "source": "term_zerotty",
+      "target": "term_zutty",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: custom_gpu_engine"
+    },
+    {
+      "source": "term_cool_retro_term",
+      "target": "term_deepin_terminal",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: qt_based"
+    },
+    {
+      "source": "term_extraterm",
+      "target": "term_konsole",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: qt_based"
+    },
+    {
+      "source": "term_konsole",
+      "target": "term_qterminal",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: qt_based"
+    },
+    {
+      "source": "term_qterminal",
+      "target": "term_station",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: qt_based"
+    },
+    {
+      "source": "term_station",
+      "target": "term_yakuake",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: qt_based"
+    },
+    {
+      "source": "term_tabby",
+      "target": "term_wave_terminal",
+      "type": "lineage/engine",
+      "weight": 0.45,
+      "label": "shared engine group: electron_web_stack"
+    },
+    {
+      "source": "term_final_term",
+      "target": "term_warp",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared semantic layer: workflow"
+    },
+    {
+      "source": "term_warp",
+      "target": "term_wave_terminal",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared semantic layer: workflow"
+    },
+    {
+      "source": "term_domterm",
+      "target": "term_extraterm",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared semantic layer: document"
+    },
+    {
+      "source": "term_extraterm",
+      "target": "term_tess",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared semantic layer: document"
+    },
+    {
+      "source": "term_deepin_terminal",
+      "target": "term_electerm",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared workspace model: session_grouping"
+    },
+    {
+      "source": "term_electerm",
+      "target": "term_extraterm",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared workspace model: session_grouping"
+    },
+    {
+      "source": "term_extraterm",
+      "target": "term_gnome_terminal",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared workspace model: session_grouping"
+    },
+    {
+      "source": "term_ghostty",
+      "target": "term_gnome_terminal",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared workspace model: session_grouping"
+    },
+    {
+      "source": "term_ghostty",
+      "target": "term_guake",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared workspace model: session_grouping"
+    },
+    {
+      "source": "term_guake",
+      "target": "term_hyper",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared workspace model: session_grouping"
+    },
+    {
+      "source": "term_hyper",
+      "target": "term_kitty",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared workspace model: session_grouping"
+    },
+    {
+      "source": "term_kitty",
+      "target": "term_konsole",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared workspace model: session_grouping"
+    },
+    {
+      "source": "term_konsole",
+      "target": "term_station",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared workspace model: session_grouping"
+    },
+    {
+      "source": "term_station",
+      "target": "term_tabby",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared workspace model: session_grouping"
+    },
+    {
+      "source": "term_tabby",
+      "target": "term_terminator",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared workspace model: session_grouping"
+    },
+    {
+      "source": "term_terminator",
+      "target": "term_tilix",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared workspace model: session_grouping"
+    },
+    {
+      "source": "term_tilix",
+      "target": "term_wezterm",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared workspace model: session_grouping"
+    },
+    {
+      "source": "term_wezterm",
+      "target": "term_yakuake",
+      "type": "semantic/workspace",
+      "weight": 0.45,
+      "label": "shared workspace model: session_grouping"
+    },
+    {
+      "source": "term_contour",
+      "target": "term_cool_retro_term",
+      "type": "historical/context",
+      "weight": 0.25,
+      "label": "shared ecosystem: standalone_or_independent"
+    },
+    {
+      "source": "term_eterm",
+      "target": "term_extraterm",
+      "type": "historical/context",
+      "weight": 0.25,
+      "label": "shared ecosystem: standalone_or_independent"
+    }
+  ],
+  "download_svg_mode": "similarity"
+}

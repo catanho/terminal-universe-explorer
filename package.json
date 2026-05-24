@@ -1,0 +1,14 @@
+{
+  "name": "terminal-universe-explorer",
+  "version": "3.0.0-rc.1",
+  "private": false,
+  "description": "Terminal Universe Explorer v3.0 release candidate: Explore Mode and Workbench Mode for source-grounded terminal emulator design-space analysis.",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "validate": "python3 scripts/validate_release_candidate.py",
+    "audit": "node scripts/audit_functional.js",
+    "audit:data": "node scripts/audit_functional.js --data-only",
+    "audit:science": "node scripts/audit_science_mode.js"
+  },
+  "license": "MIT"
+}

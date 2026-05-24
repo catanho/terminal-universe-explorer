@@ -1,0 +1,13 @@
+{
+  "js_parse": "PASS",
+  "js_message": "OK",
+  "svg_errors": [],
+  "missing_fetch": [],
+  "missing_downloads": [],
+  "rendering_engine_gap_present": true,
+  "rep_download_buttons_absent": true,
+  "clear_search": true,
+  "bottom_box_css": true,
+  "edge_colors": true,
+  "how_to_read_updated": true
+}

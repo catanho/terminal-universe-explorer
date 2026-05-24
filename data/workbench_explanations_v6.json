@@ -1,0 +1,3929 @@
+{
+  "terminals": [
+    {
+      "id": "term_aixterm",
+      "name": "aixterm",
+      "group": "Classic terminals",
+      "nearest": [
+        {
+          "id": "term_cool_retro_term",
+          "name": "Cool Retro Term",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_eterm",
+          "name": "Eterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_tek4010",
+          "name": "Tek4010",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_termite",
+          "name": "Termite",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aterm",
+          "name": "aterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_fingerterm",
+          "name": "fingerterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rxvt",
+          "name": "rxvt",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_urxvt",
+          "name": "urxvt",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.5364,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster member"
+      ],
+      "outlier_score": 0.4636,
+      "boundary_score": 1,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_aterm",
+      "name": "aterm",
+      "group": "Classic terminals",
+      "nearest": [
+        {
+          "id": "term_cool_retro_term",
+          "name": "Cool Retro Term",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_eterm",
+          "name": "Eterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_tek4010",
+          "name": "Tek4010",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_termite",
+          "name": "Termite",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aixterm",
+          "name": "aixterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_fingerterm",
+          "name": "fingerterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rxvt",
+          "name": "rxvt",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_urxvt",
+          "name": "urxvt",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.5364,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster member"
+      ],
+      "outlier_score": 0.4636,
+      "boundary_score": 1,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_eterm",
+      "name": "Eterm",
+      "group": "Classic terminals",
+      "nearest": [
+        {
+          "id": "term_cool_retro_term",
+          "name": "Cool Retro Term",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_tek4010",
+          "name": "Tek4010",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_termite",
+          "name": "Termite",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aixterm",
+          "name": "aixterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aterm",
+          "name": "aterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_fingerterm",
+          "name": "fingerterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rxvt",
+          "name": "rxvt",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_urxvt",
+          "name": "urxvt",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.5364,
+      "top_similarity": 1.0,
+      "roles": [
+        "bridge between groups"
+      ],
+      "outlier_score": 0.4636,
+      "boundary_score": 4,
+      "degree": 12,
+      "representative_sets": []
+    },
+    {
+      "id": "term_evilvte",
+      "name": "evilvte",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 1,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_fbpad",
+      "name": "fbpad",
+      "group": "Minimal terminals",
+      "nearest": [
+        {
+          "id": "term_linux_console",
+          "name": "Linux console",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_fbterm",
+          "name": "fbterm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_yaft",
+          "name": "yaft",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_stjerm",
+          "name": "stjerm",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_st_suckless_terminal",
+          "name": "st",
+          "similarity": 0.35
+        },
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_cosmic_terminal",
+          "name": "COSMIC Terminal",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_contour",
+          "name": "Contour",
+          "similarity": 0.3
+        }
+      ],
+      "mean_similarity": 0.2197,
+      "top_similarity": 0.7,
+      "roles": [
+        "boundary / unusual design"
+      ],
+      "outlier_score": 0.7803,
+      "boundary_score": 0,
+      "degree": 3,
+      "representative_sets": []
+    },
+    {
+      "id": "term_foot",
+      "name": "Foot",
+      "group": "GPU-native terminals",
+      "nearest": [
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rio",
+          "name": "Rio",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_darktile",
+          "name": "darktile",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wayst",
+          "name": "wayst",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zerotty",
+          "name": "zerotty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zutty",
+          "name": "zutty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_cosmic_terminal",
+          "name": "COSMIC Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_contour",
+          "name": "Contour",
+          "similarity": 0.7
+        }
+      ],
+      "mean_similarity": 0.2182,
+      "top_similarity": 1.0,
+      "roles": [
+        "boundary / unusual design",
+        "representative basis member"
+      ],
+      "outlier_score": 0.7818,
+      "boundary_score": 0,
+      "degree": 8,
+      "representative_sets": [
+        "recommended_10",
+        "expanded_12"
+      ]
+    },
+    {
+      "id": "term_gnome_console_kgx",
+      "name": "GNOME Console",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_pantheon_terminal",
+          "name": "Pantheon Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core",
+        "bridge between groups"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 8,
+      "degree": 29,
+      "representative_sets": []
+    },
+    {
+      "id": "term_gnome_terminal",
+      "name": "GNOME Terminal",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_pantheon_terminal",
+          "name": "Pantheon Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core",
+        "bridge between groups",
+        "representative basis member"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 4,
+      "degree": 7,
+      "representative_sets": [
+        "recommended_10",
+        "expanded_12"
+      ]
+    },
+    {
+      "id": "term_kermit_vte_terminal",
+      "name": "kermit",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 1,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_lcxterm",
+      "name": "lcxterm",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 1,
+      "degree": 7,
+      "representative_sets": []
+    },
+    {
+      "id": "term_lilyterm",
+      "name": "lilyterm",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 1,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_linux_console",
+      "name": "Linux console",
+      "group": "Minimal terminals",
+      "nearest": [
+        {
+          "id": "term_fbterm",
+          "name": "fbterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_yaft",
+          "name": "yaft",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_fbpad",
+          "name": "fbpad",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_st_suckless_terminal",
+          "name": "st",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_stjerm",
+          "name": "stjerm",
+          "similarity": 0.35
+        },
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_cool_retro_term",
+          "name": "Cool Retro Term",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_eterm",
+          "name": "Eterm",
+          "similarity": 0.3
+        }
+      ],
+      "mean_similarity": 0.1333,
+      "top_similarity": 1.0,
+      "roles": [
+        "boundary / unusual design",
+        "representative basis member"
+      ],
+      "outlier_score": 0.8667,
+      "boundary_score": 0,
+      "degree": 4,
+      "representative_sets": [
+        "strict_minimum_4",
+        "recommended_10",
+        "expanded_12"
+      ]
+    },
+    {
+      "id": "term_lterm",
+      "name": "lterm",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 1,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_lxterminal",
+      "name": "LXTerminal",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_pantheon_terminal",
+          "name": "Pantheon Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 1,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_mate_terminal",
+      "name": "Mate Terminal",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_pantheon_terminal",
+          "name": "Pantheon Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core",
+        "representative basis member"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 1,
+      "degree": 5,
+      "representative_sets": [
+        "recommended_10",
+        "expanded_12"
+      ]
+    },
+    {
+      "id": "term_mrxvt",
+      "name": "mrxvt",
+      "group": "Classic terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core",
+        "bridge between groups"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 3,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_ptyxis",
+      "name": "Ptyxis",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 1,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_roxterm",
+      "name": "ROXTerm",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 1,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_rxvt",
+      "name": "rxvt",
+      "group": "Classic terminals",
+      "nearest": [
+        {
+          "id": "term_cool_retro_term",
+          "name": "Cool Retro Term",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_eterm",
+          "name": "Eterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_tek4010",
+          "name": "Tek4010",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_termite",
+          "name": "Termite",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aixterm",
+          "name": "aixterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aterm",
+          "name": "aterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_fingerterm",
+          "name": "fingerterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_urxvt",
+          "name": "urxvt",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.5364,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster member"
+      ],
+      "outlier_score": 0.4636,
+      "boundary_score": 1,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_sakura",
+      "name": "Sakura",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 1,
+      "degree": 7,
+      "representative_sets": []
+    },
+    {
+      "id": "term_st_suckless_terminal",
+      "name": "st",
+      "group": "Minimal terminals",
+      "nearest": [
+        {
+          "id": "term_stjerm",
+          "name": "stjerm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_cool_retro_term",
+          "name": "Cool Retro Term",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_eterm",
+          "name": "Eterm",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_linux_console",
+          "name": "Linux console",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_tek4010",
+          "name": "Tek4010",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_termite",
+          "name": "Termite",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_aixterm",
+          "name": "aixterm",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_aterm",
+          "name": "aterm",
+          "similarity": 0.65
+        }
+      ],
+      "mean_similarity": 0.3455,
+      "top_similarity": 0.7,
+      "roles": [
+        "representative basis member"
+      ],
+      "outlier_score": 0.6545,
+      "boundary_score": 2,
+      "degree": 5,
+      "representative_sets": [
+        "expanded_12"
+      ]
+    },
+    {
+      "id": "term_stjerm",
+      "name": "stjerm",
+      "group": "Minimal terminals",
+      "nearest": [
+        {
+          "id": "term_st_suckless_terminal",
+          "name": "st",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 0.65
+        }
+      ],
+      "mean_similarity": 0.4318,
+      "top_similarity": 0.7,
+      "roles": [
+        "cluster member"
+      ],
+      "outlier_score": 0.5682,
+      "boundary_score": 2,
+      "degree": 4,
+      "representative_sets": []
+    },
+    {
+      "id": "term_svte",
+      "name": "svte",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 1,
+      "degree": 6,
+      "representative_sets": []
+    },
+    {
+      "id": "term_terminology",
+      "name": "Terminology",
+      "group": "Classic terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core",
+        "bridge between groups"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 3,
+      "degree": 7,
+      "representative_sets": []
+    },
+    {
+      "id": "term_termit",
+      "name": "Termit",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 1,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_termite",
+      "name": "Termite",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_cool_retro_term",
+          "name": "Cool Retro Term",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_eterm",
+          "name": "Eterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_tek4010",
+          "name": "Tek4010",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aixterm",
+          "name": "aixterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aterm",
+          "name": "aterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_fingerterm",
+          "name": "fingerterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rxvt",
+          "name": "rxvt",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_urxvt",
+          "name": "urxvt",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.5364,
+      "top_similarity": 1.0,
+      "roles": [
+        "bridge between groups"
+      ],
+      "outlier_score": 0.4636,
+      "boundary_score": 3,
+      "degree": 7,
+      "representative_sets": []
+    },
+    {
+      "id": "term_tilda",
+      "name": "Tilda",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 1,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_wayst",
+      "name": "wayst",
+      "group": "GPU-native terminals",
+      "nearest": [
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_foot",
+          "name": "Foot",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rio",
+          "name": "Rio",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_darktile",
+          "name": "darktile",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zerotty",
+          "name": "zerotty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zutty",
+          "name": "zutty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_cosmic_terminal",
+          "name": "COSMIC Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_contour",
+          "name": "Contour",
+          "similarity": 0.7
+        }
+      ],
+      "mean_similarity": 0.2182,
+      "top_similarity": 1.0,
+      "roles": [
+        "boundary / unusual design"
+      ],
+      "outlier_score": 0.7818,
+      "boundary_score": 0,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_xfce4_terminal",
+      "name": "xfce4-terminal",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 1,
+      "degree": 4,
+      "representative_sets": []
+    },
+    {
+      "id": "term_xterm",
+      "name": "xterm",
+      "group": "Classic terminals",
+      "nearest": [
+        {
+          "id": "term_cool_retro_term",
+          "name": "Cool Retro Term",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_eterm",
+          "name": "Eterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_tek4010",
+          "name": "Tek4010",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_termite",
+          "name": "Termite",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aixterm",
+          "name": "aixterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aterm",
+          "name": "aterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_fingerterm",
+          "name": "fingerterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rxvt",
+          "name": "rxvt",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.5364,
+      "top_similarity": 1.0,
+      "roles": [
+        "representative basis member"
+      ],
+      "outlier_score": 0.4636,
+      "boundary_score": 1,
+      "degree": 5,
+      "representative_sets": [
+        "recommended_10",
+        "expanded_12"
+      ]
+    },
+    {
+      "id": "term_xvt",
+      "name": "xvt",
+      "group": "Classic terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core",
+        "bridge between groups"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 3,
+      "degree": 4,
+      "representative_sets": []
+    },
+    {
+      "id": "term_yaft",
+      "name": "yaft",
+      "group": "Minimal terminals",
+      "nearest": [
+        {
+          "id": "term_linux_console",
+          "name": "Linux console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_fbterm",
+          "name": "fbterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_fbpad",
+          "name": "fbpad",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_st_suckless_terminal",
+          "name": "st",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_stjerm",
+          "name": "stjerm",
+          "similarity": 0.35
+        },
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_cool_retro_term",
+          "name": "Cool Retro Term",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_eterm",
+          "name": "Eterm",
+          "similarity": 0.3
+        }
+      ],
+      "mean_similarity": 0.1333,
+      "top_similarity": 1.0,
+      "roles": [
+        "boundary / unusual design"
+      ],
+      "outlier_score": 0.8667,
+      "boundary_score": 0,
+      "degree": 4,
+      "representative_sets": []
+    },
+    {
+      "id": "term_kitty",
+      "name": "Kitty",
+      "group": "GPU-native terminals",
+      "nearest": [
+        {
+          "id": "term_cosmic_terminal",
+          "name": "COSMIC Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_contour",
+          "name": "Contour",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_ghostty",
+          "name": "Ghostty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wezterm",
+          "name": "WezTerm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_foot",
+          "name": "Foot",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_rio",
+          "name": "Rio",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_warp",
+          "name": "Warp",
+          "similarity": 0.7
+        }
+      ],
+      "mean_similarity": 0.3045,
+      "top_similarity": 1.0,
+      "roles": [
+        "representative basis member"
+      ],
+      "outlier_score": 0.6955,
+      "boundary_score": 2,
+      "degree": 6,
+      "representative_sets": [
+        "recommended_10",
+        "expanded_12"
+      ]
+    },
+    {
+      "id": "term_contour",
+      "name": "Contour",
+      "group": "GPU-native terminals",
+      "nearest": [
+        {
+          "id": "term_cosmic_terminal",
+          "name": "COSMIC Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_ghostty",
+          "name": "Ghostty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_kitty",
+          "name": "Kitty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wezterm",
+          "name": "WezTerm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_foot",
+          "name": "Foot",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_rio",
+          "name": "Rio",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_warp",
+          "name": "Warp",
+          "similarity": 0.7
+        }
+      ],
+      "mean_similarity": 0.3045,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster member"
+      ],
+      "outlier_score": 0.6955,
+      "boundary_score": 0,
+      "degree": 6,
+      "representative_sets": []
+    },
+    {
+      "id": "term_deepin_terminal",
+      "name": "Deepin Terminal",
+      "group": "Qt terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_pantheon_terminal",
+          "name": "Pantheon Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core",
+        "bridge between groups"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 28,
+      "degree": 34,
+      "representative_sets": []
+    },
+    {
+      "id": "term_fbterm",
+      "name": "fbterm",
+      "group": "Minimal terminals",
+      "nearest": [
+        {
+          "id": "term_linux_console",
+          "name": "Linux console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_yaft",
+          "name": "yaft",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_fbpad",
+          "name": "fbpad",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_st_suckless_terminal",
+          "name": "st",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_stjerm",
+          "name": "stjerm",
+          "similarity": 0.35
+        },
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_cool_retro_term",
+          "name": "Cool Retro Term",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_eterm",
+          "name": "Eterm",
+          "similarity": 0.3
+        }
+      ],
+      "mean_similarity": 0.1333,
+      "top_similarity": 1.0,
+      "roles": [
+        "boundary / unusual design"
+      ],
+      "outlier_score": 0.8667,
+      "boundary_score": 0,
+      "degree": 4,
+      "representative_sets": []
+    },
+    {
+      "id": "term_fingerterm",
+      "name": "fingerterm",
+      "group": "Classic terminals",
+      "nearest": [
+        {
+          "id": "term_cool_retro_term",
+          "name": "Cool Retro Term",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_eterm",
+          "name": "Eterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_tek4010",
+          "name": "Tek4010",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_termite",
+          "name": "Termite",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aixterm",
+          "name": "aixterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aterm",
+          "name": "aterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rxvt",
+          "name": "rxvt",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_urxvt",
+          "name": "urxvt",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.5364,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster member"
+      ],
+      "outlier_score": 0.4636,
+      "boundary_score": 1,
+      "degree": 7,
+      "representative_sets": []
+    },
+    {
+      "id": "term_konsole",
+      "name": "Konsole",
+      "group": "Qt terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_pantheon_terminal",
+          "name": "Pantheon Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core",
+        "bridge between groups",
+        "representative basis member"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 3,
+      "degree": 9,
+      "representative_sets": [
+        "recommended_10",
+        "expanded_12"
+      ]
+    },
+    {
+      "id": "term_qterminal",
+      "name": "QTerminal",
+      "group": "Qt terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 2,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_urxvt",
+      "name": "urxvt",
+      "group": "Classic terminals",
+      "nearest": [
+        {
+          "id": "term_cool_retro_term",
+          "name": "Cool Retro Term",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_eterm",
+          "name": "Eterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_tek4010",
+          "name": "Tek4010",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_termite",
+          "name": "Termite",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aixterm",
+          "name": "aixterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aterm",
+          "name": "aterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_fingerterm",
+          "name": "fingerterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rxvt",
+          "name": "rxvt",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.5364,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster member"
+      ],
+      "outlier_score": 0.4636,
+      "boundary_score": 1,
+      "degree": 6,
+      "representative_sets": []
+    },
+    {
+      "id": "term_yakuake",
+      "name": "Yakuake",
+      "group": "Qt terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core",
+        "bridge between groups"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 3,
+      "degree": 6,
+      "representative_sets": []
+    },
+    {
+      "id": "term_zutty",
+      "name": "zutty",
+      "group": "GPU-native terminals",
+      "nearest": [
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_foot",
+          "name": "Foot",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rio",
+          "name": "Rio",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_darktile",
+          "name": "darktile",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wayst",
+          "name": "wayst",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zerotty",
+          "name": "zerotty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_cosmic_terminal",
+          "name": "COSMIC Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_contour",
+          "name": "Contour",
+          "similarity": 0.7
+        }
+      ],
+      "mean_similarity": 0.2182,
+      "top_similarity": 1.0,
+      "roles": [
+        "boundary / unusual design"
+      ],
+      "outlier_score": 0.7818,
+      "boundary_score": 0,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_station",
+      "name": "Station",
+      "group": "Qt terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core",
+        "bridge between groups"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 5,
+      "degree": 9,
+      "representative_sets": []
+    },
+    {
+      "id": "term_darktile",
+      "name": "darktile",
+      "group": "GPU-native terminals",
+      "nearest": [
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_foot",
+          "name": "Foot",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rio",
+          "name": "Rio",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wayst",
+          "name": "wayst",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zerotty",
+          "name": "zerotty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zutty",
+          "name": "zutty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_cosmic_terminal",
+          "name": "COSMIC Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_contour",
+          "name": "Contour",
+          "similarity": 0.7
+        }
+      ],
+      "mean_similarity": 0.2182,
+      "top_similarity": 1.0,
+      "roles": [
+        "boundary / unusual design"
+      ],
+      "outlier_score": 0.7818,
+      "boundary_score": 0,
+      "degree": 6,
+      "representative_sets": []
+    },
+    {
+      "id": "term_wave_terminal",
+      "name": "Wave Terminal",
+      "group": "Web/Electron terminals",
+      "nearest": [
+        {
+          "id": "term_domterm",
+          "name": "DomTerm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_electerm",
+          "name": "Electerm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_hyper",
+          "name": "Hyper",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_tabby",
+          "name": "Tabby",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_tess",
+          "name": "Tess",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_final_term",
+          "name": "Final Term",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_warp",
+          "name": "Warp",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 0.0
+        }
+      ],
+      "mean_similarity": 0.0621,
+      "top_similarity": 0.7,
+      "roles": [
+        "boundary / unusual design",
+        "representative basis member"
+      ],
+      "outlier_score": 0.9379,
+      "boundary_score": 1,
+      "degree": 5,
+      "representative_sets": [
+        "strict_minimum_4",
+        "recommended_10",
+        "expanded_12"
+      ]
+    },
+    {
+      "id": "term_tek4010",
+      "name": "Tek4010",
+      "group": "Classic terminals",
+      "nearest": [
+        {
+          "id": "term_cool_retro_term",
+          "name": "Cool Retro Term",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_eterm",
+          "name": "Eterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_termite",
+          "name": "Termite",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aixterm",
+          "name": "aixterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aterm",
+          "name": "aterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_fingerterm",
+          "name": "fingerterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rxvt",
+          "name": "rxvt",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_urxvt",
+          "name": "urxvt",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.5364,
+      "top_similarity": 1.0,
+      "roles": [
+        "bridge between groups"
+      ],
+      "outlier_score": 0.4636,
+      "boundary_score": 3,
+      "degree": 11,
+      "representative_sets": []
+    },
+    {
+      "id": "term_electerm",
+      "name": "Electerm",
+      "group": "Web/Electron terminals",
+      "nearest": [
+        {
+          "id": "term_hyper",
+          "name": "Hyper",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_tabby",
+          "name": "Tabby",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_domterm",
+          "name": "DomTerm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_tess",
+          "name": "Tess",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_wave_terminal",
+          "name": "Wave Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_cosmic_terminal",
+          "name": "COSMIC Terminal",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_contour",
+          "name": "Contour",
+          "similarity": 0.3
+        }
+      ],
+      "mean_similarity": 0.2303,
+      "top_similarity": 1.0,
+      "roles": [
+        "boundary / unusual design"
+      ],
+      "outlier_score": 0.7697,
+      "boundary_score": 2,
+      "degree": 7,
+      "representative_sets": []
+    },
+    {
+      "id": "term_hyper",
+      "name": "Hyper",
+      "group": "Web/Electron terminals",
+      "nearest": [
+        {
+          "id": "term_electerm",
+          "name": "Electerm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_tabby",
+          "name": "Tabby",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_domterm",
+          "name": "DomTerm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_tess",
+          "name": "Tess",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_wave_terminal",
+          "name": "Wave Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_cosmic_terminal",
+          "name": "COSMIC Terminal",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_contour",
+          "name": "Contour",
+          "similarity": 0.3
+        }
+      ],
+      "mean_similarity": 0.2303,
+      "top_similarity": 1.0,
+      "roles": [
+        "boundary / unusual design",
+        "bridge between groups"
+      ],
+      "outlier_score": 0.7697,
+      "boundary_score": 4,
+      "degree": 9,
+      "representative_sets": []
+    },
+    {
+      "id": "term_domterm",
+      "name": "DomTerm",
+      "group": "Web/Electron terminals",
+      "nearest": [
+        {
+          "id": "term_tess",
+          "name": "Tess",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_electerm",
+          "name": "Electerm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_hyper",
+          "name": "Hyper",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_tabby",
+          "name": "Tabby",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_wave_terminal",
+          "name": "Wave Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_extraterm",
+          "name": "Extraterm",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 0.0
+        },
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 0.0
+        }
+      ],
+      "mean_similarity": 0.0621,
+      "top_similarity": 1.0,
+      "roles": [
+        "boundary / unusual design"
+      ],
+      "outlier_score": 0.9379,
+      "boundary_score": 1,
+      "degree": 6,
+      "representative_sets": []
+    },
+    {
+      "id": "term_guake",
+      "name": "Guake",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_pantheon_terminal",
+          "name": "Pantheon Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core",
+        "bridge between groups"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 3,
+      "degree": 8,
+      "representative_sets": []
+    },
+    {
+      "id": "term_terminator",
+      "name": "Terminator",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 2,
+      "degree": 7,
+      "representative_sets": []
+    },
+    {
+      "id": "term_terra_terminal",
+      "name": "Terra Terminal",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 1,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_tess",
+      "name": "Tess",
+      "group": "Web/Electron terminals",
+      "nearest": [
+        {
+          "id": "term_domterm",
+          "name": "DomTerm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_electerm",
+          "name": "Electerm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_hyper",
+          "name": "Hyper",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_tabby",
+          "name": "Tabby",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_wave_terminal",
+          "name": "Wave Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_extraterm",
+          "name": "Extraterm",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 0.0
+        },
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 0.0
+        }
+      ],
+      "mean_similarity": 0.0621,
+      "top_similarity": 1.0,
+      "roles": [
+        "boundary / unusual design"
+      ],
+      "outlier_score": 0.9379,
+      "boundary_score": 1,
+      "degree": 4,
+      "representative_sets": []
+    },
+    {
+      "id": "term_cool_retro_term",
+      "name": "Cool Retro Term",
+      "group": "Qt terminals",
+      "nearest": [
+        {
+          "id": "term_eterm",
+          "name": "Eterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_tek4010",
+          "name": "Tek4010",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_termite",
+          "name": "Termite",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aixterm",
+          "name": "aixterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aterm",
+          "name": "aterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_fingerterm",
+          "name": "fingerterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rxvt",
+          "name": "rxvt",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_urxvt",
+          "name": "urxvt",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.5364,
+      "top_similarity": 1.0,
+      "roles": [
+        "bridge between groups"
+      ],
+      "outlier_score": 0.4636,
+      "boundary_score": 11,
+      "degree": 14,
+      "representative_sets": []
+    },
+    {
+      "id": "term_alacritty",
+      "name": "Alacritty",
+      "group": "GPU-native terminals",
+      "nearest": [
+        {
+          "id": "term_foot",
+          "name": "Foot",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rio",
+          "name": "Rio",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_darktile",
+          "name": "darktile",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wayst",
+          "name": "wayst",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zerotty",
+          "name": "zerotty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zutty",
+          "name": "zutty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_cosmic_terminal",
+          "name": "COSMIC Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_contour",
+          "name": "Contour",
+          "similarity": 0.7
+        }
+      ],
+      "mean_similarity": 0.2182,
+      "top_similarity": 1.0,
+      "roles": [
+        "boundary / unusual design",
+        "representative basis member"
+      ],
+      "outlier_score": 0.7818,
+      "boundary_score": 0,
+      "degree": 8,
+      "representative_sets": [
+        "recommended_10",
+        "expanded_12"
+      ]
+    },
+    {
+      "id": "term_cosmic_terminal",
+      "name": "COSMIC Terminal",
+      "group": "GPU-native terminals",
+      "nearest": [
+        {
+          "id": "term_contour",
+          "name": "Contour",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_ghostty",
+          "name": "Ghostty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_kitty",
+          "name": "Kitty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wezterm",
+          "name": "WezTerm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_foot",
+          "name": "Foot",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_rio",
+          "name": "Rio",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_warp",
+          "name": "Warp",
+          "similarity": 0.7
+        }
+      ],
+      "mean_similarity": 0.3045,
+      "top_similarity": 1.0,
+      "roles": [
+        "representative basis member"
+      ],
+      "outlier_score": 0.6955,
+      "boundary_score": 0,
+      "degree": 6,
+      "representative_sets": [
+        "strict_minimum_4"
+      ]
+    },
+    {
+      "id": "term_rio",
+      "name": "Rio",
+      "group": "GPU-native terminals",
+      "nearest": [
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_foot",
+          "name": "Foot",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_darktile",
+          "name": "darktile",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wayst",
+          "name": "wayst",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zerotty",
+          "name": "zerotty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zutty",
+          "name": "zutty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_cosmic_terminal",
+          "name": "COSMIC Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_contour",
+          "name": "Contour",
+          "similarity": 0.7
+        }
+      ],
+      "mean_similarity": 0.2182,
+      "top_similarity": 1.0,
+      "roles": [
+        "boundary / unusual design",
+        "representative basis member"
+      ],
+      "outlier_score": 0.7818,
+      "boundary_score": 0,
+      "degree": 8,
+      "representative_sets": [
+        "expanded_12"
+      ]
+    },
+    {
+      "id": "term_warp",
+      "name": "Warp",
+      "group": "GPU-native terminals",
+      "nearest": [
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_cosmic_terminal",
+          "name": "COSMIC Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_contour",
+          "name": "Contour",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_foot",
+          "name": "Foot",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_ghostty",
+          "name": "Ghostty",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_kitty",
+          "name": "Kitty",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_rio",
+          "name": "Rio",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_wezterm",
+          "name": "WezTerm",
+          "similarity": 0.7
+        }
+      ],
+      "mean_similarity": 0.1364,
+      "top_similarity": 0.7,
+      "roles": [
+        "boundary / unusual design"
+      ],
+      "outlier_score": 0.8636,
+      "boundary_score": 2,
+      "degree": 7,
+      "representative_sets": []
+    },
+    {
+      "id": "term_wezterm",
+      "name": "WezTerm",
+      "group": "GPU-native terminals",
+      "nearest": [
+        {
+          "id": "term_cosmic_terminal",
+          "name": "COSMIC Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_contour",
+          "name": "Contour",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_ghostty",
+          "name": "Ghostty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_kitty",
+          "name": "Kitty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_foot",
+          "name": "Foot",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_rio",
+          "name": "Rio",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_warp",
+          "name": "Warp",
+          "similarity": 0.7
+        }
+      ],
+      "mean_similarity": 0.3045,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster member"
+      ],
+      "outlier_score": 0.6955,
+      "boundary_score": 2,
+      "degree": 7,
+      "representative_sets": []
+    },
+    {
+      "id": "term_extraterm",
+      "name": "Extraterm",
+      "group": "Qt terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_cool_retro_term",
+          "name": "Cool Retro Term",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_eterm",
+          "name": "Eterm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_final_term",
+          "name": "Final Term",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 0.7
+        }
+      ],
+      "mean_similarity": 0.4545,
+      "top_similarity": 0.7,
+      "roles": [
+        "bridge between groups",
+        "representative basis member"
+      ],
+      "outlier_score": 0.5455,
+      "boundary_score": 5,
+      "degree": 8,
+      "representative_sets": [
+        "strict_minimum_4",
+        "recommended_10",
+        "expanded_12"
+      ]
+    },
+    {
+      "id": "term_tabby",
+      "name": "Tabby",
+      "group": "Web/Electron terminals",
+      "nearest": [
+        {
+          "id": "term_electerm",
+          "name": "Electerm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_hyper",
+          "name": "Hyper",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_domterm",
+          "name": "DomTerm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_tess",
+          "name": "Tess",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_wave_terminal",
+          "name": "Wave Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_cosmic_terminal",
+          "name": "COSMIC Terminal",
+          "similarity": 0.3
+        },
+        {
+          "id": "term_contour",
+          "name": "Contour",
+          "similarity": 0.3
+        }
+      ],
+      "mean_similarity": 0.2303,
+      "top_similarity": 1.0,
+      "roles": [
+        "boundary / unusual design"
+      ],
+      "outlier_score": 0.7697,
+      "boundary_score": 2,
+      "degree": 6,
+      "representative_sets": []
+    },
+    {
+      "id": "term_black_box",
+      "name": "Black Box",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_pantheon_terminal",
+          "name": "Pantheon Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core",
+        "bridge between groups"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 11,
+      "degree": 32,
+      "representative_sets": []
+    },
+    {
+      "id": "term_final_term",
+      "name": "Final Term",
+      "group": "Web/Electron terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_cool_retro_term",
+          "name": "Cool Retro Term",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_eterm",
+          "name": "Eterm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_extraterm",
+          "name": "Extraterm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 0.7
+        }
+      ],
+      "mean_similarity": 0.4545,
+      "top_similarity": 0.7,
+      "roles": [
+        "bridge between groups"
+      ],
+      "outlier_score": 0.5455,
+      "boundary_score": 6,
+      "degree": 6,
+      "representative_sets": []
+    },
+    {
+      "id": "term_pantheon_terminal",
+      "name": "Pantheon Terminal",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 1,
+      "degree": 7,
+      "representative_sets": []
+    },
+    {
+      "id": "term_tilix",
+      "name": "Tilix",
+      "group": "VTE terminals",
+      "nearest": [
+        {
+          "id": "term_black_box",
+          "name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "name": "Konsole",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_lxterminal",
+          "name": "LXTerminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_mate_terminal",
+          "name": "Mate Terminal",
+          "similarity": 1.0
+        }
+      ],
+      "mean_similarity": 0.6227,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster core",
+        "bridge between groups"
+      ],
+      "outlier_score": 0.3773,
+      "boundary_score": 3,
+      "degree": 10,
+      "representative_sets": []
+    },
+    {
+      "id": "term_zerotty",
+      "name": "zerotty",
+      "group": "GPU-native terminals",
+      "nearest": [
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_foot",
+          "name": "Foot",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rio",
+          "name": "Rio",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_darktile",
+          "name": "darktile",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wayst",
+          "name": "wayst",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zutty",
+          "name": "zutty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_cosmic_terminal",
+          "name": "COSMIC Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_contour",
+          "name": "Contour",
+          "similarity": 0.7
+        }
+      ],
+      "mean_similarity": 0.2182,
+      "top_similarity": 1.0,
+      "roles": [
+        "boundary / unusual design"
+      ],
+      "outlier_score": 0.7818,
+      "boundary_score": 0,
+      "degree": 5,
+      "representative_sets": []
+    },
+    {
+      "id": "term_ghostty",
+      "name": "Ghostty",
+      "group": "GPU-native terminals",
+      "nearest": [
+        {
+          "id": "term_cosmic_terminal",
+          "name": "COSMIC Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_contour",
+          "name": "Contour",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_kitty",
+          "name": "Kitty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wezterm",
+          "name": "WezTerm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_alacritty",
+          "name": "Alacritty",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_foot",
+          "name": "Foot",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_rio",
+          "name": "Rio",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_warp",
+          "name": "Warp",
+          "similarity": 0.7
+        }
+      ],
+      "mean_similarity": 0.3045,
+      "top_similarity": 1.0,
+      "roles": [
+        "cluster member"
+      ],
+      "outlier_score": 0.6955,
+      "boundary_score": 2,
+      "degree": 7,
+      "representative_sets": []
+    }
+  ],
+  "clusters": [
+    {
+      "group": "Classic terminals",
+      "count": 11,
+      "mean_similarity": 0.5599,
+      "members": [
+        "aixterm",
+        "aterm",
+        "Eterm",
+        "mrxvt",
+        "rxvt",
+        "Terminology",
+        "xterm",
+        "xvt",
+        "fingerterm",
+        "urxvt",
+        "Tek4010"
+      ]
+    },
+    {
+      "group": "VTE terminals",
+      "count": 23,
+      "mean_similarity": 0.6189,
+      "members": [
+        "evilvte",
+        "GNOME Console",
+        "GNOME Terminal",
+        "kermit",
+        "lcxterm",
+        "lilyterm",
+        "lterm",
+        "LXTerminal",
+        "Mate Terminal",
+        "Ptyxis",
+        "ROXTerm",
+        "Sakura",
+        "svte",
+        "Termit",
+        "Termite",
+        "Tilda",
+        "xfce4-terminal",
+        "Guake",
+        "Terminator",
+        "Terra Terminal",
+        "Black Box",
+        "Pantheon Terminal",
+        "Tilix"
+      ]
+    },
+    {
+      "group": "Minimal terminals",
+      "count": 6,
+      "mean_similarity": 0.2328,
+      "members": [
+        "fbpad",
+        "Linux console",
+        "st",
+        "stjerm",
+        "yaft",
+        "fbterm"
+      ]
+    },
+    {
+      "group": "GPU-native terminals",
+      "count": 13,
+      "mean_similarity": 0.2451,
+      "members": [
+        "Foot",
+        "wayst",
+        "Kitty",
+        "Contour",
+        "zutty",
+        "darktile",
+        "Alacritty",
+        "COSMIC Terminal",
+        "Rio",
+        "Warp",
+        "WezTerm",
+        "zerotty",
+        "Ghostty"
+      ]
+    },
+    {
+      "group": "Qt terminals",
+      "count": 7,
+      "mean_similarity": 0.5863,
+      "members": [
+        "Deepin Terminal",
+        "Konsole",
+        "QTerminal",
+        "Yakuake",
+        "Station",
+        "Cool Retro Term",
+        "Extraterm"
+      ]
+    },
+    {
+      "group": "Web/Electron terminals",
+      "count": 7,
+      "mean_similarity": 0.1902,
+      "members": [
+        "Wave Terminal",
+        "Electerm",
+        "Hyper",
+        "DomTerm",
+        "Tess",
+        "Tabby",
+        "Final Term"
+      ]
+    }
+  ],
+  "model": "v6-workbench-explanation-metadata"
+}

@@ -1,0 +1,16 @@
+field,layer,definition,allowed_or_expected_values
+RenderingModelGroup,structural_core,How terminal output becomes visible.,text_grid_cpu; gpu_accelerated; dom_document; framebuffer_direct
+EngineFamily,structural_core,High-level architectural family of the terminal engine.,reused_widget_engine; custom_engine; web_runtime_engine; minimal_native_engine
+EngineGroup,context/detail,Original v5 engine grouping; preserved for traceability.,vte_based; qt_based; terminal_widget_toolkit; custom_gpu_engine; electron_web_stack; web_runtime_stack; low_level_minimal
+EngineImplementationClass,context/detail,Implementation class derived from EngineGroup.,vte; qt_terminal_widget; generic_terminal_widget; custom_gpu_or_renderer; electron; web_runtime; minimal_native
+InteractionComplexity,structural_core,Degree to which terminal interaction is restructured.,classic_tty; multiplexed_ui; workflow_augmented; document_oriented
+SemanticLayer,structural_extended,Semantic abstraction over terminal output.,none; workflow; document
+SessionPersistence,structural_extended,Whether sessions are ephemeral/restorable/system-console.,ephemeral; restorable; system_console
+WorkspaceModel,structural_extended,"Whether the terminal has no workspace, session grouping, or orchestrated workspace.",none; session_grouping; workspace_orchestrated; system_console
+HostPlatform,context,Where the terminal is hosted within the Unix/Linux scope.,unix_linux_desktop; no_window_system
+RuntimeEnvironment,context,Execution/runtime environment.,native_runtime; electron_runtime; web_runtime
+PlatformGroup,compatibility,v5 platform grouping preserved for compatibility.,x11_wayland_native; browser_embedded; no_window_system
+EcosystemFamily,context,Coarse ecosystem context.,desktop_ecosystem; web_ecosystem; standalone_or_independent
+EcosystemContext,context,"Specific ecosystem context, not core structure.",GNOME/KDE/Xfce/MATE/LXDE/Deepin/elementary/web/standalone
+ImplementationStyle,context,Coarse style inferred from PrimaryLanguage.,native_systems_language; modern_systems_language; managed_or_application_language
+ArchitectureVersionEpoch,metadata,Approximate historical epoch from FirstReleaseYear.,foundational_unix; x11_toolkit_expansion; desktop_widget_consolidation; gpu_and_web_divergence; workflow_gpu_maturation; unknown_epoch

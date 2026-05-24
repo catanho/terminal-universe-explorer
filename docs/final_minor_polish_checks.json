@@ -1,0 +1,22 @@
+{
+  "science_js": "PASS",
+  "index_js": "PASS",
+  "missing_fetch": [],
+  "missing_downloads": [],
+  "svg_errors": [],
+  "science_contains": {
+    "Dataset/Statistics": true,
+    "No separate Statistics h3": true,
+    "Classic TTY function": true,
+    "matrix core model": true,
+    "terminalNameList": true,
+    "rep download removed": true,
+    "svg graph lines": true
+  },
+  "index_contains": {
+    "no V6 Structural": true,
+    "no V6 Extended": true,
+    "no Nearest V6": true,
+    "compact css": true
+  }
+}

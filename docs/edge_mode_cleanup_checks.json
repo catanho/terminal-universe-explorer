@@ -1,0 +1,15 @@
+{
+  "workbench_js": "PASS",
+  "explore_js": "PASS",
+  "button_style": true,
+  "focused_edge_mode": true,
+  "edge_counts": {
+    "similarity": 164,
+    "lineage/engine": 62,
+    "semantic/workspace": 21,
+    "historical/context": 5
+  },
+  "missing_fetch": [],
+  "missing_downloads": [],
+  "svg_errors": []
+}

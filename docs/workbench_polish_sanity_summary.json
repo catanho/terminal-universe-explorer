@@ -1,0 +1,9 @@
+{
+  "errors": 0,
+  "warnings": 0,
+  "status": "PASS",
+  "js_parse": "PASS",
+  "missing_fetch": 0,
+  "missing_downloads": 0,
+  "svg_count": 16
+}

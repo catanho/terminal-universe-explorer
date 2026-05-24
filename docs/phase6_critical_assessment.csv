@@ -1,0 +1,9 @@
+area,finding,status,recommendation
+architecture,Explorer and Science are now separate but visually aligned. The Science header uses the Explorer structure and theme behavior.,good,Keep this separation.
+matrix,Front-end matrix rendering is fixed; cells have hover percent tooltips but no visible values. SVG heatmap is regenerated with more top padding and grouped ordering.,good,Use the matrix as the canonical structural view.
+graph,"Graph uses a darker app-style background, valid SVG export, edge-type toggles, zoom buttons, wheel zoom, and pointer pan.",good,Consider defaulting to Similarity-only later if the all-on graph feels too dense.
+figures,Distribution plots now use transparent backgrounds and app-aligned colors. Titles and x-label spacing were regenerated to avoid overlap.,good,Keep publication-style white backgrounds for heatmaps; keep transparent backgrounds for simple bar charts.
+downloads,"Export-all was renamed to 'Export all science analyzes'. Individual SVG/CSV downloads exist for graph, matrix, representative sets, gaps, distributions, and cluster sizes.",good,Later add a manifest README inside the ZIP.
+gap explorer,"Visible gap tabs now match downloadable matrices, including Rendering × Engine.",good,"Keep the warning that gaps are model-defined, not product opportunities."
+model assumptions,Assumptions are rewritten in relaxed but precise language and include unknown-year policy plus locked v6 weights.,good,Add field-level confidence only after public research release needs are clear.
+remaining risk,The graph remains an exploratory map with mixed relation types. Toggles reduce ambiguity but do not eliminate it.,watch,Add an edge-type count summary or default view preset in a later phase.

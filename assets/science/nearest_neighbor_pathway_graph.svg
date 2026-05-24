@@ -1,0 +1,311 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="100%" height="100%" fill="#11161d"/>
+<defs><filter id="glow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<text x="800.0" y="34" text-anchor="middle" font-family="Inter,Arial" font-size="24" font-weight="700" fill="#e9edf3">Terminal Universe Explorer v3.0 - Dataset v6.0</text>
+<text x="800.0" y="64" text-anchor="middle" font-family="Inter,Arial" font-size="17" fill="#aab3bf">Similarity-only nearest-neighbor graph</text>
+<text x="175" y="175" font-family="Inter,Arial" font-size="33" fill="#ffffff" opacity=".13" font-weight="800">VTE</text>
+<text x="535" y="170" font-family="Inter,Arial" font-size="33" fill="#ffffff" opacity=".13" font-weight="800">Qt</text>
+<text x="940" y="220" font-family="Inter,Arial" font-size="33" fill="#ffffff" opacity=".13" font-weight="800">GPU-native</text>
+<text x="1250" y="510" font-family="Inter,Arial" font-size="33" fill="#ffffff" opacity=".13" font-weight="800">Web/Electron</text>
+<text x="320" y="715" font-family="Inter,Arial" font-size="33" fill="#ffffff" opacity=".13" font-weight="800">Minimal</text>
+<text x="765" y="715" font-family="Inter,Arial" font-size="33" fill="#ffffff" opacity=".13" font-weight="800">Classic</text>
+<line x1="957.54" y1="935.94" x2="793.5" y2="245.0" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="957.54" y1="935.94" x2="1017.1" y2="790.0" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="957.54" y1="935.94" x2="1116.04" y2="817.75" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="803.95" y1="867.86" x2="793.5" y2="245.0" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="803.95" y1="867.86" x2="1017.1" y2="790.0" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="803.95" y1="867.86" x2="1116.04" y2="817.75" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="793.5" y1="245.0" x2="1017.1" y2="790.0" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1017.1" y1="790.0" x2="1116.04" y2="817.75" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1017.1" y1="790.0" x2="157.4" y2="250.0" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="221.2" y2="182.19" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="221.2" y2="182.19" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="221.2" y1="182.19" x2="501.45" y2="274.17" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="522.25" y1="895.22" x2="614.5" y2="790.0" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="522.25" y1="895.22" x2="337.75" y2="895.22" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="522.25" y1="895.22" x2="522.25" y2="684.78" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="1189.2" y1="295.0" x2="1163.63" y2="427.12" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1163.63" y1="427.12" x2="924.59" y2="332.75" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="855.9" y1="206.77" x2="1163.63" y2="427.12" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="501.45" y2="274.17" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="501.45" y2="274.17" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="395.5" y2="289.15" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="395.5" y2="289.15" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="395.5" y2="289.15" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="210.89" y2="122.89" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="210.89" y2="122.89" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="210.89" y2="122.89" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="285.0" y2="171.7" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="285.0" y2="171.7" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="285.0" y2="171.7" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="324.39" y2="117.18" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="324.39" y2="117.18" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="324.39" y2="117.18" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="337.75" y1="895.22" x2="614.5" y2="790.0" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="614.5" y1="790.0" x2="522.25" y2="684.78" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="348.8" y2="182.19" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="348.8" y2="182.19" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="348.8" y2="182.19" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="348.8" y2="317.81" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="348.8" y2="317.81" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="348.8" y2="317.81" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="359.11" y2="377.11" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="359.11" y2="377.11" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="359.11" y2="377.11" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="732.9" y2="790.0" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="732.9" y2="790.0" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="732.9" y2="790.0" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="245.61" y2="382.82" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="245.61" y2="382.82" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="245.61" y2="382.82" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="221.2" y2="317.81" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="221.2" y2="317.81" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="221.2" y2="317.81" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="793.5" y1="245.0" x2="633.96" y2="762.25" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1017.1" y1="790.0" x2="633.96" y2="762.25" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="633.96" y1="762.25" x2="1116.04" y2="817.75" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="142.67" y2="352.94" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="142.67" y2="352.94" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="142.67" y2="352.94" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="245.5" y1="790.0" x2="337.75" y2="684.78" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="793.5" y1="245.0" x2="245.5" y2="790.0" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 65%</title></line>
+<line x1="1017.1" y1="790.0" x2="245.5" y2="790.0" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 65%</title></line>
+<line x1="412.6" y1="250.0" x2="337.75" y2="684.78" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 65%</title></line>
+<line x1="737.59" y1="325.92" x2="337.75" y2="684.78" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 65%</title></line>
+<line x1="412.6" y1="250.0" x2="427.33" y2="147.06" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="427.33" y2="147.06" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="427.33" y2="147.06" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="946.05" y2="867.86" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="946.05" y2="867.86" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="946.05" y2="867.86" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="77.86" y2="295.48" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="77.86" y2="295.48" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="77.86" y2="295.48" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="793.5" y1="245.0" x2="157.4" y2="250.0" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1116.04" y1="817.75" x2="157.4" y2="250.0" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="174.5" y2="210.85" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="174.5" y2="210.85" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="174.5" y2="210.85" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1189.2" y1="295.0" x2="1019.03" y2="210.18" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1163.63" y1="427.12" x2="1019.03" y2="210.18" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="924.59" y1="332.75" x2="1019.03" y2="210.18" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="395.5" y2="210.85" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="395.5" y2="210.85" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="395.5" y2="210.85" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="793.5" y1="245.0" x2="792.46" y2="644.06" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1017.1" y1="790.0" x2="792.46" y2="644.06" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1116.04" y1="817.75" x2="792.46" y2="644.06" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="946.05" y2="712.14" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="946.05" y2="712.14" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="946.05" y2="712.14" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="337.75" y1="895.22" x2="522.25" y2="684.78" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1286.12" y1="321.85" x2="955.57" y2="432.9" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1136.79" y1="363.02" x2="955.57" y2="432.9" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1019.03" y1="379.82" x2="955.57" y2="432.9" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1136.79" y1="363.02" x2="1286.12" y2="321.85" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1136.79" y1="363.02" x2="1019.03" y2="379.82" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="737.59" y2="325.92" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="793.5" y1="245.0" x2="716.49" y2="908.19" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1017.1" y1="790.0" x2="716.49" y2="908.19" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="716.49" y1="908.19" x2="1116.04" y2="817.75" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="511.21" y2="289.91" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="511.21" y2="289.91" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="511.21" y2="289.91" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="511.21" y2="200.09" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="511.21" y2="200.09" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="511.21" y2="200.09" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="793.5" y1="245.0" x2="803.95" y2="712.14" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1017.1" y1="790.0" x2="803.95" y2="712.14" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1116.04" y1="817.75" x2="803.95" y2="712.14" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="737.59" y2="164.08" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="737.59" y2="164.08" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="737.59" y2="164.08" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1189.2" y1="295.0" x2="1136.79" y2="226.98" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1163.63" y1="427.12" x2="1136.79" y2="226.98" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="924.59" y1="332.75" x2="1136.79" y2="226.98" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="611.96" y2="144.09" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="611.96" y2="144.09" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="611.96" y2="144.09" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1189.2" y1="295.0" x2="855.9" y2="206.77" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="855.9" y1="206.77" x2="924.59" y2="332.75" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1549.0" y1="585.0" x2="1477.84" y2="472.42" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="1477.84" y1="697.58" x2="1477.84" y2="472.42" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="1189.72" y1="647.48" x2="1477.84" y2="472.42" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="793.5" y1="245.0" x2="1116.04" y2="817.75" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1477.84" y1="697.58" x2="1189.72" y2="647.48" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1477.84" y1="697.58" x2="1189.72" y2="522.52" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1549.0" y1="585.0" x2="1477.84" y2="697.58" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="1189.72" y1="647.48" x2="1189.72" y2="522.52" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1549.0" y1="585.0" x2="1189.72" y2="647.48" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="1549.0" y1="585.0" x2="1317.94" y2="444.61" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="452.75" y2="337.34" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="452.75" y2="337.34" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="452.75" y2="337.34" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="174.5" y2="289.15" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="174.5" y2="289.15" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="174.5" y2="289.15" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="68.55" y2="225.83" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="68.55" y2="225.83" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="68.55" y2="225.83" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1477.84" y1="697.58" x2="1317.94" y2="444.61" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="1189.72" y1="647.48" x2="1317.94" y2="444.61" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="1189.2" y1="295.0" x2="924.59" y2="332.75" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1286.12" y1="321.85" x2="1019.03" y2="379.82" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1189.2" y1="295.0" x2="818.62" y2="334.84" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="1286.12" y1="321.85" x2="818.62" y2="334.84" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="1136.79" y1="363.02" x2="818.62" y2="334.84" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="1286.12" y1="321.85" x2="924.59" y2="257.25" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1136.79" y1="363.02" x2="924.59" y2="257.25" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1019.03" y1="379.82" x2="924.59" y2="257.25" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="611.96" y2="345.91" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="793.5" y1="245.0" x2="611.96" y2="345.91" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="737.59" y1="325.92" x2="611.96" y2="345.91" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="1549.0" y1="585.0" x2="1189.72" y2="522.52" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="412.6" y1="250.0" x2="1317.94" y2="725.39" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="793.5" y1="245.0" x2="1317.94" y2="725.39" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="737.59" y1="325.92" x2="1317.94" y2="725.39" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 70%</title></line>
+<line x1="412.6" y1="250.0" x2="285.0" y2="328.3" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="285.0" y2="328.3" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="285.0" y2="328.3" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="412.6" y1="250.0" x2="117.25" y2="162.66" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="737.59" y1="325.92" x2="117.25" y2="162.66" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="501.45" y1="274.17" x2="117.25" y2="162.66" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1189.2" y1="295.0" x2="1039.35" y2="145.15" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="1163.63" y1="427.12" x2="1039.35" y2="145.15" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<line x1="924.59" y1="332.75" x2="1039.35" y2="145.15" stroke="#2ee6a6" stroke-opacity=".62" stroke-width="2.4" stroke-linecap="round"><title>core similarity 100%</title></line>
+<circle cx="957.54" cy="935.94" r="9.2" fill="#a9b4c2" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>aixterm</title></circle>
+<text x="973.54" y="940.94" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">aixterm</text>
+<circle cx="803.95" cy="867.86" r="9.2" fill="#a9b4c2" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>aterm</title></circle>
+<text x="819.95" y="872.86" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">aterm</text>
+<circle cx="221.2" cy="182.19" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>evilvte</title></circle>
+<text x="237.2" y="187.19" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">evilvte</text>
+<circle cx="522.25" cy="895.22" r="9.2" fill="#d03d6c" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>fbpad</title></circle>
+<text x="538.25" y="900.22" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">fbpad</text>
+<circle cx="395.5" cy="289.15" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>GNOME Terminal</title></circle>
+<text x="411.5" y="294.15" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">GNOME Terminal</text>
+<circle cx="210.89" cy="122.89" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>kermit</title></circle>
+<text x="226.89" y="127.89" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">kermit</text>
+<circle cx="285.0" cy="171.7" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>lcxterm</title></circle>
+<text x="301.0" y="176.7" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">lcxterm</text>
+<circle cx="324.39" cy="117.18" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>lilyterm</title></circle>
+<text x="340.39" y="122.18" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">lilyterm</text>
+<circle cx="614.5" cy="790.0" r="9.2" fill="#d03d6c" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Linux console</title></circle>
+<text x="630.5" y="795.0" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Linux console</text>
+<circle cx="348.8" cy="182.19" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>lterm</title></circle>
+<text x="364.8" y="187.19" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">lterm</text>
+<circle cx="348.8" cy="317.81" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>LXTerminal</title></circle>
+<text x="364.8" y="322.81" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">LXTerminal</text>
+<circle cx="359.11" cy="377.11" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Mate Terminal</title></circle>
+<text x="375.11" y="382.11" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Mate Terminal</text>
+<circle cx="732.9" cy="790.0" r="9.2" fill="#a9b4c2" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>mrxvt</title></circle>
+<text x="748.9" y="795.0" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">mrxvt</text>
+<circle cx="245.61" cy="382.82" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Ptyxis</title></circle>
+<text x="261.61" y="387.82" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Ptyxis</text>
+<circle cx="221.2" cy="317.81" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>ROXTerm</title></circle>
+<text x="237.2" y="322.81" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">ROXTerm</text>
+<circle cx="633.96" cy="762.25" r="9.2" fill="#a9b4c2" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>rxvt</title></circle>
+<text x="649.96" y="767.25" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">rxvt</text>
+<circle cx="142.67" cy="352.94" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Sakura</title></circle>
+<text x="158.67" y="357.94" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Sakura</text>
+<circle cx="245.5" cy="790.0" r="9.2" fill="#d03d6c" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>st</title></circle>
+<text x="261.5" y="795.0" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">st</text>
+<circle cx="337.75" cy="684.78" r="9.2" fill="#d03d6c" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>stjerm</title></circle>
+<text x="353.75" y="689.78" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">stjerm</text>
+<circle cx="427.33" cy="147.06" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>svte</title></circle>
+<text x="443.33" y="152.06" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">svte</text>
+<circle cx="946.05" cy="867.86" r="9.2" fill="#a9b4c2" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Terminology</title></circle>
+<text x="962.05" y="872.86" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Terminology</text>
+<circle cx="77.86" cy="295.48" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Termit</title></circle>
+<text x="93.86" y="300.48" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Termit</text>
+<circle cx="157.4" cy="250.0" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Termite</title></circle>
+<text x="173.4" y="255.0" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Termite</text>
+<circle cx="174.5" cy="210.85" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Tilda</title></circle>
+<text x="190.5" y="215.85" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Tilda</text>
+<circle cx="1019.03" cy="210.18" r="9.2" fill="#f5a623" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>wayst</title></circle>
+<text x="1035.03" y="215.18" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">wayst</text>
+<circle cx="395.5" cy="210.85" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>xfce4-terminal</title></circle>
+<text x="411.5" y="215.85" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">xfce4-terminal</text>
+<circle cx="792.46" cy="644.06" r="9.2" fill="#a9b4c2" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>xterm</title></circle>
+<text x="808.46" y="649.06" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">xterm</text>
+<circle cx="946.05" cy="712.14" r="9.2" fill="#a9b4c2" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>xvt</title></circle>
+<text x="962.05" y="717.14" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">xvt</text>
+<circle cx="522.25" cy="684.78" r="9.2" fill="#d03d6c" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>yaft</title></circle>
+<text x="538.25" y="689.78" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">yaft</text>
+<circle cx="955.57" cy="432.9" r="9.2" fill="#f5a623" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Kitty</title></circle>
+<text x="971.57" y="437.9" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Kitty</text>
+<circle cx="337.75" cy="895.22" r="9.2" fill="#d03d6c" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>fbterm</title></circle>
+<text x="353.75" y="900.22" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">fbterm</text>
+<circle cx="716.49" cy="908.19" r="9.2" fill="#a9b4c2" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>fingerterm</title></circle>
+<text x="732.49" y="913.19" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">fingerterm</text>
+<circle cx="511.21" cy="289.91" r="9.2" fill="#4db6e8" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Konsole</title></circle>
+<text x="527.21" y="294.91" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Konsole</text>
+<circle cx="511.21" cy="200.09" r="9.2" fill="#4db6e8" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>QTerminal</title></circle>
+<text x="527.21" y="205.09" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">QTerminal</text>
+<circle cx="803.95" cy="712.14" r="9.2" fill="#a9b4c2" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>urxvt</title></circle>
+<text x="819.95" y="717.14" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">urxvt</text>
+<circle cx="737.59" cy="164.08" r="9.2" fill="#4db6e8" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Yakuake</title></circle>
+<text x="753.59" y="169.08" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Yakuake</text>
+<circle cx="1136.79" cy="226.98" r="9.2" fill="#f5a623" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>zutty</title></circle>
+<text x="1152.79" y="231.98" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">zutty</text>
+<circle cx="611.96" cy="144.09" r="9.2" fill="#4db6e8" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Station</title></circle>
+<text x="627.96" y="149.09" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Station</text>
+<circle cx="855.9" cy="206.77" r="9.2" fill="#f5a623" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>darktile</title></circle>
+<text x="871.9" y="211.77" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">darktile</text>
+<circle cx="1477.84" cy="472.42" r="9.2" fill="#a88cff" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Wave Terminal</title></circle>
+<text x="1493.84" y="477.42" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Wave Terminal</text>
+<circle cx="452.75" cy="337.34" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Guake</title></circle>
+<text x="468.75" y="342.34" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Guake</text>
+<circle cx="174.5" cy="289.15" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Terminator</title></circle>
+<text x="190.5" y="294.15" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Terminator</text>
+<circle cx="68.55" cy="225.83" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Terra Terminal</title></circle>
+<text x="84.55" y="230.83" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Terra Terminal</text>
+<circle cx="1317.94" cy="444.61" r="9.2" fill="#a88cff" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Tess</title></circle>
+<text x="1333.94" y="449.61" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Tess</text>
+<circle cx="818.62" cy="334.84" r="9.2" fill="#f5a623" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Warp</title></circle>
+<text x="834.62" y="339.84" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Warp</text>
+<circle cx="924.59" cy="257.25" r="9.2" fill="#f5a623" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>WezTerm</title></circle>
+<text x="940.59" y="262.25" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">WezTerm</text>
+<circle cx="611.96" cy="345.91" r="9.2" fill="#4db6e8" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Extraterm</title></circle>
+<text x="627.96" y="350.91" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Extraterm</text>
+<circle cx="1189.72" cy="522.52" r="9.2" fill="#a88cff" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Tabby</title></circle>
+<text x="1205.72" y="527.52" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Tabby</text>
+<circle cx="1317.94" cy="725.39" r="9.2" fill="#a88cff" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Final Term</title></circle>
+<text x="1333.94" y="730.39" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Final Term</text>
+<circle cx="285.0" cy="328.3" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Pantheon Terminal</title></circle>
+<text x="301.0" y="333.3" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Pantheon Terminal</text>
+<circle cx="117.25" cy="162.66" r="9.2" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Tilix</title></circle>
+<text x="133.25" y="167.66" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Tilix</text>
+<circle cx="1039.35" cy="145.15" r="9.2" fill="#f5a623" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>zerotty</title></circle>
+<text x="1055.35" y="150.15" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">zerotty</text>
+<circle cx="1019.03" cy="379.82" r="9.4" fill="#f5a623" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Ghostty</title></circle>
+<text x="1035.03" y="384.82" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Ghostty</text>
+<circle cx="1136.79" cy="363.02" r="9.6" fill="#f5a623" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Contour</title></circle>
+<text x="1152.79" y="368.02" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Contour</text>
+<circle cx="1477.84" cy="697.58" r="9.6" fill="#a88cff" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Electerm</title></circle>
+<text x="1493.84" y="702.58" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Electerm</text>
+<circle cx="1189.72" cy="647.48" r="9.6" fill="#a88cff" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Hyper</title></circle>
+<text x="1205.72" y="652.48" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Hyper</text>
+<circle cx="1549.0" cy="585.0" r="9.6" fill="#a88cff" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>DomTerm</title></circle>
+<text x="1565.0" y="590.0" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">DomTerm</text>
+<circle cx="1286.12" cy="321.85" r="9.6" fill="#f5a623" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>COSMIC Terminal</title></circle>
+<text x="1302.12" y="326.85" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">COSMIC Terminal</text>
+<circle cx="1163.63" cy="427.12" r="9.7" fill="#f5a623" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Foot</title></circle>
+<text x="1179.63" y="432.12" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Foot</text>
+<circle cx="924.59" cy="332.75" r="9.7" fill="#f5a623" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Rio</title></circle>
+<text x="940.59" y="337.75" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Rio</text>
+<circle cx="1189.2" cy="295.0" r="9.9" fill="#f5a623" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Alacritty</title></circle>
+<text x="1205.2" y="300.0" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Alacritty</text>
+<circle cx="1116.04" cy="817.75" r="10.2" fill="#a9b4c2" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Tek4010</title></circle>
+<text x="1132.04" y="822.75" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Tek4010</text>
+<circle cx="1017.1" cy="790.0" r="10.4" fill="#a9b4c2" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Eterm</title></circle>
+<text x="1033.1" y="795.0" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Eterm</text>
+<circle cx="793.5" cy="245.0" r="10.7" fill="#4db6e8" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Cool Retro Term</title></circle>
+<text x="809.5" y="250.0" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Cool Retro Term</text>
+<circle cx="501.45" cy="274.17" r="13.5" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>GNOME Console</title></circle>
+<text x="517.45" y="279.17" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">GNOME Console</text>
+<circle cx="737.59" cy="325.92" r="14.0" fill="#4db6e8" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Deepin Terminal</title></circle>
+<text x="753.59" y="330.92" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Deepin Terminal</text>
+<circle cx="412.6" cy="250.0" r="14.0" fill="#38c98b" stroke="#ffffff" stroke-width="1.8" filter="url(#glow)"><title>Black Box</title></circle>
+<text x="428.6" y="255.0" font-family="Inter,Arial" font-size="13" fill="#ffffff" font-weight="700">Black Box</text>
+<text x="30" y="960" font-family="Inter,Arial" font-size="13" fill="#aab3bf">Edges connect each terminal to its top nearest neighbors under the core similarity model. This SVG matches the Similarity-only UI view.</text>
+</svg>

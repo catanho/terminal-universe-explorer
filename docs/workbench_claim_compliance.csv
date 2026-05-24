@@ -1,0 +1,11 @@
+claim,status,evidence
+Analytical interface for design-space structure,PASS,"Workbench Mode now explicitly provides graph, matrix, representatives, gaps, and explanations."
+Understand relationships between terminals,PASS,"Graph, matrix, edge toggles, and modal explanations support this."
+Inspect similarity and differences,PASS,Matrix and per-terminal difference explanations support this.
+Identify clusters and outliers,PASS,"Cluster groups, community-size plot, outlier score, boundary score, and role labels support this."
+Construct minimal representative sets,PASS,Representative sets remain separate and downloadable; not framed as rankings.
+Detect gaps in the design space,PASS,Gap Explorer and downloadable gap matrices support this.
+Position based on structure/context,PASS_WITH_CAVEAT,UI now frames placement as approximate relationship projection rather than literal embedding.
+Connections reflect structural similarity,PASS_WITH_CAVEAT,Toggles separate similarity from lineage/semantic/context pathways.
+How to read this,PASS,Explicit How-to drawer added.
+Click terminal explanation,PASS,"Modal explains cluster, neighbors, similarity causes, differences, and role."

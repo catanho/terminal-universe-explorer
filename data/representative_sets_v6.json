@@ -1,0 +1,1875 @@
+{
+  "strict_minimum_4": [
+    {
+      "id": "term_cosmic_terminal",
+      "Name": "COSMIC Terminal",
+      "public_category_label": "GPU-native terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "Rust",
+      "FirstReleaseYear": 2024,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "gpu_accelerated",
+      "ecosystem": "standalone",
+      "era": "workflow_gpu_maturation",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "custom_engine",
+      "RenderingModel": "gpu_accelerated",
+      "InteractionModel": "multiplexed_ui",
+      "Extensibility": "standard_terminal",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "custom_gpu_engine",
+      "LineageConcept": "custom_gpu_or_renderer",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://github.com/pop-os/cosmic-term",
+      "explorer_summary": "gpu accelerated \u00b7 custom engine \u00b7 multiplexed ui",
+      "RenderingModelGroup": "gpu_accelerated",
+      "EngineGroup": "custom_gpu_engine",
+      "EngineImplementationClass": "custom_gpu_or_renderer",
+      "InteractionComplexity": "multiplexed_ui",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "none",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "modern_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "gpu accelerated \u00b7 custom engine \u00b7 multiplexed ui",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_contour",
+          "Name": "Contour",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_ghostty",
+          "Name": "Ghostty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_kitty",
+          "Name": "Kitty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wezterm",
+          "Name": "WezTerm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_alacritty",
+          "Name": "Alacritty",
+          "similarity": 0.7
+        }
+      ],
+      "representative_set_v6": [],
+      "structural_identity_v6": "gpu_accelerated + custom_engine + multiplexed_ui"
+    },
+    {
+      "id": "term_extraterm",
+      "Name": "Extraterm",
+      "public_category_label": "Document-oriented terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "TypeScript",
+      "FirstReleaseYear": 2016,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "text_grid_cpu",
+      "ecosystem": "standalone",
+      "era": "gpu_and_web_divergence",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "reused_widget_engine",
+      "RenderingModel": "text_grid_cpu",
+      "InteractionModel": "document_oriented",
+      "Extensibility": "session_grouping",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "qt_based",
+      "LineageConcept": "qt_terminal_widget",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://github.com/sedwards2009/extraterm",
+      "explorer_summary": "text grid cpu \u00b7 reused widget engine \u00b7 document oriented \u00b7 document semantic layer",
+      "RenderingModelGroup": "text_grid_cpu",
+      "EngineGroup": "qt_based",
+      "EngineImplementationClass": "qt_terminal_widget",
+      "InteractionComplexity": "document_oriented",
+      "SemanticLayer": "document",
+      "WorkspaceModel": "session_grouping",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "managed_or_application_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "text grid cpu \u00b7 reused widget engine \u00b7 document oriented \u00b7 document semantic layer",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_black_box",
+          "Name": "Black Box",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_cool_retro_term",
+          "Name": "Cool Retro Term",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_deepin_terminal",
+          "Name": "Deepin Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_eterm",
+          "Name": "Eterm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_final_term",
+          "Name": "Final Term",
+          "similarity": 0.7
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "text_grid_cpu + reused_widget_engine + document_oriented"
+    },
+    {
+      "id": "term_linux_console",
+      "Name": "Linux console",
+      "public_category_label": "Framebuffer / console terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "C",
+      "FirstReleaseYear": 1991,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "framebuffer_direct",
+      "ecosystem": "standalone",
+      "era": "x11_toolkit_expansion",
+      "RenderingSurface": "no_window_system",
+      "DisplayDependency": "framebuffer_or_console",
+      "EngineFamily": "minimal_native_engine",
+      "RenderingModel": "framebuffer_direct",
+      "InteractionModel": "classic_tty",
+      "Extensibility": "standard_terminal",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "low_level_minimal",
+      "LineageConcept": "minimal_native",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git",
+      "explorer_summary": "framebuffer direct \u00b7 minimal native engine \u00b7 classic tty",
+      "RenderingModelGroup": "framebuffer_direct",
+      "EngineGroup": "low_level_minimal",
+      "EngineImplementationClass": "minimal_native",
+      "InteractionComplexity": "classic_tty",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "system_console",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "no_window_system",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "native_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "framebuffer direct \u00b7 minimal native engine \u00b7 classic tty",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_fbterm",
+          "Name": "fbterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_yaft",
+          "Name": "yaft",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_fbpad",
+          "Name": "fbpad",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_st_suckless_terminal",
+          "Name": "st",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_stjerm",
+          "Name": "stjerm",
+          "similarity": 0.35
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "framebuffer_direct + minimal_native_engine + classic_tty"
+    },
+    {
+      "id": "term_wave_terminal",
+      "Name": "Wave Terminal",
+      "public_category_label": "Workflow terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "TypeScript",
+      "FirstReleaseYear": 2024,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "dom_document",
+      "ecosystem": "web_ecosystem",
+      "era": "workflow_gpu_maturation",
+      "RenderingSurface": "browser_embedded",
+      "DisplayDependency": "electron",
+      "EngineFamily": "web_runtime_engine",
+      "RenderingModel": "dom_document",
+      "InteractionModel": "workflow_augmented",
+      "Extensibility": "workflow_workspace",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "electron_web_stack",
+      "LineageConcept": "electron",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://github.com/wavetermdev/waveterm",
+      "explorer_summary": "dom document \u00b7 web runtime engine \u00b7 workflow augmented \u00b7 workflow semantic layer",
+      "RenderingModelGroup": "dom_document",
+      "EngineGroup": "electron_web_stack",
+      "EngineImplementationClass": "electron",
+      "InteractionComplexity": "workflow_augmented",
+      "SemanticLayer": "workflow",
+      "WorkspaceModel": "workspace_orchestrated",
+      "RuntimeEnvironment": "electron_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "web_ecosystem",
+      "EcosystemContext": "web_ecosystem",
+      "ImplementationStyle": "managed_or_application_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "dom document \u00b7 web runtime engine \u00b7 workflow augmented \u00b7 workflow semantic layer",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_domterm",
+          "Name": "DomTerm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_electerm",
+          "Name": "Electerm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_hyper",
+          "Name": "Hyper",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_tabby",
+          "Name": "Tabby",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_tess",
+          "Name": "Tess",
+          "similarity": 0.7
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "dom_document + web_runtime_engine + workflow_augmented"
+    }
+  ],
+  "recommended_10": [
+    {
+      "id": "term_alacritty",
+      "Name": "Alacritty",
+      "public_category_label": "GPU-native terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "Rust",
+      "FirstReleaseYear": 2016,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "gpu_accelerated",
+      "ecosystem": "standalone",
+      "era": "gpu_and_web_divergence",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "custom_engine",
+      "RenderingModel": "gpu_accelerated",
+      "InteractionModel": "classic_tty",
+      "Extensibility": "standard_terminal",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "custom_gpu_engine",
+      "LineageConcept": "custom_gpu_or_renderer",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://github.com/alacritty/alacritty",
+      "explorer_summary": "gpu accelerated \u00b7 custom engine \u00b7 classic tty",
+      "RenderingModelGroup": "gpu_accelerated",
+      "EngineGroup": "custom_gpu_engine",
+      "EngineImplementationClass": "custom_gpu_or_renderer",
+      "InteractionComplexity": "classic_tty",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "none",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "modern_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "gpu accelerated \u00b7 custom engine \u00b7 classic tty",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_foot",
+          "Name": "Foot",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rio",
+          "Name": "Rio",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_darktile",
+          "Name": "darktile",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wayst",
+          "Name": "wayst",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zerotty",
+          "Name": "zerotty",
+          "similarity": 1.0
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "gpu_accelerated + custom_engine + classic_tty"
+    },
+    {
+      "id": "term_extraterm",
+      "Name": "Extraterm",
+      "public_category_label": "Document-oriented terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "TypeScript",
+      "FirstReleaseYear": 2016,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "text_grid_cpu",
+      "ecosystem": "standalone",
+      "era": "gpu_and_web_divergence",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "reused_widget_engine",
+      "RenderingModel": "text_grid_cpu",
+      "InteractionModel": "document_oriented",
+      "Extensibility": "session_grouping",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "qt_based",
+      "LineageConcept": "qt_terminal_widget",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://github.com/sedwards2009/extraterm",
+      "explorer_summary": "text grid cpu \u00b7 reused widget engine \u00b7 document oriented \u00b7 document semantic layer",
+      "RenderingModelGroup": "text_grid_cpu",
+      "EngineGroup": "qt_based",
+      "EngineImplementationClass": "qt_terminal_widget",
+      "InteractionComplexity": "document_oriented",
+      "SemanticLayer": "document",
+      "WorkspaceModel": "session_grouping",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "managed_or_application_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "text grid cpu \u00b7 reused widget engine \u00b7 document oriented \u00b7 document semantic layer",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_black_box",
+          "Name": "Black Box",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_cool_retro_term",
+          "Name": "Cool Retro Term",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_deepin_terminal",
+          "Name": "Deepin Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_eterm",
+          "Name": "Eterm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_final_term",
+          "Name": "Final Term",
+          "similarity": 0.7
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "text_grid_cpu + reused_widget_engine + document_oriented"
+    },
+    {
+      "id": "term_foot",
+      "Name": "Foot",
+      "public_category_label": "GPU-native terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "C",
+      "FirstReleaseYear": 2019,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "gpu_accelerated",
+      "ecosystem": "standalone",
+      "era": "workflow_gpu_maturation",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "custom_engine",
+      "RenderingModel": "gpu_accelerated",
+      "InteractionModel": "classic_tty",
+      "Extensibility": "standard_terminal",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "custom_gpu_engine",
+      "LineageConcept": "custom_gpu_or_renderer",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://codeberg.org/dnkl/foot",
+      "explorer_summary": "gpu accelerated \u00b7 custom engine \u00b7 classic tty",
+      "RenderingModelGroup": "gpu_accelerated",
+      "EngineGroup": "custom_gpu_engine",
+      "EngineImplementationClass": "custom_gpu_or_renderer",
+      "InteractionComplexity": "classic_tty",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "none",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "native_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "gpu accelerated \u00b7 custom engine \u00b7 classic tty",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_alacritty",
+          "Name": "Alacritty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rio",
+          "Name": "Rio",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_darktile",
+          "Name": "darktile",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wayst",
+          "Name": "wayst",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zerotty",
+          "Name": "zerotty",
+          "similarity": 1.0
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "gpu_accelerated + custom_engine + classic_tty"
+    },
+    {
+      "id": "term_gnome_terminal",
+      "Name": "GNOME Terminal",
+      "public_category_label": "Desktop terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "C",
+      "FirstReleaseYear": 1999,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "text_grid_cpu",
+      "ecosystem": "gnome_ecosystem",
+      "era": "x11_toolkit_expansion",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "reused_widget_engine",
+      "RenderingModel": "text_grid_cpu",
+      "InteractionModel": "multiplexed_ui",
+      "Extensibility": "session_grouping",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "vte_based",
+      "LineageConcept": "vte",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://gitlab.gnome.org/GNOME/gnome-terminal",
+      "explorer_summary": "text grid cpu \u00b7 reused widget engine \u00b7 multiplexed ui",
+      "RenderingModelGroup": "text_grid_cpu",
+      "EngineGroup": "vte_based",
+      "EngineImplementationClass": "vte",
+      "InteractionComplexity": "multiplexed_ui",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "session_grouping",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "desktop_ecosystem",
+      "EcosystemContext": "gnome_ecosystem",
+      "ImplementationStyle": "native_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "text grid cpu \u00b7 reused widget engine \u00b7 multiplexed ui",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_black_box",
+          "Name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "Name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "Name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "Name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "Name": "Konsole",
+          "similarity": 1.0
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "text_grid_cpu + reused_widget_engine + multiplexed_ui"
+    },
+    {
+      "id": "term_kitty",
+      "Name": "Kitty",
+      "public_category_label": "GPU-native terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "C",
+      "FirstReleaseYear": 2017,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "gpu_accelerated",
+      "ecosystem": "standalone",
+      "era": "gpu_and_web_divergence",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "custom_engine",
+      "RenderingModel": "gpu_accelerated",
+      "InteractionModel": "multiplexed_ui",
+      "Extensibility": "session_grouping",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "custom_gpu_engine",
+      "LineageConcept": "custom_gpu_or_renderer",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://github.com/kovidgoyal/kitty",
+      "explorer_summary": "gpu accelerated \u00b7 custom engine \u00b7 multiplexed ui",
+      "RenderingModelGroup": "gpu_accelerated",
+      "EngineGroup": "custom_gpu_engine",
+      "EngineImplementationClass": "custom_gpu_or_renderer",
+      "InteractionComplexity": "multiplexed_ui",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "session_grouping",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "native_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "gpu accelerated \u00b7 custom engine \u00b7 multiplexed ui",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_cosmic_terminal",
+          "Name": "COSMIC Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_contour",
+          "Name": "Contour",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_ghostty",
+          "Name": "Ghostty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wezterm",
+          "Name": "WezTerm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_alacritty",
+          "Name": "Alacritty",
+          "similarity": 0.7
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "gpu_accelerated + custom_engine + multiplexed_ui"
+    },
+    {
+      "id": "term_konsole",
+      "Name": "Konsole",
+      "public_category_label": "Desktop terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "C++",
+      "FirstReleaseYear": 1997,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "text_grid_cpu",
+      "ecosystem": "kde_ecosystem",
+      "era": "x11_toolkit_expansion",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "reused_widget_engine",
+      "RenderingModel": "text_grid_cpu",
+      "InteractionModel": "multiplexed_ui",
+      "Extensibility": "session_grouping",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "qt_based",
+      "LineageConcept": "qt_terminal_widget",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://invent.kde.org/utilities/konsole",
+      "explorer_summary": "text grid cpu \u00b7 reused widget engine \u00b7 multiplexed ui",
+      "RenderingModelGroup": "text_grid_cpu",
+      "EngineGroup": "qt_based",
+      "EngineImplementationClass": "qt_terminal_widget",
+      "InteractionComplexity": "multiplexed_ui",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "session_grouping",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "desktop_ecosystem",
+      "EcosystemContext": "kde_ecosystem",
+      "ImplementationStyle": "native_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "text grid cpu \u00b7 reused widget engine \u00b7 multiplexed ui",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_black_box",
+          "Name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "Name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "Name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "Name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "Name": "Guake",
+          "similarity": 1.0
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "text_grid_cpu + reused_widget_engine + multiplexed_ui"
+    },
+    {
+      "id": "term_linux_console",
+      "Name": "Linux console",
+      "public_category_label": "Framebuffer / console terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "C",
+      "FirstReleaseYear": 1991,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "framebuffer_direct",
+      "ecosystem": "standalone",
+      "era": "x11_toolkit_expansion",
+      "RenderingSurface": "no_window_system",
+      "DisplayDependency": "framebuffer_or_console",
+      "EngineFamily": "minimal_native_engine",
+      "RenderingModel": "framebuffer_direct",
+      "InteractionModel": "classic_tty",
+      "Extensibility": "standard_terminal",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "low_level_minimal",
+      "LineageConcept": "minimal_native",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git",
+      "explorer_summary": "framebuffer direct \u00b7 minimal native engine \u00b7 classic tty",
+      "RenderingModelGroup": "framebuffer_direct",
+      "EngineGroup": "low_level_minimal",
+      "EngineImplementationClass": "minimal_native",
+      "InteractionComplexity": "classic_tty",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "system_console",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "no_window_system",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "native_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "framebuffer direct \u00b7 minimal native engine \u00b7 classic tty",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_fbterm",
+          "Name": "fbterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_yaft",
+          "Name": "yaft",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_fbpad",
+          "Name": "fbpad",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_st_suckless_terminal",
+          "Name": "st",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_stjerm",
+          "Name": "stjerm",
+          "similarity": 0.35
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "framebuffer_direct + minimal_native_engine + classic_tty"
+    },
+    {
+      "id": "term_mate_terminal",
+      "Name": "Mate Terminal",
+      "public_category_label": "Desktop terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "C",
+      "FirstReleaseYear": "",
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "text_grid_cpu",
+      "ecosystem": "mate_ecosystem",
+      "era": "unknown_epoch",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "reused_widget_engine",
+      "RenderingModel": "text_grid_cpu",
+      "InteractionModel": "multiplexed_ui",
+      "Extensibility": "standard_terminal",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "vte_based",
+      "LineageConcept": "vte",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://github.com/mate-desktop/mate-terminal",
+      "explorer_summary": "text grid cpu \u00b7 reused widget engine \u00b7 multiplexed ui",
+      "RenderingModelGroup": "text_grid_cpu",
+      "EngineGroup": "vte_based",
+      "EngineImplementationClass": "vte",
+      "InteractionComplexity": "multiplexed_ui",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "none",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "desktop_ecosystem",
+      "EcosystemContext": "mate_ecosystem",
+      "ImplementationStyle": "native_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "text grid cpu \u00b7 reused widget engine \u00b7 multiplexed ui",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_black_box",
+          "Name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "Name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "Name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "Name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "Name": "Guake",
+          "similarity": 1.0
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "text_grid_cpu + reused_widget_engine + multiplexed_ui"
+    },
+    {
+      "id": "term_wave_terminal",
+      "Name": "Wave Terminal",
+      "public_category_label": "Workflow terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "TypeScript",
+      "FirstReleaseYear": 2024,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "dom_document",
+      "ecosystem": "web_ecosystem",
+      "era": "workflow_gpu_maturation",
+      "RenderingSurface": "browser_embedded",
+      "DisplayDependency": "electron",
+      "EngineFamily": "web_runtime_engine",
+      "RenderingModel": "dom_document",
+      "InteractionModel": "workflow_augmented",
+      "Extensibility": "workflow_workspace",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "electron_web_stack",
+      "LineageConcept": "electron",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://github.com/wavetermdev/waveterm",
+      "explorer_summary": "dom document \u00b7 web runtime engine \u00b7 workflow augmented \u00b7 workflow semantic layer",
+      "RenderingModelGroup": "dom_document",
+      "EngineGroup": "electron_web_stack",
+      "EngineImplementationClass": "electron",
+      "InteractionComplexity": "workflow_augmented",
+      "SemanticLayer": "workflow",
+      "WorkspaceModel": "workspace_orchestrated",
+      "RuntimeEnvironment": "electron_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "web_ecosystem",
+      "EcosystemContext": "web_ecosystem",
+      "ImplementationStyle": "managed_or_application_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "dom document \u00b7 web runtime engine \u00b7 workflow augmented \u00b7 workflow semantic layer",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_domterm",
+          "Name": "DomTerm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_electerm",
+          "Name": "Electerm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_hyper",
+          "Name": "Hyper",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_tabby",
+          "Name": "Tabby",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_tess",
+          "Name": "Tess",
+          "similarity": 0.7
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "dom_document + web_runtime_engine + workflow_augmented"
+    },
+    {
+      "id": "term_xterm",
+      "Name": "xterm",
+      "public_category_label": "Classic terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "C",
+      "FirstReleaseYear": 1984,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "text_grid_cpu",
+      "ecosystem": "standalone",
+      "era": "foundational_unix",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "reused_widget_engine",
+      "RenderingModel": "text_grid_cpu",
+      "InteractionModel": "classic_tty",
+      "Extensibility": "standard_terminal",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "terminal_widget_toolkit",
+      "LineageConcept": "generic_terminal_widget",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://invisible-island.net/xterm/",
+      "explorer_summary": "text grid cpu \u00b7 reused widget engine \u00b7 classic tty",
+      "RenderingModelGroup": "text_grid_cpu",
+      "EngineGroup": "terminal_widget_toolkit",
+      "EngineImplementationClass": "generic_terminal_widget",
+      "InteractionComplexity": "classic_tty",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "none",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "native_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "text grid cpu \u00b7 reused widget engine \u00b7 classic tty",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_cool_retro_term",
+          "Name": "Cool Retro Term",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_eterm",
+          "Name": "Eterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_tek4010",
+          "Name": "Tek4010",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_termite",
+          "Name": "Termite",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aixterm",
+          "Name": "aixterm",
+          "similarity": 1.0
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "text_grid_cpu + reused_widget_engine + classic_tty"
+    }
+  ],
+  "expanded_12": [
+    {
+      "id": "term_alacritty",
+      "Name": "Alacritty",
+      "public_category_label": "GPU-native terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "Rust",
+      "FirstReleaseYear": 2016,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "gpu_accelerated",
+      "ecosystem": "standalone",
+      "era": "gpu_and_web_divergence",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "custom_engine",
+      "RenderingModel": "gpu_accelerated",
+      "InteractionModel": "classic_tty",
+      "Extensibility": "standard_terminal",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "custom_gpu_engine",
+      "LineageConcept": "custom_gpu_or_renderer",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://github.com/alacritty/alacritty",
+      "explorer_summary": "gpu accelerated \u00b7 custom engine \u00b7 classic tty",
+      "RenderingModelGroup": "gpu_accelerated",
+      "EngineGroup": "custom_gpu_engine",
+      "EngineImplementationClass": "custom_gpu_or_renderer",
+      "InteractionComplexity": "classic_tty",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "none",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "modern_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "gpu accelerated \u00b7 custom engine \u00b7 classic tty",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_foot",
+          "Name": "Foot",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rio",
+          "Name": "Rio",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_darktile",
+          "Name": "darktile",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wayst",
+          "Name": "wayst",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zerotty",
+          "Name": "zerotty",
+          "similarity": 1.0
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "gpu_accelerated + custom_engine + classic_tty"
+    },
+    {
+      "id": "term_extraterm",
+      "Name": "Extraterm",
+      "public_category_label": "Document-oriented terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "TypeScript",
+      "FirstReleaseYear": 2016,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "text_grid_cpu",
+      "ecosystem": "standalone",
+      "era": "gpu_and_web_divergence",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "reused_widget_engine",
+      "RenderingModel": "text_grid_cpu",
+      "InteractionModel": "document_oriented",
+      "Extensibility": "session_grouping",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "qt_based",
+      "LineageConcept": "qt_terminal_widget",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://github.com/sedwards2009/extraterm",
+      "explorer_summary": "text grid cpu \u00b7 reused widget engine \u00b7 document oriented \u00b7 document semantic layer",
+      "RenderingModelGroup": "text_grid_cpu",
+      "EngineGroup": "qt_based",
+      "EngineImplementationClass": "qt_terminal_widget",
+      "InteractionComplexity": "document_oriented",
+      "SemanticLayer": "document",
+      "WorkspaceModel": "session_grouping",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "managed_or_application_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "text grid cpu \u00b7 reused widget engine \u00b7 document oriented \u00b7 document semantic layer",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_black_box",
+          "Name": "Black Box",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_cool_retro_term",
+          "Name": "Cool Retro Term",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_deepin_terminal",
+          "Name": "Deepin Terminal",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_eterm",
+          "Name": "Eterm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_final_term",
+          "Name": "Final Term",
+          "similarity": 0.7
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "text_grid_cpu + reused_widget_engine + document_oriented"
+    },
+    {
+      "id": "term_foot",
+      "Name": "Foot",
+      "public_category_label": "GPU-native terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "C",
+      "FirstReleaseYear": 2019,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "gpu_accelerated",
+      "ecosystem": "standalone",
+      "era": "workflow_gpu_maturation",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "custom_engine",
+      "RenderingModel": "gpu_accelerated",
+      "InteractionModel": "classic_tty",
+      "Extensibility": "standard_terminal",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "custom_gpu_engine",
+      "LineageConcept": "custom_gpu_or_renderer",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://codeberg.org/dnkl/foot",
+      "explorer_summary": "gpu accelerated \u00b7 custom engine \u00b7 classic tty",
+      "RenderingModelGroup": "gpu_accelerated",
+      "EngineGroup": "custom_gpu_engine",
+      "EngineImplementationClass": "custom_gpu_or_renderer",
+      "InteractionComplexity": "classic_tty",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "none",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "native_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "gpu accelerated \u00b7 custom engine \u00b7 classic tty",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_alacritty",
+          "Name": "Alacritty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_rio",
+          "Name": "Rio",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_darktile",
+          "Name": "darktile",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wayst",
+          "Name": "wayst",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zerotty",
+          "Name": "zerotty",
+          "similarity": 1.0
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "gpu_accelerated + custom_engine + classic_tty"
+    },
+    {
+      "id": "term_gnome_terminal",
+      "Name": "GNOME Terminal",
+      "public_category_label": "Desktop terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "C",
+      "FirstReleaseYear": 1999,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "text_grid_cpu",
+      "ecosystem": "gnome_ecosystem",
+      "era": "x11_toolkit_expansion",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "reused_widget_engine",
+      "RenderingModel": "text_grid_cpu",
+      "InteractionModel": "multiplexed_ui",
+      "Extensibility": "session_grouping",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "vte_based",
+      "LineageConcept": "vte",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://gitlab.gnome.org/GNOME/gnome-terminal",
+      "explorer_summary": "text grid cpu \u00b7 reused widget engine \u00b7 multiplexed ui",
+      "RenderingModelGroup": "text_grid_cpu",
+      "EngineGroup": "vte_based",
+      "EngineImplementationClass": "vte",
+      "InteractionComplexity": "multiplexed_ui",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "session_grouping",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "desktop_ecosystem",
+      "EcosystemContext": "gnome_ecosystem",
+      "ImplementationStyle": "native_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "text grid cpu \u00b7 reused widget engine \u00b7 multiplexed ui",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_black_box",
+          "Name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "Name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "Name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "Name": "Guake",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_konsole",
+          "Name": "Konsole",
+          "similarity": 1.0
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "text_grid_cpu + reused_widget_engine + multiplexed_ui"
+    },
+    {
+      "id": "term_kitty",
+      "Name": "Kitty",
+      "public_category_label": "GPU-native terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "C",
+      "FirstReleaseYear": 2017,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "gpu_accelerated",
+      "ecosystem": "standalone",
+      "era": "gpu_and_web_divergence",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "custom_engine",
+      "RenderingModel": "gpu_accelerated",
+      "InteractionModel": "multiplexed_ui",
+      "Extensibility": "session_grouping",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "custom_gpu_engine",
+      "LineageConcept": "custom_gpu_or_renderer",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://github.com/kovidgoyal/kitty",
+      "explorer_summary": "gpu accelerated \u00b7 custom engine \u00b7 multiplexed ui",
+      "RenderingModelGroup": "gpu_accelerated",
+      "EngineGroup": "custom_gpu_engine",
+      "EngineImplementationClass": "custom_gpu_or_renderer",
+      "InteractionComplexity": "multiplexed_ui",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "session_grouping",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "native_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "gpu accelerated \u00b7 custom engine \u00b7 multiplexed ui",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_cosmic_terminal",
+          "Name": "COSMIC Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_contour",
+          "Name": "Contour",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_ghostty",
+          "Name": "Ghostty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wezterm",
+          "Name": "WezTerm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_alacritty",
+          "Name": "Alacritty",
+          "similarity": 0.7
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "gpu_accelerated + custom_engine + multiplexed_ui"
+    },
+    {
+      "id": "term_konsole",
+      "Name": "Konsole",
+      "public_category_label": "Desktop terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "C++",
+      "FirstReleaseYear": 1997,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "text_grid_cpu",
+      "ecosystem": "kde_ecosystem",
+      "era": "x11_toolkit_expansion",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "reused_widget_engine",
+      "RenderingModel": "text_grid_cpu",
+      "InteractionModel": "multiplexed_ui",
+      "Extensibility": "session_grouping",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "qt_based",
+      "LineageConcept": "qt_terminal_widget",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://invent.kde.org/utilities/konsole",
+      "explorer_summary": "text grid cpu \u00b7 reused widget engine \u00b7 multiplexed ui",
+      "RenderingModelGroup": "text_grid_cpu",
+      "EngineGroup": "qt_based",
+      "EngineImplementationClass": "qt_terminal_widget",
+      "InteractionComplexity": "multiplexed_ui",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "session_grouping",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "desktop_ecosystem",
+      "EcosystemContext": "kde_ecosystem",
+      "ImplementationStyle": "native_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "text grid cpu \u00b7 reused widget engine \u00b7 multiplexed ui",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_black_box",
+          "Name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "Name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "Name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "Name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "Name": "Guake",
+          "similarity": 1.0
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "text_grid_cpu + reused_widget_engine + multiplexed_ui"
+    },
+    {
+      "id": "term_linux_console",
+      "Name": "Linux console",
+      "public_category_label": "Framebuffer / console terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "C",
+      "FirstReleaseYear": 1991,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "framebuffer_direct",
+      "ecosystem": "standalone",
+      "era": "x11_toolkit_expansion",
+      "RenderingSurface": "no_window_system",
+      "DisplayDependency": "framebuffer_or_console",
+      "EngineFamily": "minimal_native_engine",
+      "RenderingModel": "framebuffer_direct",
+      "InteractionModel": "classic_tty",
+      "Extensibility": "standard_terminal",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "low_level_minimal",
+      "LineageConcept": "minimal_native",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git",
+      "explorer_summary": "framebuffer direct \u00b7 minimal native engine \u00b7 classic tty",
+      "RenderingModelGroup": "framebuffer_direct",
+      "EngineGroup": "low_level_minimal",
+      "EngineImplementationClass": "minimal_native",
+      "InteractionComplexity": "classic_tty",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "system_console",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "no_window_system",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "native_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "framebuffer direct \u00b7 minimal native engine \u00b7 classic tty",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_fbterm",
+          "Name": "fbterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_yaft",
+          "Name": "yaft",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_fbpad",
+          "Name": "fbpad",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_st_suckless_terminal",
+          "Name": "st",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_stjerm",
+          "Name": "stjerm",
+          "similarity": 0.35
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "framebuffer_direct + minimal_native_engine + classic_tty"
+    },
+    {
+      "id": "term_mate_terminal",
+      "Name": "Mate Terminal",
+      "public_category_label": "Desktop terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "C",
+      "FirstReleaseYear": "",
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "text_grid_cpu",
+      "ecosystem": "mate_ecosystem",
+      "era": "unknown_epoch",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "reused_widget_engine",
+      "RenderingModel": "text_grid_cpu",
+      "InteractionModel": "multiplexed_ui",
+      "Extensibility": "standard_terminal",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "vte_based",
+      "LineageConcept": "vte",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://github.com/mate-desktop/mate-terminal",
+      "explorer_summary": "text grid cpu \u00b7 reused widget engine \u00b7 multiplexed ui",
+      "RenderingModelGroup": "text_grid_cpu",
+      "EngineGroup": "vte_based",
+      "EngineImplementationClass": "vte",
+      "InteractionComplexity": "multiplexed_ui",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "none",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "desktop_ecosystem",
+      "EcosystemContext": "mate_ecosystem",
+      "ImplementationStyle": "native_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "text grid cpu \u00b7 reused widget engine \u00b7 multiplexed ui",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_black_box",
+          "Name": "Black Box",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_deepin_terminal",
+          "Name": "Deepin Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_console_kgx",
+          "Name": "GNOME Console",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_gnome_terminal",
+          "Name": "GNOME Terminal",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_guake",
+          "Name": "Guake",
+          "similarity": 1.0
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "text_grid_cpu + reused_widget_engine + multiplexed_ui"
+    },
+    {
+      "id": "term_wave_terminal",
+      "Name": "Wave Terminal",
+      "public_category_label": "Workflow terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "TypeScript",
+      "FirstReleaseYear": 2024,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "dom_document",
+      "ecosystem": "web_ecosystem",
+      "era": "workflow_gpu_maturation",
+      "RenderingSurface": "browser_embedded",
+      "DisplayDependency": "electron",
+      "EngineFamily": "web_runtime_engine",
+      "RenderingModel": "dom_document",
+      "InteractionModel": "workflow_augmented",
+      "Extensibility": "workflow_workspace",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "electron_web_stack",
+      "LineageConcept": "electron",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://github.com/wavetermdev/waveterm",
+      "explorer_summary": "dom document \u00b7 web runtime engine \u00b7 workflow augmented \u00b7 workflow semantic layer",
+      "RenderingModelGroup": "dom_document",
+      "EngineGroup": "electron_web_stack",
+      "EngineImplementationClass": "electron",
+      "InteractionComplexity": "workflow_augmented",
+      "SemanticLayer": "workflow",
+      "WorkspaceModel": "workspace_orchestrated",
+      "RuntimeEnvironment": "electron_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "web_ecosystem",
+      "EcosystemContext": "web_ecosystem",
+      "ImplementationStyle": "managed_or_application_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "dom document \u00b7 web runtime engine \u00b7 workflow augmented \u00b7 workflow semantic layer",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_domterm",
+          "Name": "DomTerm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_electerm",
+          "Name": "Electerm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_hyper",
+          "Name": "Hyper",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_tabby",
+          "Name": "Tabby",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_tess",
+          "Name": "Tess",
+          "similarity": 0.7
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "dom_document + web_runtime_engine + workflow_augmented"
+    },
+    {
+      "id": "term_xterm",
+      "Name": "xterm",
+      "public_category_label": "Classic terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "C",
+      "FirstReleaseYear": 1984,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "text_grid_cpu",
+      "ecosystem": "standalone",
+      "era": "foundational_unix",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "reused_widget_engine",
+      "RenderingModel": "text_grid_cpu",
+      "InteractionModel": "classic_tty",
+      "Extensibility": "standard_terminal",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "terminal_widget_toolkit",
+      "LineageConcept": "generic_terminal_widget",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://invisible-island.net/xterm/",
+      "explorer_summary": "text grid cpu \u00b7 reused widget engine \u00b7 classic tty",
+      "RenderingModelGroup": "text_grid_cpu",
+      "EngineGroup": "terminal_widget_toolkit",
+      "EngineImplementationClass": "generic_terminal_widget",
+      "InteractionComplexity": "classic_tty",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "none",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "native_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "text grid cpu \u00b7 reused widget engine \u00b7 classic tty",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_cool_retro_term",
+          "Name": "Cool Retro Term",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_eterm",
+          "Name": "Eterm",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_tek4010",
+          "Name": "Tek4010",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_termite",
+          "Name": "Termite",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_aixterm",
+          "Name": "aixterm",
+          "similarity": 1.0
+        }
+      ],
+      "representative_set_v6": [
+        "recommended_10",
+        "expanded_12"
+      ],
+      "structural_identity_v6": "text_grid_cpu + reused_widget_engine + classic_tty"
+    },
+    {
+      "id": "term_rio",
+      "Name": "Rio",
+      "public_category_label": "GPU-native terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "Rust",
+      "FirstReleaseYear": 2023,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "gpu_accelerated",
+      "ecosystem": "standalone",
+      "era": "workflow_gpu_maturation",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "custom_engine",
+      "RenderingModel": "gpu_accelerated",
+      "InteractionModel": "classic_tty",
+      "Extensibility": "standard_terminal",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "custom_gpu_engine",
+      "LineageConcept": "custom_gpu_or_renderer",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://github.com/raphamorim/rio",
+      "explorer_summary": "gpu accelerated \u00b7 custom engine \u00b7 classic tty",
+      "RenderingModelGroup": "gpu_accelerated",
+      "EngineGroup": "custom_gpu_engine",
+      "EngineImplementationClass": "custom_gpu_or_renderer",
+      "InteractionComplexity": "classic_tty",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "none",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "modern_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "gpu accelerated \u00b7 custom engine \u00b7 classic tty",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_alacritty",
+          "Name": "Alacritty",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_foot",
+          "Name": "Foot",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_darktile",
+          "Name": "darktile",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_wayst",
+          "Name": "wayst",
+          "similarity": 1.0
+        },
+        {
+          "id": "term_zerotty",
+          "Name": "zerotty",
+          "similarity": 1.0
+        }
+      ],
+      "representative_set_v6": [
+        "expanded_12"
+      ],
+      "structural_identity_v6": "gpu_accelerated + custom_engine + classic_tty"
+    },
+    {
+      "id": "term_st_suckless_terminal",
+      "Name": "st",
+      "public_category_label": "Classic terminal",
+      "public_status_label": "Active",
+      "PrimaryLanguage": "C",
+      "FirstReleaseYear": 2009,
+      "Status": "Active",
+      "ActivitySignal": "active",
+      "rendering_generation": "text_grid_cpu",
+      "ecosystem": "standalone",
+      "era": "desktop_widget_consolidation",
+      "RenderingSurface": "x11_wayland_native",
+      "DisplayDependency": "native_gui_stack",
+      "EngineFamily": "minimal_native_engine",
+      "RenderingModel": "text_grid_cpu",
+      "InteractionModel": "classic_tty",
+      "Extensibility": "standard_terminal",
+      "MaturityScore": 3,
+      "Confidence": "source_grounded_v6",
+      "LineageSoftware": "low_level_minimal",
+      "LineageConcept": "minimal_native",
+      "LineageConfidence": "model_defined",
+      "PrimarySource": "https://st.suckless.org/",
+      "explorer_summary": "text grid cpu \u00b7 minimal native engine \u00b7 classic tty",
+      "RenderingModelGroup": "text_grid_cpu",
+      "EngineGroup": "low_level_minimal",
+      "EngineImplementationClass": "minimal_native",
+      "InteractionComplexity": "classic_tty",
+      "SemanticLayer": "none",
+      "WorkspaceModel": "none",
+      "RuntimeEnvironment": "native_runtime",
+      "HostPlatform": "unix_linux_desktop",
+      "EcosystemFamily": "standalone_or_independent",
+      "EcosystemContext": "standalone",
+      "ImplementationStyle": "native_systems_language",
+      "PublicMaturityLabel": "Active",
+      "PublicLifecycleLabel": "active",
+      "Notes": "text grid cpu \u00b7 minimal native engine \u00b7 classic tty",
+      "nearest_neighbors_v6": [
+        {
+          "id": "term_stjerm",
+          "Name": "stjerm",
+          "similarity": 0.7
+        },
+        {
+          "id": "term_cool_retro_term",
+          "Name": "Cool Retro Term",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_eterm",
+          "Name": "Eterm",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_linux_console",
+          "Name": "Linux console",
+          "similarity": 0.65
+        },
+        {
+          "id": "term_tek4010",
+          "Name": "Tek4010",
+          "similarity": 0.65
+        }
+      ],
+      "representative_set_v6": [
+        "expanded_12"
+      ],
+      "structural_identity_v6": "text_grid_cpu + minimal_native_engine + classic_tty"
+    }
+  ]
+}

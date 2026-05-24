@@ -1,0 +1,11 @@
+{
+  "javascript_parse": "PASS",
+  "missing_fetch_targets": 0,
+  "missing_download_targets": 0,
+  "search_filters_graph": true,
+  "search_filters_matrix": true,
+  "search_filters_representatives": true,
+  "cards_open_modal": true,
+  "modal_layout_fixed": true,
+  "empty_states": true
+}

@@ -1,0 +1,563 @@
+{
+  "EngineFamily_x_InteractionComplexity": {
+    "rows": [
+      "custom_engine",
+      "minimal_native_engine",
+      "reused_widget_engine",
+      "web_runtime_engine"
+    ],
+    "cols": [
+      "classic_tty",
+      "document_oriented",
+      "multiplexed_ui",
+      "workflow_augmented"
+    ],
+    "counts": {
+      "custom_engine": {
+        "classic_tty": 7,
+        "document_oriented": 0,
+        "multiplexed_ui": 5,
+        "workflow_augmented": 1
+      },
+      "minimal_native_engine": {
+        "classic_tty": 4,
+        "document_oriented": 0,
+        "multiplexed_ui": 2,
+        "workflow_augmented": 0
+      },
+      "reused_widget_engine": {
+        "classic_tty": 10,
+        "document_oriented": 1,
+        "multiplexed_ui": 30,
+        "workflow_augmented": 1
+      },
+      "web_runtime_engine": {
+        "classic_tty": 0,
+        "document_oriented": 2,
+        "multiplexed_ui": 3,
+        "workflow_augmented": 1
+      }
+    },
+    "members": {
+      "custom_engine": {
+        "classic_tty": [
+          "Foot",
+          "wayst",
+          "zutty",
+          "darktile",
+          "Alacritty",
+          "Rio",
+          "zerotty"
+        ],
+        "document_oriented": [],
+        "multiplexed_ui": [
+          "Kitty",
+          "Contour",
+          "COSMIC Terminal",
+          "WezTerm",
+          "Ghostty"
+        ],
+        "workflow_augmented": [
+          "Warp"
+        ]
+      },
+      "minimal_native_engine": {
+        "classic_tty": [
+          "Linux console",
+          "st",
+          "yaft",
+          "fbterm"
+        ],
+        "document_oriented": [],
+        "multiplexed_ui": [
+          "fbpad",
+          "stjerm"
+        ],
+        "workflow_augmented": []
+      },
+      "reused_widget_engine": {
+        "classic_tty": [
+          "aixterm",
+          "aterm",
+          "Eterm",
+          "rxvt",
+          "Termite",
+          "xterm",
+          "fingerterm",
+          "urxvt",
+          "Tek4010",
+          "Cool Retro Term"
+        ],
+        "document_oriented": [
+          "Extraterm"
+        ],
+        "multiplexed_ui": [
+          "evilvte",
+          "GNOME Console",
+          "GNOME Terminal",
+          "kermit",
+          "lcxterm",
+          "lilyterm",
+          "lterm",
+          "LXTerminal",
+          "Mate Terminal",
+          "mrxvt",
+          "Ptyxis",
+          "ROXTerm",
+          "Sakura",
+          "svte",
+          "Terminology",
+          "Termit",
+          "Tilda",
+          "xfce4-terminal",
+          "xvt",
+          "Deepin Terminal",
+          "Konsole",
+          "QTerminal",
+          "Yakuake",
+          "Station",
+          "Guake",
+          "Terminator",
+          "Terra Terminal",
+          "Black Box",
+          "Pantheon Terminal",
+          "Tilix"
+        ],
+        "workflow_augmented": [
+          "Final Term"
+        ]
+      },
+      "web_runtime_engine": {
+        "classic_tty": [],
+        "document_oriented": [
+          "DomTerm",
+          "Tess"
+        ],
+        "multiplexed_ui": [
+          "Electerm",
+          "Hyper",
+          "Tabby"
+        ],
+        "workflow_augmented": [
+          "Wave Terminal"
+        ]
+      }
+    }
+  },
+  "RenderingModelGroup_x_InteractionComplexity": {
+    "rows": [
+      "dom_document",
+      "framebuffer_direct",
+      "gpu_accelerated",
+      "text_grid_cpu"
+    ],
+    "cols": [
+      "classic_tty",
+      "document_oriented",
+      "multiplexed_ui",
+      "workflow_augmented"
+    ],
+    "counts": {
+      "dom_document": {
+        "classic_tty": 0,
+        "document_oriented": 2,
+        "multiplexed_ui": 3,
+        "workflow_augmented": 1
+      },
+      "framebuffer_direct": {
+        "classic_tty": 3,
+        "document_oriented": 0,
+        "multiplexed_ui": 1,
+        "workflow_augmented": 0
+      },
+      "gpu_accelerated": {
+        "classic_tty": 7,
+        "document_oriented": 0,
+        "multiplexed_ui": 5,
+        "workflow_augmented": 1
+      },
+      "text_grid_cpu": {
+        "classic_tty": 11,
+        "document_oriented": 1,
+        "multiplexed_ui": 31,
+        "workflow_augmented": 1
+      }
+    },
+    "members": {
+      "dom_document": {
+        "classic_tty": [],
+        "document_oriented": [
+          "DomTerm",
+          "Tess"
+        ],
+        "multiplexed_ui": [
+          "Electerm",
+          "Hyper",
+          "Tabby"
+        ],
+        "workflow_augmented": [
+          "Wave Terminal"
+        ]
+      },
+      "framebuffer_direct": {
+        "classic_tty": [
+          "Linux console",
+          "yaft",
+          "fbterm"
+        ],
+        "document_oriented": [],
+        "multiplexed_ui": [
+          "fbpad"
+        ],
+        "workflow_augmented": []
+      },
+      "gpu_accelerated": {
+        "classic_tty": [
+          "Foot",
+          "wayst",
+          "zutty",
+          "darktile",
+          "Alacritty",
+          "Rio",
+          "zerotty"
+        ],
+        "document_oriented": [],
+        "multiplexed_ui": [
+          "Kitty",
+          "Contour",
+          "COSMIC Terminal",
+          "WezTerm",
+          "Ghostty"
+        ],
+        "workflow_augmented": [
+          "Warp"
+        ]
+      },
+      "text_grid_cpu": {
+        "classic_tty": [
+          "aixterm",
+          "aterm",
+          "Eterm",
+          "rxvt",
+          "st",
+          "Termite",
+          "xterm",
+          "fingerterm",
+          "urxvt",
+          "Tek4010",
+          "Cool Retro Term"
+        ],
+        "document_oriented": [
+          "Extraterm"
+        ],
+        "multiplexed_ui": [
+          "evilvte",
+          "GNOME Console",
+          "GNOME Terminal",
+          "kermit",
+          "lcxterm",
+          "lilyterm",
+          "lterm",
+          "LXTerminal",
+          "Mate Terminal",
+          "mrxvt",
+          "Ptyxis",
+          "ROXTerm",
+          "Sakura",
+          "stjerm",
+          "svte",
+          "Terminology",
+          "Termit",
+          "Tilda",
+          "xfce4-terminal",
+          "xvt",
+          "Deepin Terminal",
+          "Konsole",
+          "QTerminal",
+          "Yakuake",
+          "Station",
+          "Guake",
+          "Terminator",
+          "Terra Terminal",
+          "Black Box",
+          "Pantheon Terminal",
+          "Tilix"
+        ],
+        "workflow_augmented": [
+          "Final Term"
+        ]
+      }
+    }
+  },
+  "EngineFamily_x_SemanticLayer": {
+    "rows": [
+      "custom_engine",
+      "minimal_native_engine",
+      "reused_widget_engine",
+      "web_runtime_engine"
+    ],
+    "cols": [
+      "document",
+      "none",
+      "workflow"
+    ],
+    "counts": {
+      "custom_engine": {
+        "document": 0,
+        "none": 12,
+        "workflow": 1
+      },
+      "minimal_native_engine": {
+        "document": 0,
+        "none": 6,
+        "workflow": 0
+      },
+      "reused_widget_engine": {
+        "document": 1,
+        "none": 40,
+        "workflow": 1
+      },
+      "web_runtime_engine": {
+        "document": 2,
+        "none": 3,
+        "workflow": 1
+      }
+    },
+    "members": {
+      "custom_engine": {
+        "document": [],
+        "none": [
+          "Foot",
+          "wayst",
+          "Kitty",
+          "Contour",
+          "zutty",
+          "darktile",
+          "Alacritty",
+          "COSMIC Terminal",
+          "Rio",
+          "WezTerm",
+          "zerotty",
+          "Ghostty"
+        ],
+        "workflow": [
+          "Warp"
+        ]
+      },
+      "minimal_native_engine": {
+        "document": [],
+        "none": [
+          "fbpad",
+          "Linux console",
+          "st",
+          "stjerm",
+          "yaft",
+          "fbterm"
+        ],
+        "workflow": []
+      },
+      "reused_widget_engine": {
+        "document": [
+          "Extraterm"
+        ],
+        "none": [
+          "aixterm",
+          "aterm",
+          "Eterm",
+          "evilvte",
+          "GNOME Console",
+          "GNOME Terminal",
+          "kermit",
+          "lcxterm",
+          "lilyterm",
+          "lterm",
+          "LXTerminal",
+          "Mate Terminal",
+          "mrxvt",
+          "Ptyxis",
+          "ROXTerm",
+          "rxvt",
+          "Sakura",
+          "svte",
+          "Terminology",
+          "Termit",
+          "Termite",
+          "Tilda",
+          "xfce4-terminal",
+          "xterm",
+          "xvt",
+          "Deepin Terminal",
+          "fingerterm",
+          "Konsole",
+          "QTerminal",
+          "urxvt",
+          "Yakuake",
+          "Station",
+          "Tek4010",
+          "Guake",
+          "Terminator",
+          "Terra Terminal",
+          "Cool Retro Term",
+          "Black Box",
+          "Pantheon Terminal",
+          "Tilix"
+        ],
+        "workflow": [
+          "Final Term"
+        ]
+      },
+      "web_runtime_engine": {
+        "document": [
+          "DomTerm",
+          "Tess"
+        ],
+        "none": [
+          "Electerm",
+          "Hyper",
+          "Tabby"
+        ],
+        "workflow": [
+          "Wave Terminal"
+        ]
+      }
+    }
+  },
+  "RenderingModelGroup_x_EngineFamily": {
+    "rows": [
+      "dom_document",
+      "framebuffer_direct",
+      "gpu_accelerated",
+      "text_grid_cpu"
+    ],
+    "cols": [
+      "custom_engine",
+      "minimal_native_engine",
+      "reused_widget_engine",
+      "web_runtime_engine"
+    ],
+    "counts": {
+      "dom_document": {
+        "custom_engine": 0,
+        "minimal_native_engine": 0,
+        "reused_widget_engine": 0,
+        "web_runtime_engine": 6
+      },
+      "framebuffer_direct": {
+        "custom_engine": 0,
+        "minimal_native_engine": 4,
+        "reused_widget_engine": 0,
+        "web_runtime_engine": 0
+      },
+      "gpu_accelerated": {
+        "custom_engine": 13,
+        "minimal_native_engine": 0,
+        "reused_widget_engine": 0,
+        "web_runtime_engine": 0
+      },
+      "text_grid_cpu": {
+        "custom_engine": 0,
+        "minimal_native_engine": 2,
+        "reused_widget_engine": 42,
+        "web_runtime_engine": 0
+      }
+    },
+    "members": {
+      "dom_document": {
+        "custom_engine": [],
+        "minimal_native_engine": [],
+        "reused_widget_engine": [],
+        "web_runtime_engine": [
+          "Wave Terminal",
+          "Electerm",
+          "Hyper",
+          "DomTerm",
+          "Tess",
+          "Tabby"
+        ]
+      },
+      "framebuffer_direct": {
+        "custom_engine": [],
+        "minimal_native_engine": [
+          "fbpad",
+          "Linux console",
+          "yaft",
+          "fbterm"
+        ],
+        "reused_widget_engine": [],
+        "web_runtime_engine": []
+      },
+      "gpu_accelerated": {
+        "custom_engine": [
+          "Foot",
+          "wayst",
+          "Kitty",
+          "Contour",
+          "zutty",
+          "darktile",
+          "Alacritty",
+          "COSMIC Terminal",
+          "Rio",
+          "Warp",
+          "WezTerm",
+          "zerotty",
+          "Ghostty"
+        ],
+        "minimal_native_engine": [],
+        "reused_widget_engine": [],
+        "web_runtime_engine": []
+      },
+      "text_grid_cpu": {
+        "custom_engine": [],
+        "minimal_native_engine": [
+          "st",
+          "stjerm"
+        ],
+        "reused_widget_engine": [
+          "aixterm",
+          "aterm",
+          "Eterm",
+          "evilvte",
+          "GNOME Console",
+          "GNOME Terminal",
+          "kermit",
+          "lcxterm",
+          "lilyterm",
+          "lterm",
+          "LXTerminal",
+          "Mate Terminal",
+          "mrxvt",
+          "Ptyxis",
+          "ROXTerm",
+          "rxvt",
+          "Sakura",
+          "svte",
+          "Terminology",
+          "Termit",
+          "Termite",
+          "Tilda",
+          "xfce4-terminal",
+          "xterm",
+          "xvt",
+          "Deepin Terminal",
+          "fingerterm",
+          "Konsole",
+          "QTerminal",
+          "urxvt",
+          "Yakuake",
+          "Station",
+          "Tek4010",
+          "Guake",
+          "Terminator",
+          "Terra Terminal",
+          "Cool Retro Term",
+          "Extraterm",
+          "Black Box",
+          "Final Term",
+          "Pantheon Terminal",
+          "Tilix"
+        ],
+        "web_runtime_engine": []
+      }
+    }
+  }
+}

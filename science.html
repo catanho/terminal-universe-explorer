@@ -1,0 +1,859 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Terminal Universe Workbench Mode</title>
+<style>
+
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;color-scheme:light;--flu-burgundy:#870A28;--flu-green:#00613C;--flu-white:#fff;--bg:#F8F5EF;--bg-radial-start:#fff;--bg-radial-mid:#F8F5EF;--bg-radial-end:#F4EFE6;--ink:#171313;--muted:#625A56;--card:#FFFDFA;--card-elevated:rgba(255,255,255,.78);--line:#DED7CD;--field:#fff;--soft-burgundy:#F3E7EB;--soft-green:#E5F0EB;--pill:#EEEAE0;--shadow:0 10px 28px rgba(23,19,19,.07);--focus:rgba(135,10,40,.24)}
+:root[data-theme="dark"]{color-scheme:dark;--flu-burgundy:#C13A5B;--flu-green:#38C98B;--flu-white:#F5F7F3;--bg:#0F1115;--bg-radial-start:#1A1F1D;--bg-radial-mid:#11151A;--bg-radial-end:#090B0F;--ink:#F2F0EC;--muted:#BDB6AE;--card:#171B21;--card-elevated:rgba(23,27,33,.86);--line:#303642;--field:#12161C;--soft-burgundy:#311620;--soft-green:#123126;--pill:#262B32;--shadow:0 14px 34px rgba(0,0,0,.34);--focus:rgba(56,201,139,.28)}
+*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;color:var(--ink);background:radial-gradient(circle at top left,var(--bg-radial-start) 0,var(--bg-radial-mid) 36%,var(--bg-radial-end) 100%);transition:background .25s ease,color .25s ease;min-height:100vh}a{color:var(--flu-burgundy)}:root[data-theme="dark"] a{color:var(--flu-green)}
+header{max-width:1180px;margin:auto;padding:2.3rem 2rem 1.5rem}.tricolor{height:8px;background:linear-gradient(90deg,var(--flu-green) 0 34%,var(--flu-white) 34% 42%,var(--flu-burgundy) 42% 100%);border-radius:999px;margin-bottom:1.6rem;box-shadow:var(--shadow)}.topbar{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}.eyebrow{font-size:.78rem;text-transform:uppercase;letter-spacing:.16em;color:var(--flu-green);font-weight:800}.theme-toggle{display:inline-flex;align-items:center;gap:.45rem;border-color:var(--line);background:var(--card-elevated);color:var(--ink);box-shadow:var(--shadow)}.theme-toggle:hover{border-color:var(--flu-green)}
+.hero{font-size:clamp(2.4rem,6vw,5.3rem);line-height:.92;margin:.55rem 0;color:var(--flu-burgundy);letter-spacing:-.055em}.sub{font-size:1.16rem;max-width:860px;color:var(--ink);line-height:1.55}.mode-copy{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:.8rem;margin:1.2rem 0}.mode{border:1px solid var(--line);background:var(--card-elevated);border-radius:22px;padding:1rem;box-shadow:var(--shadow)}.mode strong{display:block;color:var(--flu-burgundy);margin-bottom:.25rem}.mode:nth-child(2) strong{color:var(--flu-green)}
+.controls{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.15rem}input,select,button{padding:.76rem .9rem;border:1px solid var(--line);border-radius:15px;background:var(--field);font:inherit;color:var(--ink)}input::placeholder{color:var(--muted)}button{cursor:pointer;font-weight:700}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--focus);outline-offset:2px}.primary{background:var(--flu-burgundy);color:#fff;border-color:var(--flu-burgundy)}.secondary{background:var(--flu-green);color:#fff;border-color:var(--flu-green)}.ghost{background:var(--card);color:var(--ink)}
+main{max-width:1180px;margin:auto;padding:0 2rem 3rem}.notice{margin:1rem 0 1.25rem;padding:1rem 1.1rem;border-radius:20px;background:linear-gradient(90deg,var(--soft-green),var(--card),var(--soft-burgundy));border:1px solid var(--line)}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.8rem;margin:1rem 0}.stat{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:1rem;box-shadow:var(--shadow)}.stat strong{font-size:1.65rem;display:block;color:var(--flu-burgundy)}.tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin:1rem 0}.tabs button.active{outline:3px solid var(--focus);background:var(--soft-burgundy)}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:.85rem}.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:1rem;box-shadow:var(--shadow);transition:transform .15s ease,border-color .15s ease;text-align:left;width:100%}.card:hover{transform:translateY(-2px);border-color:var(--flu-burgundy)}.card h3{margin:.1rem 0 .35rem;font-size:1.07rem}.scientific-card{grid-column:span 2}.scientific-card .details{grid-template-columns:repeat(auto-fit,minmax(160px,1fr));font-size:.82rem}.meta{font-size:.82rem;color:var(--muted);line-height:1.48}.pill{display:inline-block;border-radius:999px;background:var(--pill);padding:.24rem .58rem;font-size:.75rem;margin:.25rem .25rem .25rem 0}.pill.green{background:var(--soft-green);color:var(--flu-green);font-weight:700}.pill.wine{background:var(--soft-burgundy);color:var(--flu-burgundy);font-weight:700}.summary{font-size:.87rem;color:var(--ink);line-height:1.45}.periodic{display:flex;flex-direction:column;gap:1.2rem}.group{background:var(--card);border:1px solid var(--line);border-radius:26px;padding:1rem;box-shadow:var(--shadow);overflow:hidden}.group h2{margin:.2rem 0 .8rem;color:var(--flu-green)}.subgroup{margin:.85rem 0}.subgroup h3{font-size:.95rem;margin:.35rem 0;color:var(--flu-burgundy)}.subgroup>div{display:flex;gap:.45rem;overflow-x:auto;padding:.25rem 0 .55rem;scrollbar-width:thin}.mini{display:inline-flex;align-items:center;justify-content:center;min-width:10rem;max-width:14rem;height:3.55rem;margin:0;border-radius:15px;border:1px solid var(--line);background:var(--field);font-size:.78rem;text-align:center;color:var(--ink);vertical-align:top;white-space:normal;line-height:1.15;padding:.35rem}.mini:hover{border-color:var(--flu-burgundy);background:var(--soft-burgundy)}.empty{padding:1.4rem;border:1px dashed var(--line);border-radius:22px;background:var(--card);color:var(--muted)}.footer{color:var(--muted);font-size:.9rem;margin-top:2rem;border-top:1px solid var(--line);padding-top:1rem}.comparebar{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin:.75rem 0;padding:.75rem;border:1px solid var(--line);border-radius:18px;background:var(--card-elevated)}
+.dialog-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.48);display:none;align-items:center;justify-content:center;padding:1rem;z-index:10}.dialog-backdrop.open{display:flex}.dialog{max-width:860px;width:min(860px,100%);max-height:88vh;overflow:auto;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:28px;box-shadow:0 24px 80px rgba(0,0,0,.35);padding:1.25rem}.dialog-head{display:flex;justify-content:space-between;gap:1rem;align-items:start}.dialog h2{margin:.2rem 0;color:var(--flu-burgundy)}.details{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:.7rem;margin:1rem 0}.field{border:1px solid var(--line);border-radius:16px;padding:.8rem;background:var(--field)}.field span{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800;margin-bottom:.25rem}.compare{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}.compare .dialog{display:block}.source{word-break:break-word}.loading{padding:1rem;border-radius:16px;background:var(--card);border:1px solid var(--line)}
+@media (prefers-reduced-motion:reduce){body,.card{transition:none}.card:hover{transform:none}}
+
+.landing{
+  margin:1rem 0 1.6rem;
+  padding:1rem 1.2rem;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:var(--card-elevated);
+  box-shadow:var(--shadow);
+}
+
+.landing h1{
+  margin:.2rem 0 .4rem;
+  font-size:1.4rem;
+}
+
+.landing .lead{
+  font-size:1rem;
+  opacity:.9;
+}
+
+.landing .hint{
+  font-size:.85rem;
+  opacity:.7;
+}
+
+
+.subtitle{font-size:.52em;opacity:.82;font-weight:500}
+
+
+.science-shell{max-width:1180px;margin:auto;padding:0 2rem 3rem}
+.science-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1rem 0 1.8rem}
+.science-panel{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:1rem;box-shadow:var(--shadow)}
+.science-panel h3{margin:.1rem 0 .7rem}
+.science-table{width:100%;border-collapse:collapse;background:var(--card);border-radius:18px;overflow:hidden;box-shadow:var(--shadow)}
+.science-table th,.science-table td{border-bottom:1px solid var(--line);padding:.7rem;text-align:left;vertical-align:top}
+.science-table th{color:var(--flu-green);font-size:.78rem;text-transform:uppercase;letter-spacing:.08em}
+.science-note{font-size:.92rem;color:var(--muted);line-height:1.55}
+.mode-link{display:inline-flex;align-items:center;gap:.45rem;text-decoration:none}
+.download-row{display:flex;gap:.5rem;flex-wrap:wrap;margin:.75rem 0 1rem}
+.download-link{display:inline-flex;align-items:center;gap:.35rem;border:1px solid var(--line);border-radius:999px;padding:.55rem .85rem;text-decoration:none;background:var(--card-elevated);font-weight:700}
+.graph-toolbar{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin:.75rem 0}
+.edge-toggle-row{display:flex;gap:.5rem;flex-wrap:wrap;margin:.75rem 0 1rem}
+.edge-toggle-row label{display:inline-flex;align-items:center;gap:.35rem;border:1px solid var(--line);border-radius:999px;padding:.48rem .75rem;background:var(--card-elevated);font-weight:700;cursor:pointer}
+.graph-wrap{position:relative;min-height:760px;border:1px solid rgba(255,255,255,.08);border-radius:28px;background:radial-gradient(circle at 50% 30%,var(--bg-radial-start),var(--bg),#0b1018 100%);box-shadow:var(--shadow);overflow:hidden;margin-top:1rem;touch-action:none}
+.graph-canvas{position:absolute;inset:0;transform-origin:0 0}
+.graph-node{position:absolute;transform:translate(-50%,-50%);border:1px solid var(--line);border-radius:999px;padding:.42rem .6rem;background:rgba(20,25,32,.86);box-shadow:var(--shadow);font-size:.78rem;cursor:pointer;white-space:nowrap;transition:transform .15s ease,border-color .15s ease;color:#fff}
+.graph-node:hover{transform:translate(-50%,-50%) scale(1.06);z-index:8}
+.graph-edge{position:absolute;height:1px;transform-origin:left center}
+.graph-cluster-label{position:absolute;font-size:2.1rem;font-weight:800;opacity:.18;color:white;pointer-events:none;letter-spacing:-.03em}
+.relation-legend{display:flex;gap:.8rem;flex-wrap:wrap;margin:.75rem 0;color:var(--muted);font-size:.86rem}
+.legend-line{display:inline-block;width:38px;height:3px;border-radius:999px;margin-right:.35rem;vertical-align:middle}
+.legend{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap;margin:.7rem 0;color:var(--muted);font-size:.85rem}
+.legend-swatch{width:44px;height:12px;border-radius:999px;display:inline-block;border:1px solid var(--line)}
+.heat-legend{background:linear-gradient(90deg,#32113a,#2b82b8,#38c98b,#fde725)}
+.matrix-wrap{min-height:360px;overflow:auto;border:1px solid var(--line);border-radius:22px;background:var(--card);box-shadow:var(--shadow);padding:1rem}
+.matrix-grid{display:grid;gap:2px;width:max-content}
+.matrix-cell{width:28px;height:28px;border-radius:5px}
+.matrix-label{font-size:.68rem;white-space:nowrap;color:var(--muted)}
+.gap-grid{min-height:240px;display:grid;gap:4px;margin-top:.8rem;overflow:auto}
+.gap-cell{min-height:40px;border-radius:10px;background:var(--pill);display:flex;align-items:center;justify-content:center;padding:.35rem;text-align:center}
+.gap-cell.hot{background:var(--soft-green)}
+.gap-cell.gap{background:var(--soft-burgundy)}
+.tabbar{display:flex;gap:.5rem;flex-wrap:wrap;margin:1rem 0}
+.tabbar button.active{background:var(--flu-green);color:white}
+.drawer{border:1px solid var(--line);border-radius:22px;background:var(--card);box-shadow:var(--shadow);margin:1rem 0;overflow:hidden}
+.drawer summary{cursor:pointer;padding:1rem;font-weight:800;color:var(--flu-green)}
+.drawer-body{padding:0 1rem 1rem;color:var(--muted);line-height:1.55}
+.tour{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.75rem;margin:1rem 0}
+.tour-step{border:1px solid var(--line);border-radius:18px;background:var(--card);padding:1rem}
+.tour-step strong{color:var(--flu-green)}
+.cluster-figure img{width:100%;max-width:900px;border:1px solid var(--line);border-radius:18px;background:transparent}
+.distribution-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:1rem;margin-top:1rem}
+.distribution-card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:1rem;box-shadow:var(--shadow)}
+.distribution-card img{width:100%;height:auto;border-radius:14px;border:1px solid var(--line);background:transparent}
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;z-index:9999;padding:1rem}
+.lightbox.open{display:flex}
+.lightbox img{max-width:98vw;max-height:98vh;border-radius:18px;box-shadow:0 20px 60px rgba(0,0,0,.45);background:transparent}
+.lightbox-close{position:absolute;top:20px;right:28px;font-size:2.4rem;color:white;cursor:pointer;font-weight:800;z-index:10000}
+.zoomable{cursor:zoom-in;transition:transform .18s ease}
+.zoomable:hover{transform:scale(1.01)}
+.disabled-note{opacity:.72}
+
+
+.role-chip{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;padding:.32rem .62rem;margin:.15rem;background:var(--pill);font-weight:700;font-size:.82rem}
+.explain-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.75rem;margin-top:.8rem}
+.explain-box{border:1px solid var(--line);border-radius:16px;padding:.75rem;background:var(--card-elevated)}
+.explain-box span{display:block;color:var(--muted);font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;margin-bottom:.25rem}
+
+
+.control-link{min-width:auto;background:transparent!important;color:var(--flu-green)!important;border:1px solid var(--line)!important}
+.result-count{display:inline-flex;align-items:center;padding:.4rem .2rem}
+.empty-state{border:1px dashed var(--line);border-radius:18px;padding:1rem;color:var(--muted);background:var(--card)}
+.card{cursor:pointer}
+.card:focus,.graph-node:focus,.mini:focus{outline:2px solid var(--flu-green);outline-offset:3px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.58);display:none;align-items:center;justify-content:center;z-index:9000;padding:1rem}
+.modal.open{display:flex}
+.dialog{max-width:min(920px,96vw);width:100%;max-height:92vh;overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:24px;box-shadow:0 30px 80px rgba(0,0,0,.45);padding:1rem}
+.dialog .details{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:.75rem}
+.field{border:1px solid var(--line);border-radius:16px;padding:.75rem;background:var(--card-elevated);overflow-wrap:anywhere}
+.field span:first-child{display:block;color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.35rem}
+.mini{display:block;width:100%;margin:.28rem 0;text-align:left}
+@media(max-width:720px){.controls{grid-template-columns:1fr}.dialog{max-height:86vh}.graph-wrap{min-height:560px}}
+
+
+/* final UI fixes */
+body::after, main::after, .bottom-panel, .page-footer, .bottom-spacer, .scroll-anchor{display:none!important}
+body{overflow-x:hidden}
+.edge-toggle-row label:nth-child(1){border-color:#2ee6a6;color:#d7fff1}
+.edge-toggle-row label:nth-child(2){border-color:#4fb7ff;color:#dff3ff}
+.edge-toggle-row label:nth-child(3){border-color:#c86bff;color:#f5ddff}
+.edge-toggle-row label:nth-child(4){border-color:#ffae42;color:#ffe8bf}
+.legend-line.similarity{background:#2ee6a6}
+.legend-line.lineage{background:#4fb7ff}
+.legend-line.semantic{background:#c86bff}
+.legend-line.context{background:#ffae42}
+.graph-node{box-shadow:0 10px 22px rgba(0,0,0,.38), 0 0 16px rgba(255,255,255,.08)}
+.graph-node.dimmed{opacity:.18}
+.graph-edge.dimmed{opacity:.05!important}
+.graph-node.focused{z-index:15;transform:translate(-50%,-50%) scale(1.12)}
+.workflow-card p,.tour-step p{margin-top:.8rem;line-height:1.6}
+.controls .mode-link,.controls #clearSearch{min-width:auto}
+
+
+.controls .control-link{background:var(--flu-burgundy)!important;color:white!important;border-color:transparent!important}
+.controls .control-link:hover{filter:brightness(1.06)}
+.compact-card{min-height:0!important;padding:.9rem!important}
+.compact-card .summary{margin:.55rem 0!important;line-height:1.35}
+.compact-card .meta{margin-top:.35rem!important}
+.graph-svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.graph-svg line{stroke-linecap:round;vector-effect:non-scaling-stroke}
+
+
+/* interaction polish */
+.controls .control-link{
+  border-radius:999px!important;
+  padding:.65rem 1rem!important;
+  min-height:44px!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  background:var(--flu-burgundy)!important;
+  color:white!important;
+}
+[data-theme="light"] body{
+  background:linear-gradient(180deg,#f7faf8,#edf4f1 100%)!important;
+  color:#122018!important;
+}
+[data-theme="light"] .science-panel,
+[data-theme="light"] .drawer,
+[data-theme="light"] .card,
+[data-theme="light"] .distribution-card,
+[data-theme="light"] .matrix-wrap,
+[data-theme="light"] .gap-cell,
+[data-theme="light"] .dialog{
+  background:#ffffff!important;
+  color:#122018!important;
+  border-color:#ccd8d2!important;
+}
+[data-theme="light"] .notice{
+  color:#122018!important;
+}
+[data-theme="light"] .graph-wrap{
+  background:radial-gradient(circle at 50% 30%,#f2fbf7,#e9f1ed,#dde8e2)!important;
+}
+[data-theme="light"] .graph-cluster-label{
+  color:#24342b!important;
+  opacity:.16!important;
+}
+.card.compact-card,.grid .card{
+  min-height:0!important;
+  height:auto!important;
+  padding:.75rem!important;
+  align-self:start!important;
+}
+.card.compact-card h3,.grid .card h3{margin:.15rem 0 .35rem!important}
+.card.compact-card .summary,.grid .card .summary{
+  margin:.45rem 0!important;
+  line-height:1.25!important;
+}
+.card.compact-card .meta,.grid .card .meta{
+  margin-top:.35rem!important;
+  font-size:.78rem!important;
+}
+.card.search-unmatched,.graph-node.search-unmatched,.matrix-cell.search-unmatched{
+  opacity:.18!important;
+  filter:saturate(.35)!important;
+}
+.card.search-matched,.graph-node.search-matched,.matrix-cell.search-matched{
+  outline:2px solid var(--flu-green)!important;
+  outline-offset:3px!important;
+  opacity:1!important;
+}
+.graph-svg line.dimmed{
+  stroke-opacity:.035!important;
+}
+.graph-node.dimmed{
+  opacity:.12!important;
+}
+.graph-svg line.focused-edge{
+  stroke-opacity:.95!important;
+  stroke-width:3.2px!important;
+}
+.dialog .details{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))!important;gap:.55rem!important}
+.dialog .field{padding:.62rem!important;min-height:0!important}
+.dialog .mini{padding:.45rem .6rem!important;margin:.18rem 0!important}
+
+
+/* final light-mode and highlight fixes */
+[data-theme="light"]{
+  --bg:#f6faf8!important;
+  --bg-radial-start:#ffffff!important;
+  --card:#ffffff!important;
+  --card-elevated:#f8fbfa!important;
+  --text:#102018!important;
+  --muted:#4c5b54!important;
+  --line:#cddad4!important;
+  --pill:#eef4f1!important;
+  --soft-green:#dff7ed!important;
+  --soft-burgundy:#f7dbe5!important;
+}
+[data-theme="light"] body{
+  background:#f6faf8!important;
+  color:#102018!important;
+}
+[data-theme="light"] header,
+[data-theme="light"] main,
+[data-theme="light"] .science-shell{
+  color:#102018!important;
+}
+[data-theme="light"] .drawer,
+[data-theme="light"] .science-panel,
+[data-theme="light"] .card,
+[data-theme="light"] .distribution-card,
+[data-theme="light"] .matrix-wrap,
+[data-theme="light"] .dialog,
+[data-theme="light"] .tour-step,
+[data-theme="light"] .gap-cell{
+  background:#ffffff!important;
+  color:#102018!important;
+  border-color:#cddad4!important;
+}
+[data-theme="light"] input,
+[data-theme="light"] select,
+[data-theme="light"] button,
+[data-theme="light"] .secondary{
+  background:#ffffff!important;
+  color:#102018!important;
+  border-color:#cddad4!important;
+}
+[data-theme="light"] .theme-toggle,
+[data-theme="light"] #clearSearch{
+  background:#ffffff!important;
+  color:#102018!important;
+}
+[data-theme="light"] .notice{
+  color:#102018!important;
+}
+[data-theme="light"] .graph-wrap{
+  background:radial-gradient(circle at 50% 30%,#ffffff,#eef6f2,#e4eee8)!important;
+}
+[data-theme="light"] .graph-node{
+  color:#102018!important;
+  background:rgba(255,255,255,.9)!important;
+}
+[data-theme="light"] .graph-cluster-label{
+  color:#24342b!important;
+  opacity:.15!important;
+}
+[data-theme="light"] .matrix-label,
+[data-theme="light"] .science-note{
+  color:#4c5b54!important;
+}
+.controls .control-link{
+  border-radius:999px!important;
+  padding:.65rem 1rem!important;
+  min-height:44px!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  background:var(--flu-burgundy)!important;
+  color:white!important;
+  border:1px solid transparent!important;
+  font-weight:800!important;
+}
+[data-theme="light"] .controls .control-link{
+  background:var(--flu-burgundy)!important;
+  color:white!important;
+  border:1px solid transparent!important;
+}
+.card.search-unmatched,.graph-node.search-unmatched,.matrix-label.search-unmatched{
+  opacity:.42!important;
+  filter:saturate(.55)!important;
+}
+.card.search-matched,.graph-node.search-matched{
+  outline:2px solid var(--flu-green)!important;
+  outline-offset:3px!important;
+  opacity:1!important;
+}
+.matrix-cell.search-unmatched{
+  opacity:.38!important;
+  filter:saturate(.45)!important;
+}
+.matrix-cell.search-matched{
+  opacity:1!important;
+}
+.matrix-cell.search-selected{
+  outline:2px solid var(--flu-green)!important;
+  outline-offset:1px!important;
+  z-index:2;
+}
+.matrix-label.search-selected{
+  color:var(--flu-green)!important;
+  font-weight:900!important;
+  opacity:1!important;
+}
+.graph-node.dimmed{
+  opacity:.45!important;
+  filter:saturate(.75)!important;
+}
+.graph-svg line.dimmed{
+  stroke-opacity:.055!important;
+}
+.graph-node.focused{
+  opacity:1!important;
+  z-index:20!important;
+  outline:2px solid var(--flu-green)!important;
+}
+
+
+/* edge mode cleanup */
+.controls .control-link,
+.controls #clearSearch{
+  border-radius:999px!important;
+  padding:.65rem 1rem!important;
+  min-height:44px!important;
+  line-height:1!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  font-weight:800!important;
+  box-sizing:border-box!important;
+}
+.controls .control-link{
+  background:var(--flu-burgundy)!important;
+  color:white!important;
+  border:1px solid transparent!important;
+}
+[data-theme="light"] .controls .control-link{
+  background:var(--flu-burgundy)!important;
+  color:white!important;
+  border:1px solid transparent!important;
+}
+.graph-node.edge-unrelated{
+  display:none!important;
+}
+
+
+/* final graph layout expansion */
+.graph-wrap{min-height:980px!important}
+.graph-node{font-size:.74rem!important;padding:.36rem .52rem!important}
+.graph-cluster-label{font-size:2.05rem!important}
+
+
+/* final graph-layout polish */
+.graph-wrap{min-height:900px!important}
+.graph-node{font-size:.78rem!important;padding:.35rem .55rem!important}
+.graph-cluster-label{font-size:2.3rem!important}
+@media(max-width:900px){.graph-wrap{min-height:720px!important}.graph-node{font-size:.68rem!important}}
+
+
+/* RC1a UI polish: normalize Workbench control buttons */
+.controls .control-link,
+.controls #clearSearch{
+  border-radius:14px!important;
+  padding:.78rem 1rem!important;
+  min-height:48px!important;
+  height:48px!important;
+  line-height:1!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  font-weight:800!important;
+  box-sizing:border-box!important;
+  white-space:nowrap!important;
+}
+.controls .control-link{
+  background:var(--flu-burgundy)!important;
+  color:#fff!important;
+  border:1px solid transparent!important;
+}
+.controls #clearSearch{
+  background:var(--flu-green)!important;
+  color:#fff!important;
+  border:1px solid transparent!important;
+}
+[data-theme="light"] .controls .control-link{
+  background:var(--flu-burgundy)!important;
+  color:#fff!important;
+}
+[data-theme="light"] .controls #clearSearch{
+  background:var(--flu-green)!important;
+  color:#fff!important;
+}
+
+
+/* RC1a UI polish: compact representative cards and details modal */
+#repGrid{
+  align-items:start!important;
+}
+#repGrid .card,
+#repGrid .compact-card{
+  min-height:0!important;
+  height:auto!important;
+  padding:.78rem!important;
+  align-self:start!important;
+}
+#repGrid .card h3,
+#repGrid .compact-card h3{
+  margin:.1rem 0 .35rem!important;
+}
+#repGrid .card .summary,
+#repGrid .compact-card .summary{
+  margin:.45rem 0!important;
+  line-height:1.25!important;
+}
+#repGrid .card .meta,
+#repGrid .compact-card .meta{
+  margin-top:.35rem!important;
+  font-size:.78rem!important;
+}
+.dialog{
+  max-width:min(860px,94vw)!important;
+}
+.dialog .details{
+  display:grid!important;
+  grid-template-columns:repeat(auto-fit,minmax(185px,1fr))!important;
+  gap:.55rem!important;
+  align-items:start!important;
+}
+.dialog .field{
+  min-height:0!important;
+  height:auto!important;
+  padding:.62rem!important;
+  align-self:start!important;
+}
+.dialog .field:empty,
+.dialog .field:has(> span:only-child){
+  display:none!important;
+}
+.dialog .field span:first-child{
+  margin-bottom:.22rem!important;
+}
+.dialog .mini{
+  min-height:0!important;
+  padding:.42rem .55rem!important;
+  margin:.15rem 0!important;
+}
+.explain-grid{
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr))!important;
+  gap:.55rem!important;
+}
+.explain-box{
+  min-height:0!important;
+  height:auto!important;
+  padding:.62rem!important;
+  align-self:start!important;
+}
+
+
+/* RC1a modal final compaction */
+.dialog{
+  max-width:min(760px,94vw)!important;
+  padding:.85rem!important;
+}
+.dialog .details{
+  display:block!important;
+  columns:2 260px!important;
+  column-gap:.65rem!important;
+}
+.dialog .field,
+.dialog .explain-box{
+  display:block!important;
+  break-inside:avoid!important;
+  page-break-inside:avoid!important;
+  margin:0 0 .55rem 0!important;
+  min-height:0!important;
+  height:auto!important;
+  padding:.58rem!important;
+}
+.dialog .field:empty,
+.dialog .explain-box:empty{
+  display:none!important;
+}
+.dialog .field span:first-child,
+.dialog .explain-box span:first-child{
+  margin-bottom:.22rem!important;
+}
+.dialog .mini{
+  min-height:0!important;
+  height:auto!important;
+  padding:.38rem .5rem!important;
+  margin:.12rem 0!important;
+}
+.dialog .explain-grid{
+  display:block!important;
+  columns:1!important;
+}
+.dialog p{
+  margin:.35rem 0!important;
+}
+.dialog .role-chip{
+  margin:.08rem .08rem .08rem 0!important;
+  padding:.22rem .48rem!important;
+}
+@media(max-width:760px){
+  .dialog .details{columns:1!important}
+}
+
+</style>
+</head>
+<body>
+<header>
+  <div class="tricolor"></div>
+  <div class="topbar">
+    <div>
+      <div class="eyebrow">Terminal Universe Explorer v3.0</div>
+      <h1>Terminal Universe Workbench Mode</h1>
+      <p class="lead">Analyze relationships, clusters, representative sets, gaps, and terminal roles across the design space.</p>
+    </div>
+    <button id="themeToggle" class="theme-toggle ghost" aria-label="Toggle theme"><span class="icon">🌙</span><span class="label">Dark mode</span></button>
+  </div>
+
+  <div class="mode-cards">
+    <div class="mode-card">
+      <h2>🔬 Workbench Mode</h2>
+      <p>An analytical workbench for exploring the structure of the terminal design space.</p>
+    </div>
+    <a class="mode-card mode-link" href="index.html">
+      <div>
+        <h2>🌌 Explore Mode</h2>
+        <p>Return to terminal cards and groups.</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="controls">
+    <input id="scienceSearch" type="search" placeholder="Search terminals in Workbench Mode" list="terminalNameList" autocomplete="off" />
+    <datalist id="terminalNameList"></datalist>
+    <select id="scienceView">
+      <option value="overview" selected>Overview</option>
+      <option value="matrix">Similarity Matrix</option>
+      <option value="graph">Similarity Graph</option>
+      <option value="gaps">Gap Explorer</option>
+      <option value="representatives">Representative Sets</option>
+    </select>
+    <a class="secondary mode-link control-link" href="index.html">Explore Mode</a><button id="clearSearch" class="secondary" type="button">Clear search</button><span id="resultCount" class="science-note result-count">Loading…</span>
+  </div>
+</header>
+
+<main class="science-shell">
+  <details id="modelAssumptions" class="drawer">
+    <summary>Model assumptions</summary>
+    <div class="drawer-body">
+      <p><strong>What the model compares:</strong> the similarity score uses rendering model, engine family, and interaction complexity.</p>
+      <p><strong>Similarity score:</strong> similarity reflects agreement across the structural dimensions used by the model. Higher values mean terminals share more core properties; lower values mean stronger structural differences.</p>
+      <p><strong>How to read position:</strong> terminal placement approximates structural relationships. Distance should be read as a projection of modeled relationships.</p>
+      <p><strong>What adds context:</strong> runtime, semantic/workspace behavior, ecosystem, language, and release year explain terminals and edges, but they do not change the matrix score.</p>
+      <p><strong>Semantic/workspace:</strong> semantic behavior describes whether a terminal acts mainly as a plain terminal surface or adds workflow/document behavior. Workspace behavior describes how sessions, tabs, grouping, or workspace organization reshape terminal usage.</p>
+      <p><strong>What it does not measure:</strong> quality, popularity, performance, beauty, or personal preference.</p>
+      <p><strong>Unknown years are okay:</strong> empty FirstReleaseYear values mean the public release year is not confidently pinned down yet.</p>
+    </div>
+  </details>
+
+  <details id="science-howto" class="drawer" open>
+    <summary>How to read this</summary>
+    <div class="drawer-body">
+      <p>• Nearby terminals share structural properties: rendering model, engine architecture, interaction style, semantic behavior, and workspace organization.</p>
+      <p>• Distant terminals differ in key dimensions: rendering, engine implementation, interaction complexity, semantic layer, and workflow organization.</p>
+      <p>• Clusters represent common design patterns: classic terminal emulators, GPU-native terminals, widget-reuse systems, workflow-oriented terminals, and web/runtime-based terminals.</p>
+      <p>• Isolated nodes indicate unusual or boundary designs.</p>
+      <p>• Connections are relationship projections.</p>
+    </div>
+  </details>
+
+  <div class="download-row">
+    <a class="download-link" href="assets/science/terminal_universe_workbench_analyzes_v6.zip" download>Export all science analyzes</a>
+  </div>
+
+  <div class="tour">
+    <div class="tour-step workflow-card"><strong>1. Start with matrix</strong><p>Use the heatmap for the cleanest structural comparison.</p></div>
+    <div class="tour-step workflow-card"><strong>2. Then explore graph</strong><p>Use the projection to inspect clusters, boundaries, outliers, and relation types.</p></div>
+    <div class="tour-step workflow-card"><strong>3. Then inspect gaps</strong><p>Use gap matrices to see combinations not present under the model.</p></div>
+  </div>
+
+  <section id="graph">
+    <div class="notice"><strong>Similarity Graph:</strong> a terminal relation map. Nodes are terminals; lines show structural similarity, shared lineage/engine traits, or semantic/workspace relations.</div>
+    <div class="science-grid">
+      <article class="science-panel"><h3>Core dimensions</h3><p class="science-note">The graph is organized around rendering model, engine family, and interaction complexity.</p></article>
+      <article class="science-panel"><h3>Graph model</h3><p class="science-note">Connections link structural neighbors and selected lineage/context pathways under the model.</p></article>
+      <article class="science-panel"><h3>Interpretation</h3><p class="science-note">This is a design-space map, not a ranking. Distance reflects modeled similarity, not quality or popularity.</p></article>
+    </div>
+    <div class="relation-legend"><span><span class="legend-line similarity"></span>core similarity</span><span><span class="legend-line lineage"></span>lineage / engine</span><span><span class="legend-line semantic"></span>semantic / workspace</span><span><span class="legend-line context"></span>contextual pathway</span></div>
+    <div class="download-row"><a class="download-link" href="assets/science/nearest_neighbor_pathway_graph.svg" download>Download graph SVG</a><a class="download-link" href="assets/science/nearest_neighbor_pathway_graph_nodes.csv" download>Download nodes CSV</a><a class="download-link" href="assets/science/nearest_neighbor_pathway_graph_edges.csv" download>Download edges CSV</a></div>
+    <div class="graph-toolbar">
+      <button id="graphZoomIn" class="secondary">Zoom in</button>
+      <button id="graphZoomOut" class="secondary">Zoom out</button>
+      <button id="graphReset" class="secondary">Reset map</button>
+      <button class="secondary" data-graph-preset="similarity">Core similarity view</button>
+      <button class="secondary" data-graph-preset="lineage">Lineage view</button>
+      <button class="secondary" data-graph-preset="semantic">Semantic/workspace view</button>
+      <button class="secondary" data-graph-preset="all">All relations</button>
+    </div>
+    <div class="edge-toggle-row">
+      <label><input type="checkbox" data-edge-toggle="similarity" checked> Similarity only</label>
+      <label><input type="checkbox" data-edge-toggle="lineage/engine"> Lineage/engine only</label>
+      <label><input type="checkbox" data-edge-toggle="semantic/workspace"> Semantic/workspace only</label>
+      <label><input type="checkbox" data-edge-toggle="historical/context"> Contextual pathways</label>
+    </div>
+    <div id="graphWrap" class="graph-wrap"><div id="graphCanvas" class="graph-canvas"></div></div>
+    <div id="roleSummary" class="science-grid"></div>
+    <div class="science-panel cluster-figure">
+      <h3>Cluster/community sizes</h3>
+      <p class="science-note">A quick count of terminals in each visual graph cluster.</p>
+      <img class="zoomable" onclick="openLightbox(this.src)" src="assets/science/cluster_community_sizes.svg" alt="Graph community size plot">
+      <div class="download-row"><a class="download-link" href="assets/science/cluster_community_sizes.svg" download>Download cluster-size SVG</a><a class="download-link" href="assets/science/cluster_community_sizes.csv" download>Download cluster-size CSV</a></div>
+    </div>
+  </section>
+
+  <section id="matrix" hidden>
+    <div class="notice"><strong>Similarity Matrix:</strong> every terminal compared with every other one. Color shows percent similarity under the core model.</div>
+    <div class="legend"><span>0%</span><span class="legend-swatch heat-legend"></span><span>100%</span></div>
+    <div class="download-row"><a class="download-link" href="assets/science/clustering_similarity_heatmap.svg" download>Download heatmap SVG</a><a class="download-link" href="assets/science/clustering_similarity_heatmap_matrix.csv" download>Download matrix CSV</a></div>
+    <div id="matrixWrap" class="matrix-wrap"></div>
+  </section>
+
+  <section id="representatives" hidden>
+    <div class="notice"><strong>Representative sets:</strong> small groups that cover the main design space. They are explanatory anchors, not “best terminal” lists.</div>
+    <div class="tabbar">
+      <button data-rep="recommended_10" class="active">Recommended 10</button>
+      <button data-rep="expanded_12">Expanded 12</button>
+      <button data-rep="strict_minimum_4">Strict Minimum 4</button>
+    </div>
+    <div id="repDownloads" class="download-row" hidden></div>
+    <div id="repGrid" class="grid"></div>
+  </section>
+
+  <section id="gaps" hidden>
+    <div class="notice"><strong>Gap Explorer:</strong> combinations not present in the dataset. A gap may be unexplored, impractical, or simply outside this model.</div>
+    <div class="tabbar">
+      <button data-gap="EngineFamily_x_InteractionComplexity" class="active">Engine × Interaction</button>
+      <button data-gap="RenderingModelGroup_x_InteractionComplexity">Rendering × Interaction</button>
+      <button data-gap="EngineFamily_x_SemanticLayer">Engine × Semantic</button>
+      <button data-gap="RenderingModelGroup_x_EngineFamily">Rendering × Engine</button>
+    </div>
+    <div id="gapDownloads" class="download-row"></div>
+    <div id="gapMatrix"></div>
+  </section>
+
+  <section id="overview" hidden>
+    <div class="notice"><strong>Workbench Mode:</strong> analytical views are model-defined, source-grounded, and intentionally transparent.</div>
+    <div class="science-grid">
+      <article class="science-panel"><h3>Dataset/Statistics</h3><p class="science-note" id="overviewStats">67 terminals, curated from source-linked record · 4 rendering models · 4 engine families · 6 semantic/workspace edge cases · 38 active projects.</p></article>
+      <article class="science-panel"><h3>Core structural model</h3><p class="science-note">The compact model: rendering, engine family, and interaction complexity.</p></article>
+      <article class="science-panel"><h3>Extended model</h3><p class="science-note">Extra layers for modern behavior: semantic output and workspace organization.</p></article>
+    </div>
+    <h2>Structural dimensions</h2>
+    <table class="science-table" id="dimensionTable"></table>
+    <h2>Distribution graphics</h2>
+    <p class="science-note">These plots summarize the currently modeled dimensions used across Workbench Mode.</p>
+    <div id="distributionGrid" class="distribution-grid"></div>
+  </section>
+</main>
+
+<div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="dialog" id="modalContent"></div></div>
+<div id="lightbox" class="lightbox" onclick="closeLightbox()"><div class="lightbox-close">×</div><img id="lightboxImg" src=""></div>
+
+<script>
+const root=document.documentElement;
+const savedTheme=localStorage.getItem('terminal-universe-theme');
+const prefersDark=window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+function applyTheme(theme){root.setAttribute('data-theme',theme);const btn=document.getElementById('themeToggle');if(btn){const dark=theme==='dark';btn.querySelector('.icon').textContent=dark?'☀️':'🌙';btn.querySelector('.label').textContent=dark?'Light mode':'Dark mode';btn.setAttribute('aria-label',dark?'Switch to light mode':'Switch to dark mode');}}
+applyTheme(savedTheme || (prefersDark?'dark':'light'));
+
+let data=[], graphData=null, matrixData=null, reps=null, gaps=null, distributionPlots=[], repDownloads=[], gapDownloads=[], explanations=null;
+let graphTransform={scale:1,x:0,y:0}, graphDragging=false, dragStart=null;
+const $=id=>document.getElementById(id);
+function esc(x){return String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function label(x){const s=String(x||'');if(s.toLowerCase()==='classic_tty')return 'Classic TTY';return s.replaceAll('_',' ').replace(/\b\w/g,m=>m.toUpperCase())}
+function badge(v,cls=''){return `<span class="pill ${cls}">${esc(label(v))}</span>`}
+function cleanText(x){return String(x||'').replace(/\bv6\b/gi,'').replace(/\s+/g,' ').trim()}
+function fieldIfValue(labelText,value){const v=cleanText(value);if(!v||v==='None'||v==='none'||v==='Native Runtime')return '';return `<div class="field"><span>${esc(labelText)}</span>${esc(label(v))}</div>`}
+function selectedTerminalIds(){const q=$('scienceSearch').value.trim().toLowerCase();if(!q)return new Set();const exact=data.filter(d=>String(d.Name||'').toLowerCase()===q);const rows=exact.length?exact:data.filter(d=>String(d.Name||'').toLowerCase().includes(q));return new Set(rows.map(d=>d.id))}
+function card(d){const matches=selectedTerminalIds();const cls=matches.size?(matches.has(d.id)?' search-matched':' search-unmatched'):'';return `<button class="card compact-card${cls}" data-open="${esc(d.id)}"><h3>${esc(d.Name)}</h3>${badge(d.RenderingModelGroup,'wine')}${badge(d.EngineFamily,'green')}${badge(d.InteractionComplexity)}<p class="summary">${esc(cleanText(d.explorer_summary||d.Notes||''))}</p><span class="meta">${esc(label(d.SemanticLayer))} · ${esc(label(d.WorkspaceModel))}</span></button>`}
+function coreSim(a,b){let s=0;if(a.RenderingModelGroup===b.RenderingModelGroup)s+=.35;if(a.EngineFamily===b.EngineFamily)s+=.35;if(a.InteractionComplexity===b.InteractionComplexity)s+=.30;return Math.round(s*100)/100}
+function graphNodeFor(id){return graphData?.nodes?.find(n=>n.id===id)}
+function sharedCoreFields(a,b){return ['RenderingModelGroup','EngineFamily','InteractionComplexity'].filter(f=>a[f]===b[f]).map(label)}
+function metaFor(id){return explanations?.terminals?.find(x=>x.id===id)}
+function topDifferences(d,nearest){
+  if(!nearest)return ['No close neighbor selected yet.'];
+  const fields=['RenderingModelGroup','EngineFamily','InteractionComplexity','SemanticLayer','WorkspaceModel','RuntimeEnvironment','EcosystemFamily'];
+  return fields.filter(f=>d[f]!==nearest[f]).map(f=>`${label(f)}: ${label(d[f])} vs ${label(nearest[f])}`).slice(0,5);
+}
+function sharedCoreFields(a,b){return ['RenderingModelGroup','EngineFamily','InteractionComplexity'].filter(f=>a[f]===b[f]).map(label)}
+function terminalExplanation(d,neighbors){
+  const m=metaFor(d.id);
+  const n=graphNodeFor(d.id);
+  const group=n?n.group:(m?.group||'its current design-space group');
+  const nearest=neighbors[0];
+  const shared=nearest?sharedCoreFields(d,nearest).join(', '):'core fields';
+  const diffs=topDifferences(d,nearest).map(x=>`<span class="role-chip">${esc(x)}</span>`).join(' ');
+  const roles=(m?.roles||['cluster member']).map(x=>`<span class="role-chip">${esc(label(x))}</span>`).join(' ');
+  const rep=(m?.representative_sets||[]).length?`<div class="explain-box"><span>Representative sets</span>${(m.representative_sets||[]).map(x=>`<span class="role-chip">${esc(label(x))}</span>`).join(' ')}</div>`:'';
+  return `<div class="explain-grid">
+    <div class="explain-box"><span>Why this cluster?</span>${esc(d.Name)} appears in ${esc(group)} because of its rendering model, engine family, and interaction style.</div>
+    <div class="explain-box"><span>Who it is similar to?</span>Closest neighbors are selected by weighted agreement over the core fields.</div>
+    <div class="explain-box"><span>Why similar?</span>Closest match shares: ${esc(shared||'no exact core field')}.</div>
+    <div class="explain-box"><span>What makes it different?</span>${diffs}</div>
+    <div class="explain-box"><span>Role in the space</span>${roles}<br><small>Outlier score: ${m?m.outlier_score:'n/a'} · Boundary links: ${m?m.boundary_score:'n/a'}</small></div>
+    ${rep}
+  </div>`;
+}
+
+function openDetails(id){const d=data.find(x=>x.id===id); if(!d)return;const neighbors=data.filter(x=>x.id!==id).map(x=>({...x,score:coreSim(d,x)})).sort((a,b)=>b.score-a.score||a.Name.localeCompare(b.Name)).slice(0,5);$('modalContent').innerHTML=`<div class="dialog-head"><div><h2 id="modalTitle">${esc(d.Name)}</h2>${badge(d.RenderingModelGroup,'wine')}${badge(d.EngineFamily,'green')}${badge(d.InteractionComplexity)}</div><button class="ghost" data-close>Close</button></div><p class="summary">${esc(d.explorer_summary||'')}</p><div class="details"><div class="field"><span>Semantic Layer</span>${esc(label(d.SemanticLayer))}</div><div class="field"><span>Workspace Model</span>${esc(label(d.WorkspaceModel))}</div>''${terminalExplanation(d,neighbors)}<div class="field"><span>Nearest Neighbors</span>${neighbors.map(n=>`<button class="mini" data-open="${esc(n.id)}">${esc(n.Name)} · ${n.score}</button>`).join(' ')}</div><div class="field"><span>Source</span><a class="source" target="_blank" rel="noopener" href="${esc(d.PrimarySource)}">${esc(d.PrimarySource)}</a></div></div>`;$('modal').classList.add('open')}
+
+function filteredData(){
+  const q=$('scienceSearch').value.trim().toLowerCase();
+  if(!q)return data;
+  return data.filter(d=>String(d.Name||'').toLowerCase().includes(q));
+}
+function allData(){return data}
+function updateResultCount(){
+  const el=$('resultCount'); if(!el)return;
+  const n=filteredData().length; const view=$('scienceView').value;
+  el.textContent=`${n} / ${data.length||67} terminal names`;
+  el.title=`Current search affects ${view} view where applicable.`;
+}
+function emptyState(text){return `<div class="empty-state">${esc(text)}</div>`}
+function selectedEdgeTypes(){return new Set([...document.querySelectorAll('[data-edge-toggle]')].filter(x=>x.checked).map(x=>x.dataset.edgeToggle))}
+function applyGraphTransform(){const c=$('graphCanvas'); if(c)c.style.transform=`translate(${graphTransform.x}px,${graphTransform.y}px) scale(${graphTransform.scale})`}
+function resetGraphTransform(){graphTransform={scale:1,x:0,y:0};applyGraphTransform()}
+function zoomGraph(delta){graphTransform.scale=Math.min(2.8,Math.max(.45,graphTransform.scale+delta));applyGraphTransform()}
+
+function renderRoleSummary(){
+  const el=$('roleSummary'); if(!el||!explanations)return;
+  const terminals=(explanations.terminals||[]);
+  const outliers=[...terminals].sort((a,b)=>b.outlier_score-a.outlier_score).slice(0,4);
+  const bridges=[...terminals].sort((a,b)=>b.boundary_score-a.boundary_score).slice(0,4);
+  const reps=terminals.filter(t=>(t.representative_sets||[]).length).slice(0,4);
+  el.innerHTML=[
+    `<article class="science-panel"><h3>Outlier signals</h3><p class="science-note">${outliers.map(t=>`<button class="mini" data-open="${esc(t.id)}">${esc(t.name)}</button>`).join('')}</p></article>`,
+    `<article class="science-panel"><h3>Boundary / bridge terminals</h3><p class="science-note">${bridges.map(t=>`<button class="mini" data-open="${esc(t.id)}">${esc(t.name)}</button>`).join('')}</p></article>`,
+    `<article class="science-panel"><h3>Representative anchors</h3><p class="science-note">${reps.length?reps.map(t=>`<button class="mini" data-open="${esc(t.id)}">${esc(t.name)}</button>`).join(''): 'No representative anchors.'}</p></article>`
+  ].join('');
+}
+function renderGraph(){renderRoleSummary();const canvas=$('graphCanvas'); if(!graphData){canvas.innerHTML='<p class="science-note">Graph data is loading.</p>';return};const matches=selectedTerminalIds();const enabled=selectedEdgeTypes();let rows=allData();let ids=new Set(rows.map(d=>d.id));const activeTypes=[...enabled];const focusedEdgeMode=activeTypes.length===1&&activeTypes[0]!=='similarity';const gw=(graphData.canvas&&graphData.canvas.width)||1600;const gh=(graphData.canvas&&graphData.canvas.height)||1000;const nodeMapAll=new Map(graphData.nodes.filter(n=>ids.has(n.id)).map(n=>[n.id,n]));let edges=graphData.edges.filter(e=>ids.has(e.source)&&ids.has(e.target)&&enabled.has(e.type));let participantIds=new Set();edges.forEach(e=>{participantIds.add(e.source);participantIds.add(e.target)});if(focusedEdgeMode){ids=participantIds}const nodeMap=new Map(graphData.nodes.filter(n=>ids.has(n.id)).map(n=>[n.id,n]));edges=edges.filter(e=>nodeMap.has(e.source)&&nodeMap.has(e.target));let html=`<svg class="graph-svg" viewBox="0 0 ${gw} ${gh}" preserveAspectRatio="none">`;const edgeColors={similarity:'#2ee6a6','lineage/engine':'#4fb7ff','semantic/workspace':'#c86bff','historical/context':'#ffae42'};const edgeWidths={similarity:2.4,'lineage/engine':1.8,'semantic/workspace':1.8,'historical/context':1.4};const edgeOpacity={similarity:.62,'lineage/engine':.44,'semantic/workspace':.44,'historical/context':.30};edges.forEach(e=>{const a=nodeMap.get(e.source),b=nodeMap.get(e.target);if(!a||!b)return;const color=edgeColors[e.type]||'#ffffff';const op=edgeOpacity[e.type]||.3;const width=edgeWidths[e.type]||1.4;html+=`<line data-edge-source="${esc(e.source)}" data-edge-target="${esc(e.target)}" data-edge-type="${esc(e.type)}" x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" stroke="${color}" stroke-opacity="${op}" stroke-width="${width}"><title>${esc(e.label)}</title></line>`});html+='</svg>';const clusterLabels={};nodeMap.forEach(n=>{if(!clusterLabels[n.group])clusterLabels[n.group]=[];clusterLabels[n.group].push(n)});Object.entries(clusterLabels).forEach(([group,items])=>{const x=items.reduce((a,n)=>a+n.x,0)/items.length;const y=items.reduce((a,n)=>a+n.y,0)/items.length;const clean=group.replace(/\s*terminals$/i,'');html+=`<div class="graph-cluster-label" style="left:${x/gw*100-7}%;top:${y/gh*100-5}%">${esc(clean)}</div>`});if(focusedEdgeMode&&!nodeMap.size){html+=emptyState('No terminals have this relationship type under the current graph model.')}nodeMap.forEach(n=>{const z=n.z||(.35+(n.degree||1)/30);const scale=(.82+z*.30).toFixed(2);const shadow=Math.round(10+z*20);let cls='graph-node';if(matches.size)cls+=matches.has(n.id)?' search-matched':' search-unmatched';html+=`<button class="${cls}" data-open="${esc(n.id)}" data-node-id="${esc(n.id)}" style="left:${n.x/gw*100}%;top:${n.y/gh*100}%;border-color:${n.color};transform:translate(-50%,-50%) scale(${scale});box-shadow:0 ${Math.round(8+z*10)}px ${shadow}px rgba(0,0,0,.48),0 0 ${Math.round(8+z*18)}px ${n.color}55" title="${esc(n.name)} · ${esc(n.group)}"><span style="width:10px;height:10px;border-radius:999px;display:inline-block;margin-right:.4rem;background:${n.color}"></span>${esc(n.name)}</button>`});canvas.innerHTML=html;applyGraphTransform()}
+function highlightGraphNeighborhood(id){const canvas=$('graphCanvas');if(!canvas)return;const connected=new Set([id]);canvas.querySelectorAll('.graph-svg line').forEach(e=>{if(e.dataset.edgeSource===id||e.dataset.edgeTarget===id){connected.add(e.dataset.edgeSource);connected.add(e.dataset.edgeTarget);e.classList.remove('dimmed');e.classList.add('focused-edge')}else{e.classList.add('dimmed');e.classList.remove('focused-edge')}});canvas.querySelectorAll('.graph-node').forEach(n=>{const isConnected=connected.has(n.dataset.nodeId);n.classList.toggle('dimmed',!isConnected);n.classList.toggle('focused',n.dataset.nodeId===id)})}
+function clearGraphHighlight(){const canvas=$('graphCanvas');if(!canvas)return;canvas.querySelectorAll('.dimmed').forEach(e=>e.classList.remove('dimmed'));canvas.querySelectorAll('.focused').forEach(e=>e.classList.remove('focused'))}
+
+function heatColor(v){if(v>=.9)return '#fde725';if(v>=.7)return '#38c98b';if(v>=.45)return '#2b82b8';if(v>0)return '#32113a';return 'var(--pill)'}
+function renderMatrix(){
+  const wrap=$('matrixWrap');
+  if(!matrixData||!matrixData.labels||!matrixData.values){wrap.innerHTML='<p class="science-note">Matrix data is still loading.</p>';return}
+  const matches=selectedTerminalIds();
+  const orderedIds=matrixData.ordered_ids||data.map(d=>d.id);
+  const keep=orderedIds.map((id,i)=>({id,i,label:matrixData.labels[i]}));
+  let html=`<div class="matrix-grid" style="grid-template-columns:120px repeat(${keep.length},28px)">`;
+  html+='<div></div>'+keep.map(x=>{
+    const isSel=matches.has(x.id);
+    const cls=matches.size?(isSel?'search-selected':'search-unmatched'):'';
+    return `<div class="matrix-label ${cls}" title="${esc(x.label)}">${esc(x.label.slice(0,3))}</div>`;
+  }).join('');
+  keep.forEach(row=>{
+    const rowSel=matches.has(row.id);
+    const rowCls=matches.size?(rowSel?'search-selected':'search-unmatched'):'';
+    html+=`<div class="matrix-label ${rowCls}">${esc(row.label)}</div>`;
+    keep.forEach(col=>{
+      const v=matrixData.values[row.i][col.i];
+      const hit=matches.size&&(matches.has(row.id)||matches.has(col.id));
+      const cls=matches.size?(hit?'search-selected':'search-unmatched'):'';
+      html+=`<button class="matrix-cell ${cls}" data-matrix-open="${esc(row.id)}" style="background:${heatColor(v)}" title="${esc(row.label)} × ${esc(col.label)} = ${Math.round(v*100)}%"></button>`;
+    });
+  });
+  html+='</div>';wrap.innerHTML=html;
+}
+
+function renderReps(key='recommended_10'){
+  document.querySelectorAll('[data-rep]').forEach(b=>b.classList.toggle('active',b.dataset.rep===key));
+  if($('repDownloads')) $('repDownloads').innerHTML='';
+  const rows=(reps[key]||[]);
+  $('repGrid').innerHTML=rows.length?rows.map(card).join(''):emptyState('No representative-set cards are available.');
+}
+function renderGaps(key='EngineFamily_x_InteractionComplexity'){document.querySelectorAll('[data-gap]').forEach(b=>b.classList.toggle('active',b.dataset.gap===key));const dl=(gapDownloads||[]).find(x=>x.matrix===key);$('gapDownloads').innerHTML=dl?`<a class="download-link" href="${dl.svg}" download>Download combinations matrix SVG</a><a class="download-link" href="${dl.csv}" download>Download matrix CSV</a>`:'<span class="science-note">Download files are not available for this matrix yet.</span>';const g=gaps[key];if(!g){$('gapMatrix').innerHTML='<p class="science-note">Matrix data is not available for this combination.</p>';return}let html=`<div class="gap-grid" style="grid-template-columns:190px repeat(${g.cols.length},1fr)"><div></div>${g.cols.map(c=>`<strong class="gap-cell">${esc(label(c))}</strong>`).join('')}`;g.rows.forEach(r=>{html+=`<strong class="gap-cell">${esc(label(r))}</strong>`;g.cols.forEach(c=>{const n=g.counts[r][c];const title=(g.members[r][c]||[]).join(', ');html+=`<div class="gap-cell ${n?'hot':'gap'}" title="${esc(title)}">${n}</div>`})});html+='</div>';$('gapMatrix').innerHTML=html}
+function renderDimensions(rows){const fields=['RenderingModelGroup','EngineFamily','InteractionComplexity','SemanticLayer','WorkspaceModel'];$('dimensionTable').innerHTML='<tr><th>Dimension</th><th>Values</th></tr>'+fields.map(f=>{const vals=[...new Set(rows.map(d=>d[f]).filter(Boolean))].sort();return `<tr><td>${esc(label(f))}</td><td>${vals.map(v=>badge(v)).join(' ')}</td></tr>`}).join('')}
+function renderDistributionPlots(){const grid=$('distributionGrid');if(!grid)return;grid.innerHTML=(distributionPlots||[]).map(p=>`<article class="distribution-card"><h3>${esc(p.title)}</h3><p class="science-note">${esc(p.explanation)}</p><img class="zoomable" onclick="openLightbox(this.src)" src="${esc(p.svg)}" alt="${esc(p.title)}"><div class="download-row"><a class="download-link" href="${esc(p.svg)}" download>Download SVG</a><a class="download-link" href="${esc(p.csv)}" download>Download CSV</a></div></article>`).join('')}
+function renderOverviewStats(){const el=$('overviewStats');if(el)el.innerHTML='67 terminals, curated from source-linked record · 4 rendering models · 4 engine families · 6 semantic/workspace edge cases · 38 active projects.'}
+function setView(view){updateResultCount();['graph','matrix','representatives','gaps','overview'].forEach(id=>$(id).hidden=id!==view);if(view==='graph')renderGraph();if(view==='matrix')renderMatrix();if(view==='representatives')renderReps();if(view==='gaps')renderGaps(document.querySelector('[data-gap].active')?.dataset.gap||'EngineFamily_x_InteractionComplexity');if(view==='overview'){renderDimensions(filteredData());renderOverviewStats();renderDistributionPlots()}}
+function openLightbox(src){$('lightboxImg').src=src;$('lightbox').classList.add('open')}
+function closeLightbox(){$('lightbox').classList.remove('open')}
+
+function setGraphPreset(kind){
+  const map={
+    similarity:['similarity'],
+    lineage:['lineage/engine'],
+    semantic:['semantic/workspace'],
+    all:['similarity','lineage/engine','semantic/workspace','historical/context']
+  };
+  const selected=new Set(map[kind]||map.all);
+  document.querySelectorAll('[data-edge-toggle]').forEach(cb=>{cb.checked=selected.has(cb.dataset.edgeToggle)});
+  renderGraph();
+}
+$('themeToggle').addEventListener('click',()=>{const next=root.getAttribute('data-theme')==='dark'?'light':'dark';localStorage.setItem('terminal-universe-theme',next);applyTheme(next)});
+$('scienceSearch').addEventListener('input',()=>setView($('scienceView').value));
+$('clearSearch').addEventListener('click',()=>{$('scienceSearch').value='';setView($('scienceView').value);$('scienceSearch').focus()});
+$('scienceView').addEventListener('change',e=>setView(e.target.value));
+document.querySelectorAll('[data-edge-toggle]').forEach(cb=>cb.addEventListener('change',()=>renderGraph()));
+document.querySelectorAll('[data-graph-preset]').forEach(btn=>btn.addEventListener('click',()=>setGraphPreset(btn.dataset.graphPreset)));
+$('graphZoomIn').addEventListener('click',()=>zoomGraph(.18));
+$('graphZoomOut').addEventListener('click',()=>zoomGraph(-.18));
+$('graphReset').addEventListener('click',()=>resetGraphTransform());
+$('graphWrap').addEventListener('wheel',e=>{e.preventDefault();zoomGraph(e.deltaY<0?.08:-.08)},{passive:false});
+$('graphWrap').addEventListener('pointerdown',e=>{graphDragging=true;dragStart={x:e.clientX-graphTransform.x,y:e.clientY-graphTransform.y};$('graphWrap').setPointerCapture(e.pointerId)});
+$('graphWrap').addEventListener('pointermove',e=>{if(!graphDragging)return;graphTransform.x=e.clientX-dragStart.x;graphTransform.y=e.clientY-dragStart.y;applyGraphTransform()});
+$('graphWrap').addEventListener('pointerup',()=>{graphDragging=false});
+document.addEventListener('click',e=>{const matrixOpen=e.target.closest('[data-matrix-open]');if(matrixOpen)openDetails(matrixOpen.dataset.matrixOpen);const open=e.target.closest('[data-open]');if(open)openDetails(open.dataset.open);const rep=e.target.closest('[data-rep]');if(rep)renderReps(rep.dataset.rep);const gap=e.target.closest('[data-gap]');if(gap)renderGaps(gap.dataset.gap);if(e.target===$('modal')||e.target.closest('[data-close]'))$('modal').classList.remove('open')});
+document.addEventListener('mouseover',e=>{const n=e.target.closest('.graph-node');if(n)highlightGraphNeighborhood(n.dataset.nodeId)});
+document.addEventListener('mouseout',e=>{if(e.target.closest('.graph-node'))clearGraphHighlight()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){$('modal').classList.remove('open');closeLightbox();clearGraphHighlight()}});
+
+Promise.all([
+ fetch('./data/terminals_v2_3_public_alpha.json').then(r=>r.json()),
+ fetch('./data/science_graph_v6.json').then(r=>r.json()),
+ fetch('./data/similarity_matrix_v6.json').then(r=>r.json()),
+ fetch('./data/representative_sets_v6.json').then(r=>r.json()),
+ fetch('./data/gap_analysis_v6.json').then(r=>r.json()),
+ fetch('./data/distribution_plots_v6.json').then(r=>r.json()),
+ fetch('./data/representative_matrix_downloads_v6.json').then(r=>r.json()),
+ fetch('./data/gap_matrix_downloads_v6.json').then(r=>r.json()),
+ fetch('./data/workbench_explanations_v6.json').then(r=>r.json())
+]).then(([rows,g,m,r,gp,dist,repDl,gapDl,expl])=>{data=rows;graphData=g;matrixData=m;reps=r;gaps=gp;distributionPlots=dist;repDownloads=repDl;gapDownloads=gapDl;explanations=expl;if($('terminalNameList'))$('terminalNameList').innerHTML=[...data].sort((a,b)=>a.Name.localeCompare(b.Name)).map(d=>`<option value="${esc(d.Name)}"></option>`).join('');setView('graph');setGraphPreset('similarity')}).catch(err=>{console.error(err);document.querySelector('main').insertAdjacentHTML('afterbegin','<div class="notice"><strong>Load error:</strong> Workbench data could not be loaded. Check the local server path and JSON files.</div>')});
+</script>
+</body>
+</html>

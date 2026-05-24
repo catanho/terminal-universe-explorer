@@ -1,0 +1,17 @@
+[
+  {
+    "set": "strict_minimum_4",
+    "svg": "assets/science/representative_interaction_matrix_strict_minimum_4.svg",
+    "csv": "assets/science/representative_interaction_matrix_strict_minimum_4.csv"
+  },
+  {
+    "set": "recommended_10",
+    "svg": "assets/science/representative_interaction_matrix_recommended_10.svg",
+    "csv": "assets/science/representative_interaction_matrix_recommended_10.csv"
+  },
+  {
+    "set": "expanded_12",
+    "svg": "assets/science/representative_interaction_matrix_expanded_12.svg",
+    "csv": "assets/science/representative_interaction_matrix_expanded_12.csv"
+  }
+]

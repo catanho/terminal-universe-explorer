@@ -1,0 +1,15 @@
+severity,area,finding,action
+PASS,tooling,npm_validate passed,
+PASS,tooling,npm_audit passed,
+PASS,tooling,npm_audit_science passed,
+PASS,tooling,legacy_playful_smoke passed,
+NOTE,environment,"Python emitted artifact_tool spreadsheet warmup stderr in this notebook environment, but validation exited 0 and completed successfully.","Ignore for project release; this comes from the execution environment, not the app."
+PASS,metadata,package.json version is 3.0.0-rc.1,
+PASS,metadata,CITATION.cff version updated to 3.0.0-rc.1,
+PASS,data,Dataset contains 67 terminal records and 41 fields,
+PASS,data,"Core fields present: RenderingModelGroup=4 values, EngineFamily=4 values, InteractionComplexity=4 values",
+PASS,data,Empty FirstReleaseYear allowed; current empty/null count: 9,
+RECOMMENDATION,pre-launch QA,"Do one browser pass in Firefox/Chromium at 100%, 125%, and 80% zoom for both light and dark mode.",Manual visual QA before tagging.
+RECOMMENDATION,documentation,Add screenshots/GIFs to README after GitHub Pages deployment URL is final.,Post-RC polish.
+RECOMMENDATION,model transparency,"Keep explaining that graph position is a projection, while matrix is canonical for similarity.",Avoid over-interpretation.
+RECOMMENDATION,future,Field-level confidence and user-adjustable weights should remain post-RC features.,Avoid destabilizing reproducibility.

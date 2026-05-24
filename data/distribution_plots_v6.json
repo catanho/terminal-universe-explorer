@@ -1,0 +1,44 @@
+[
+  {
+    "field": "RenderingModelGroup",
+    "title": "Rendering model distribution",
+    "explanation": "How terminals turn output into a visible surface.",
+    "svg": "assets/science/distribution_RenderingModelGroup.svg",
+    "csv": "assets/science/distribution_RenderingModelGroup.csv"
+  },
+  {
+    "field": "EngineFamily",
+    "title": "Engine family distribution",
+    "explanation": "High-level engine architecture used by the core model.",
+    "svg": "assets/science/distribution_EngineFamily.svg",
+    "csv": "assets/science/distribution_EngineFamily.csv"
+  },
+  {
+    "field": "InteractionComplexity",
+    "title": "Interaction complexity distribution",
+    "explanation": "How much the interface reshapes classic terminal use.",
+    "svg": "assets/science/distribution_InteractionComplexity.svg",
+    "csv": "assets/science/distribution_InteractionComplexity.csv"
+  },
+  {
+    "field": "SemanticLayer",
+    "title": "Semantic layer distribution",
+    "explanation": "Plain terminals versus workflow/document semantics.",
+    "svg": "assets/science/distribution_SemanticLayer.svg",
+    "csv": "assets/science/distribution_SemanticLayer.csv"
+  },
+  {
+    "field": "WorkspaceModel",
+    "title": "Workspace model distribution",
+    "explanation": "Session, workspace, and console organization patterns.",
+    "svg": "assets/science/distribution_WorkspaceModel.svg",
+    "csv": "assets/science/distribution_WorkspaceModel.csv"
+  },
+  {
+    "field": "EcosystemFamily",
+    "title": "Ecosystem family distribution",
+    "explanation": "Contextual ecosystem grouping; not a structural similarity field.",
+    "svg": "assets/science/distribution_EcosystemFamily.svg",
+    "csv": "assets/science/distribution_EcosystemFamily.csv"
+  }
+]

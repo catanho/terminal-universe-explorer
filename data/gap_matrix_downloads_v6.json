@@ -1,0 +1,22 @@
+[
+  {
+    "matrix": "EngineFamily_x_InteractionComplexity",
+    "svg": "assets/science/gap_matrix_EngineFamily_x_InteractionComplexity.svg",
+    "csv": "assets/science/gap_matrix_EngineFamily_x_InteractionComplexity.csv"
+  },
+  {
+    "matrix": "RenderingModelGroup_x_InteractionComplexity",
+    "svg": "assets/science/gap_matrix_RenderingModelGroup_x_InteractionComplexity.svg",
+    "csv": "assets/science/gap_matrix_RenderingModelGroup_x_InteractionComplexity.csv"
+  },
+  {
+    "matrix": "EngineFamily_x_SemanticLayer",
+    "svg": "assets/science/gap_matrix_EngineFamily_x_SemanticLayer.svg",
+    "csv": "assets/science/gap_matrix_EngineFamily_x_SemanticLayer.csv"
+  },
+  {
+    "matrix": "RenderingModelGroup_x_EngineFamily",
+    "svg": "assets/science/gap_matrix_RenderingModelGroup_x_EngineFamily.svg",
+    "csv": "assets/science/gap_matrix_RenderingModelGroup_x_EngineFamily.csv"
+  }
+]

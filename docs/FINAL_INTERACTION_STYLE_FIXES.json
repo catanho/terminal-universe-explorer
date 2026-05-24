@@ -1,0 +1,14 @@
+{
+  "workbench_js": "PASS",
+  "explore_js": "PASS",
+  "workbench_checks": {
+    "sorted_datalist": true,
+    "light_mode_css": true,
+    "matrix_selected_only": true,
+    "graph_nodes_not_disappear": true,
+    "explore_button_style": true
+  },
+  "missing_fetch": [],
+  "missing_downloads": [],
+  "svg_errors": []
+}

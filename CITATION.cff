@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: Terminal Universe Explorer
+message: If you use this dataset or software, please cite it.
+type: software
+version: 3.0.0-rc.1
+date-released: 2026-05-23
+
+authors:
+  - family-names: Catanho
+    given-names: Marcos
+
+license: MIT
+
+repository-code: https://github.com/catanho/terminal-universe-explorer
+
+abstract: >
+  Terminal Universe Explorer is a static, source-grounded interface for exploring
+  the Unix/Linux terminal emulator design space. Version 3.0 adds a Workbench Mode
+  for analytical views of structural similarity, clusters, representative sets,
+  graph relationships, and design-space gaps using the Terminal Universe Dataset v6.0.

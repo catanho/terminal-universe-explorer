@@ -1,0 +1,357 @@
+hybrid_model:
+  formal_layer: Machine-readable, constrained ontology for reproducible analysis.
+  interpretive_layer: Human-readable labels and descriptions for public exploration.
+  explicit_notice: 'This project uses a hybrid ontology: rigorous structured data
+    underneath, accessible exploratory language on top.'
+scope_rule:
+  included: terminal emulators
+  excluded:
+  - multiplexers
+  - shells
+  - embedded IDE terminals
+  - wrappers that do not function as terminal emulators in their own right
+confidence_levels:
+  high: Verified or strongly supported by primary/reliable sources.
+  medium: Supported by multiple signals but not fully primary-source verified.
+  inferred: Deduced from context, lineage, or implementation signals.
+  low: Uncertain, incomplete, or weakly supported classification.
+category_derivation:
+  GPU_modern:
+    rendering_generation: gpu_modern
+    ecosystem: standalone
+    era: modern
+  VTE_ecosystem:
+    rendering_generation: cpu_classic
+    ecosystem: vte
+    era: modern
+  X11_legacy:
+    rendering_generation: cpu_classic
+    ecosystem: x11_xterm_family
+    era: legacy
+  Experimental_UI:
+    rendering_generation: mixed_or_experimental
+    ecosystem: experimental_ui
+    era: modern
+  Qt_ecosystem:
+    rendering_generation: cpu_classic
+    ecosystem: qt_kde
+    era: modern
+dimensions:
+- name: Name
+  layer: unspecified
+  description: ''
+  values: []
+- name: ScopeClass
+  layer: formal_scope
+  description: ''
+  values:
+  - console_terminal_emulator
+  - historical_terminal_emulator
+  - unix_linux_terminal_emulator
+  - web_terminal_emulator
+- name: Category
+  layer: legacy_composite
+  description: Legacy composite category retained for compatibility; prefer rendering_generation,
+    ecosystem, and era.
+  values:
+  - Experimental_UI
+  - GPU_modern
+  - Qt_ecosystem
+  - VTE_ecosystem
+  - X11_legacy
+- name: rendering_generation
+  layer: technical
+  description: Broad rendering generation derived from Category.
+  values:
+  - cpu_classic
+  - gpu_modern
+  - mixed_or_experimental
+- name: ecosystem
+  layer: ecosystem
+  description: Software ecosystem or implementation family derived from Category.
+  values:
+  - experimental_ui
+  - qt_kde
+  - standalone
+  - vte
+  - x11_xterm_family
+- name: era
+  layer: temporal
+  description: Broad historical/modern status derived from Category.
+  values:
+  - legacy
+  - modern
+- name: Arch
+  layer: technical
+  description: ''
+  values:
+  - native
+  - tty
+  - web
+- name: LayoutModel
+  layer: interaction
+  description: ''
+  values:
+  - blocks
+  - none
+  - splits
+  - tabs
+  - tiling
+- name: RenderingSurface
+  layer: technical
+  description: Where the terminal UI is rendered.
+  values:
+  - framebuffer
+  - native_gui
+  - web_runtime
+- name: Status
+  layer: temporal
+  description: ''
+  values:
+  - Active
+  - Experimental
+  - Legacy
+  - Maintenance
+- name: ActivitySignal
+  layer: temporal
+  description: ''
+  values:
+  - active
+  - archived
+  - dormant
+- name: DisplayDependency
+  layer: technical
+  description: Display server or system dependency required or supported.
+  values:
+  - display_agnostic
+  - wayland_native
+  - x11_compatible
+  - x11_required
+- name: PrimaryConnection
+  layer: connectivity
+  description: ''
+  values:
+  - local
+  - ssh
+  - websocket
+- name: MultiProtocol
+  layer: connectivity
+  description: ''
+  values:
+  - 'False'
+  - 'True'
+- name: EmulationTarget
+  layer: compatibility
+  description: ''
+  values:
+  - linux_console
+  - tek4010
+  - vt_xterm
+  - web_shell
+- name: CoreEngine
+  layer: technical
+  description: ''
+  values:
+  - KonsolePart
+  - QTermWidget
+  - VTE
+  - custom
+  - xterm.js
+- name: EngineFamily
+  layer: lineage
+  description: ''
+  values:
+  - KDE_Konsole_lineage
+  - Qt_QTermWidget_lineage
+  - VTE_wrapper
+  - console_framebuffer
+  - custom_gpu
+  - custom_native
+  - rxvt_lineage
+  - suckless_lineage
+  - web_runtime_custom
+  - web_xtermjs_lineage
+  - xterm_lineage
+- name: RenderingModel
+  layer: technical
+  description: ''
+  values:
+  - dom
+  - framebuffer
+  - gpu_cells
+  - text_grid
+  - vector
+- name: InteractionModel
+  layer: interaction
+  description: ''
+  values:
+  - block
+  - repl
+  - stream
+  - structured
+- name: AbstractionLevel
+  layer: formal_scope
+  description: ''
+  values:
+  - device_level
+  - interface_level
+  - terminal_level
+- name: Extensibility
+  layer: interaction
+  description: ''
+  values:
+  - config
+  - none
+  - plugin
+  - programmable
+- name: StateModel
+  layer: interaction
+  description: ''
+  values:
+  - persistent
+  - session-aware
+  - stateless
+- name: Confidence
+  layer: provenance
+  description: Confidence level for row-level classification.
+  values:
+  - high
+  - low
+  - medium
+- name: Language
+  layer: implementation
+  description: ''
+  values:
+  - C
+  - C++
+  - C++, QML
+  - C, Python, Go
+  - Go
+  - Go, TypeScript
+  - Java
+  - JavaScript
+  - JavaScript, C
+  - Python
+  - QML, C++
+  - Rust
+  - Shell, C
+  - TypeScript
+  - Vala
+  - Zig, C
+- name: LanguageRole
+  layer: provenance
+  description: ''
+  values:
+  - metadata_only
+- name: MaturityScore
+  layer: derived
+  description: Derived maturity abstraction aligned with Status and ActivitySignal;
+    not an independent raw observation.
+  values:
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+- name: FirstReleaseYear
+  layer: temporal
+  description: ''
+  values:
+  - '1984'
+  - '1989'
+  - '1991'
+  - '1992'
+  - '1997'
+  - '1998'
+  - '1999'
+  - '2003'
+  - '2004'
+  - '2005'
+  - '2006'
+  - '2007'
+  - '2008'
+  - '2009'
+  - '2010'
+  - '2011'
+  - '2012'
+  - '2013'
+  - '2014'
+  - '2015'
+  - '2016'
+  - '2017'
+  - '2018'
+  - '2019'
+  - '2020'
+  - '2021'
+  - '2022'
+  - '2023'
+  - '2024'
+- name: LineageSoftware
+  layer: lineage
+  description: ''
+  values:
+  - KonsolePart
+  - Linux console
+  - QTermWidget
+  - VTE
+  - custom_root
+  - rxvt;xterm
+  - st;xterm
+  - web terminal component
+  - xterm
+  - xterm.js
+- name: LineageConcept
+  layer: lineage
+  description: ''
+  values:
+  - framebuffer_console
+  - framebuffer_console;configuration_driven
+  - framebuffer_console;wayland_native_design;configuration_driven
+  - web_terminal
+  - xterm_compatibility
+  - xterm_compatibility;block_interface;gpu_acceleration
+  - xterm_compatibility;block_interface;structured_output
+  - xterm_compatibility;block_interface;web_terminal;configuration_driven
+  - xterm_compatibility;configuration_driven
+  - xterm_compatibility;desktop_integration;configuration_driven
+  - xterm_compatibility;gpu_acceleration;configuration_driven
+  - xterm_compatibility;gpu_acceleration;wayland_native_design;configuration_driven
+  - xterm_compatibility;gpu_acceleration;wayland_native_design;image_media_support
+  - xterm_compatibility;lightweight_suckless;configuration_driven
+  - xterm_compatibility;mobile_touch_terminal
+  - xterm_compatibility;retro_visualization
+  - xterm_compatibility;retro_visualization;configuration_driven
+  - xterm_compatibility;rxvt_minimalism;configuration_driven
+  - xterm_compatibility;rxvt_minimalism;image_media_support;configuration_driven
+  - xterm_compatibility;rxvt_minimalism;tabbed_terminal;configuration_driven
+  - xterm_compatibility;split_pane_terminal
+  - xterm_compatibility;split_pane_terminal;desktop_integration;configuration_driven
+  - xterm_compatibility;split_pane_terminal;gpu_acceleration;configuration_driven
+  - xterm_compatibility;split_pane_terminal;gpu_acceleration;image_media_support
+  - xterm_compatibility;split_pane_terminal;image_media_support;configuration_driven
+  - xterm_compatibility;split_pane_terminal;structured_output
+  - xterm_compatibility;tabbed_terminal
+  - xterm_compatibility;tabbed_terminal;configuration_driven
+  - xterm_compatibility;tabbed_terminal;desktop_integration;configuration_driven
+  - xterm_compatibility;tabbed_terminal;gpu_acceleration
+  - xterm_compatibility;tabbed_terminal;gpu_acceleration;configuration_driven
+  - xterm_compatibility;tabbed_terminal;lightweight_suckless;configuration_driven
+  - xterm_compatibility;tabbed_terminal;lightweight_suckless;drop_down_terminal
+  - xterm_compatibility;tabbed_terminal;structured_output;configuration_driven
+  - xterm_compatibility;tabbed_terminal;web_terminal;configuration_driven
+  - xterm_compatibility;tabbed_terminal;web_terminal;repl_interface
+  - xterm_compatibility;tiling_terminal;desktop_integration;configuration_driven
+- name: LineageConfidence
+  layer: provenance
+  description: Confidence level for lineage assignments.
+  values:
+  - high
+  - inferred
+  - medium
+- name: Notes
+  layer: documentation
+  description: ''
+  values: []
+- name: PrimarySource
+  layer: provenance
+  description: ''
+  values: []

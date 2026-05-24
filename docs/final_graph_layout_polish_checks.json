@@ -1,0 +1,14 @@
+{
+  "workbench_js": "PASS",
+  "explore_js": "PASS",
+  "svg_errors": [],
+  "graph_canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "download_svg_mode": "similarity",
+  "similarity_edges": 164,
+  "all_edges": 233,
+  "missing_fetch": [],
+  "missing_downloads": []
+}

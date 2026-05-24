@@ -1,0 +1,7 @@
+group,count,mean_similarity,members
+Classic terminals,11,0.5599,"['aixterm', 'aterm', 'Eterm', 'mrxvt', 'rxvt', 'Terminology', 'xterm', 'xvt', 'fingerterm', 'urxvt', 'Tek4010']"
+VTE terminals,23,0.6189,"['evilvte', 'GNOME Console', 'GNOME Terminal', 'kermit', 'lcxterm', 'lilyterm', 'lterm', 'LXTerminal', 'Mate Terminal', 'Ptyxis', 'ROXTerm', 'Sakura', 'svte', 'Termit', 'Termite', 'Tilda', 'xfce4-terminal', 'Guake', 'Terminator', 'Terra Terminal', 'Black Box', 'Pantheon Terminal', 'Tilix']"
+Minimal terminals,6,0.2328,"['fbpad', 'Linux console', 'st', 'stjerm', 'yaft', 'fbterm']"
+GPU-native terminals,13,0.2451,"['Foot', 'wayst', 'Kitty', 'Contour', 'zutty', 'darktile', 'Alacritty', 'COSMIC Terminal', 'Rio', 'Warp', 'WezTerm', 'zerotty', 'Ghostty']"
+Qt terminals,7,0.5863,"['Deepin Terminal', 'Konsole', 'QTerminal', 'Yakuake', 'Station', 'Cool Retro Term', 'Extraterm']"
+Web/Electron terminals,7,0.1902,"['Wave Terminal', 'Electerm', 'Hyper', 'DomTerm', 'Tess', 'Tabby', 'Final Term']"

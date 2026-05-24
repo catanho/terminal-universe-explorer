@@ -1,0 +1,19 @@
+{
+  "workbench_js": "PASS",
+  "explore_js": "PASS",
+  "workbench_ui": {
+    "explore_button_rounded": true,
+    "light_mode_css": true,
+    "highlight_search": true,
+    "svg_graph_lines": true,
+    "context_not_hide_graph": true,
+    "context_not_hide_matrix": true
+  },
+  "explore_ui": {
+    "compact_cards": true,
+    "no_V6_titles": true
+  },
+  "missing_fetch": [],
+  "missing_downloads": [],
+  "svg_errors": []
+}

@@ -1,0 +1,234 @@
+source,target,type,weight,label
+term_aixterm,term_cool_retro_term,similarity,1.0,core similarity 100%
+term_aixterm,term_eterm,similarity,1.0,core similarity 100%
+term_aixterm,term_tek4010,similarity,1.0,core similarity 100%
+term_aterm,term_cool_retro_term,similarity,1.0,core similarity 100%
+term_aterm,term_eterm,similarity,1.0,core similarity 100%
+term_aterm,term_tek4010,similarity,1.0,core similarity 100%
+term_cool_retro_term,term_eterm,similarity,1.0,core similarity 100%
+term_eterm,term_tek4010,similarity,1.0,core similarity 100%
+term_eterm,term_termite,similarity,1.0,core similarity 100%
+term_black_box,term_evilvte,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_evilvte,similarity,1.0,core similarity 100%
+term_evilvte,term_gnome_console_kgx,similarity,1.0,core similarity 100%
+term_fbpad,term_linux_console,similarity,0.7,core similarity 70%
+term_fbpad,term_fbterm,similarity,0.7,core similarity 70%
+term_fbpad,term_yaft,similarity,0.7,core similarity 70%
+term_alacritty,term_foot,similarity,1.0,core similarity 100%
+term_foot,term_rio,similarity,1.0,core similarity 100%
+term_darktile,term_foot,similarity,1.0,core similarity 100%
+term_black_box,term_gnome_console_kgx,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_gnome_console_kgx,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_gnome_terminal,similarity,1.0,core similarity 100%
+term_black_box,term_gnome_terminal,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_gnome_terminal,similarity,1.0,core similarity 100%
+term_black_box,term_kermit_vte_terminal,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_kermit_vte_terminal,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_kermit_vte_terminal,similarity,1.0,core similarity 100%
+term_black_box,term_lcxterm,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_lcxterm,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_lcxterm,similarity,1.0,core similarity 100%
+term_black_box,term_lilyterm,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_lilyterm,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_lilyterm,similarity,1.0,core similarity 100%
+term_fbterm,term_linux_console,similarity,1.0,core similarity 100%
+term_linux_console,term_yaft,similarity,1.0,core similarity 100%
+term_black_box,term_lterm,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_lterm,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_lterm,similarity,1.0,core similarity 100%
+term_black_box,term_lxterminal,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_lxterminal,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_lxterminal,similarity,1.0,core similarity 100%
+term_black_box,term_mate_terminal,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_mate_terminal,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_mate_terminal,similarity,1.0,core similarity 100%
+term_black_box,term_mrxvt,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_mrxvt,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_mrxvt,similarity,1.0,core similarity 100%
+term_black_box,term_ptyxis,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_ptyxis,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_ptyxis,similarity,1.0,core similarity 100%
+term_black_box,term_roxterm,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_roxterm,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_roxterm,similarity,1.0,core similarity 100%
+term_cool_retro_term,term_rxvt,similarity,1.0,core similarity 100%
+term_eterm,term_rxvt,similarity,1.0,core similarity 100%
+term_rxvt,term_tek4010,similarity,1.0,core similarity 100%
+term_black_box,term_sakura,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_sakura,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_sakura,similarity,1.0,core similarity 100%
+term_st_suckless_terminal,term_stjerm,similarity,0.7,core similarity 70%
+term_cool_retro_term,term_st_suckless_terminal,similarity,0.65,core similarity 65%
+term_eterm,term_st_suckless_terminal,similarity,0.65,core similarity 65%
+term_black_box,term_stjerm,similarity,0.65,core similarity 65%
+term_deepin_terminal,term_stjerm,similarity,0.65,core similarity 65%
+term_black_box,term_svte,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_svte,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_svte,similarity,1.0,core similarity 100%
+term_black_box,term_terminology,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_terminology,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_terminology,similarity,1.0,core similarity 100%
+term_black_box,term_termit,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_termit,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_termit,similarity,1.0,core similarity 100%
+term_cool_retro_term,term_termite,similarity,1.0,core similarity 100%
+term_tek4010,term_termite,similarity,1.0,core similarity 100%
+term_black_box,term_tilda,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_tilda,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_tilda,similarity,1.0,core similarity 100%
+term_alacritty,term_wayst,similarity,1.0,core similarity 100%
+term_foot,term_wayst,similarity,1.0,core similarity 100%
+term_rio,term_wayst,similarity,1.0,core similarity 100%
+term_black_box,term_xfce4_terminal,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_xfce4_terminal,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_xfce4_terminal,similarity,1.0,core similarity 100%
+term_cool_retro_term,term_xterm,similarity,1.0,core similarity 100%
+term_eterm,term_xterm,similarity,1.0,core similarity 100%
+term_tek4010,term_xterm,similarity,1.0,core similarity 100%
+term_black_box,term_xvt,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_xvt,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_xvt,similarity,1.0,core similarity 100%
+term_fbterm,term_yaft,similarity,1.0,core similarity 100%
+term_cosmic_terminal,term_kitty,similarity,1.0,core similarity 100%
+term_contour,term_kitty,similarity,1.0,core similarity 100%
+term_ghostty,term_kitty,similarity,1.0,core similarity 100%
+term_contour,term_cosmic_terminal,similarity,1.0,core similarity 100%
+term_contour,term_ghostty,similarity,1.0,core similarity 100%
+term_black_box,term_deepin_terminal,similarity,1.0,core similarity 100%
+term_cool_retro_term,term_fingerterm,similarity,1.0,core similarity 100%
+term_eterm,term_fingerterm,similarity,1.0,core similarity 100%
+term_fingerterm,term_tek4010,similarity,1.0,core similarity 100%
+term_black_box,term_konsole,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_konsole,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_konsole,similarity,1.0,core similarity 100%
+term_black_box,term_qterminal,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_qterminal,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_qterminal,similarity,1.0,core similarity 100%
+term_cool_retro_term,term_urxvt,similarity,1.0,core similarity 100%
+term_eterm,term_urxvt,similarity,1.0,core similarity 100%
+term_tek4010,term_urxvt,similarity,1.0,core similarity 100%
+term_black_box,term_yakuake,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_yakuake,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_yakuake,similarity,1.0,core similarity 100%
+term_alacritty,term_zutty,similarity,1.0,core similarity 100%
+term_foot,term_zutty,similarity,1.0,core similarity 100%
+term_rio,term_zutty,similarity,1.0,core similarity 100%
+term_black_box,term_station,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_station,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_station,similarity,1.0,core similarity 100%
+term_alacritty,term_darktile,similarity,1.0,core similarity 100%
+term_darktile,term_rio,similarity,1.0,core similarity 100%
+term_domterm,term_wave_terminal,similarity,0.7,core similarity 70%
+term_electerm,term_wave_terminal,similarity,0.7,core similarity 70%
+term_hyper,term_wave_terminal,similarity,0.7,core similarity 70%
+term_cool_retro_term,term_tek4010,similarity,1.0,core similarity 100%
+term_electerm,term_hyper,similarity,1.0,core similarity 100%
+term_electerm,term_tabby,similarity,1.0,core similarity 100%
+term_domterm,term_electerm,similarity,0.7,core similarity 70%
+term_hyper,term_tabby,similarity,1.0,core similarity 100%
+term_domterm,term_hyper,similarity,0.7,core similarity 70%
+term_domterm,term_tess,similarity,1.0,core similarity 100%
+term_black_box,term_guake,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_guake,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_guake,similarity,1.0,core similarity 100%
+term_black_box,term_terminator,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_terminator,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_terminator,similarity,1.0,core similarity 100%
+term_black_box,term_terra_terminal,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_terra_terminal,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_terra_terminal,similarity,1.0,core similarity 100%
+term_electerm,term_tess,similarity,0.7,core similarity 70%
+term_hyper,term_tess,similarity,0.7,core similarity 70%
+term_alacritty,term_rio,similarity,1.0,core similarity 100%
+term_cosmic_terminal,term_ghostty,similarity,1.0,core similarity 100%
+term_alacritty,term_warp,similarity,0.7,core similarity 70%
+term_cosmic_terminal,term_warp,similarity,0.7,core similarity 70%
+term_contour,term_warp,similarity,0.7,core similarity 70%
+term_cosmic_terminal,term_wezterm,similarity,1.0,core similarity 100%
+term_contour,term_wezterm,similarity,1.0,core similarity 100%
+term_ghostty,term_wezterm,similarity,1.0,core similarity 100%
+term_black_box,term_extraterm,similarity,0.7,core similarity 70%
+term_cool_retro_term,term_extraterm,similarity,0.7,core similarity 70%
+term_deepin_terminal,term_extraterm,similarity,0.7,core similarity 70%
+term_domterm,term_tabby,similarity,0.7,core similarity 70%
+term_black_box,term_final_term,similarity,0.7,core similarity 70%
+term_cool_retro_term,term_final_term,similarity,0.7,core similarity 70%
+term_deepin_terminal,term_final_term,similarity,0.7,core similarity 70%
+term_black_box,term_pantheon_terminal,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_pantheon_terminal,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_pantheon_terminal,similarity,1.0,core similarity 100%
+term_black_box,term_tilix,similarity,1.0,core similarity 100%
+term_deepin_terminal,term_tilix,similarity,1.0,core similarity 100%
+term_gnome_console_kgx,term_tilix,similarity,1.0,core similarity 100%
+term_alacritty,term_zerotty,similarity,1.0,core similarity 100%
+term_foot,term_zerotty,similarity,1.0,core similarity 100%
+term_rio,term_zerotty,similarity,1.0,core similarity 100%
+term_eterm,term_final_term,lineage/engine,0.45,shared engine group: terminal_widget_toolkit
+term_final_term,term_tek4010,lineage/engine,0.45,shared engine group: terminal_widget_toolkit
+term_tek4010,term_terminology,lineage/engine,0.45,shared engine group: terminal_widget_toolkit
+term_aixterm,term_terminology,lineage/engine,0.45,shared engine group: terminal_widget_toolkit
+term_aixterm,term_aterm,lineage/engine,0.45,shared engine group: terminal_widget_toolkit
+term_aterm,term_fingerterm,lineage/engine,0.45,shared engine group: terminal_widget_toolkit
+term_fingerterm,term_mrxvt,lineage/engine,0.45,shared engine group: terminal_widget_toolkit
+term_mrxvt,term_rxvt,lineage/engine,0.45,shared engine group: terminal_widget_toolkit
+term_rxvt,term_urxvt,lineage/engine,0.45,shared engine group: terminal_widget_toolkit
+term_urxvt,term_xterm,lineage/engine,0.45,shared engine group: terminal_widget_toolkit
+term_xterm,term_xvt,lineage/engine,0.45,shared engine group: terminal_widget_toolkit
+term_gnome_terminal,term_guake,lineage/engine,0.45,shared engine group: vte_based
+term_guake,term_lxterminal,lineage/engine,0.45,shared engine group: vte_based
+term_lxterminal,term_mate_terminal,lineage/engine,0.45,shared engine group: vte_based
+term_mate_terminal,term_pantheon_terminal,lineage/engine,0.45,shared engine group: vte_based
+term_pantheon_terminal,term_ptyxis,lineage/engine,0.45,shared engine group: vte_based
+term_ptyxis,term_roxterm,lineage/engine,0.45,shared engine group: vte_based
+term_roxterm,term_sakura,lineage/engine,0.45,shared engine group: vte_based
+term_sakura,term_terminator,lineage/engine,0.45,shared engine group: vte_based
+term_terminator,term_termit,lineage/engine,0.45,shared engine group: vte_based
+term_termit,term_termite,lineage/engine,0.45,shared engine group: vte_based
+term_termite,term_terra_terminal,lineage/engine,0.45,shared engine group: vte_based
+term_terra_terminal,term_tilda,lineage/engine,0.45,shared engine group: vte_based
+term_tilda,term_tilix,lineage/engine,0.45,shared engine group: vte_based
+term_evilvte,term_tilix,lineage/engine,0.45,shared engine group: vte_based
+term_evilvte,term_kermit_vte_terminal,lineage/engine,0.45,shared engine group: vte_based
+term_kermit_vte_terminal,term_lcxterm,lineage/engine,0.45,shared engine group: vte_based
+term_lcxterm,term_lilyterm,lineage/engine,0.45,shared engine group: vte_based
+term_lilyterm,term_lterm,lineage/engine,0.45,shared engine group: vte_based
+term_lterm,term_svte,lineage/engine,0.45,shared engine group: vte_based
+term_svte,term_xfce4_terminal,lineage/engine,0.45,shared engine group: vte_based
+term_fbterm,term_st_suckless_terminal,lineage/engine,0.45,shared engine group: low_level_minimal
+term_stjerm,term_yaft,lineage/engine,0.45,shared engine group: low_level_minimal
+term_alacritty,term_cosmic_terminal,lineage/engine,0.45,shared engine group: custom_gpu_engine
+term_contour,term_foot,lineage/engine,0.45,shared engine group: custom_gpu_engine
+term_foot,term_ghostty,lineage/engine,0.45,shared engine group: custom_gpu_engine
+term_kitty,term_rio,lineage/engine,0.45,shared engine group: custom_gpu_engine
+term_rio,term_warp,lineage/engine,0.45,shared engine group: custom_gpu_engine
+term_warp,term_wezterm,lineage/engine,0.45,shared engine group: custom_gpu_engine
+term_darktile,term_wezterm,lineage/engine,0.45,shared engine group: custom_gpu_engine
+term_darktile,term_wayst,lineage/engine,0.45,shared engine group: custom_gpu_engine
+term_wayst,term_zerotty,lineage/engine,0.45,shared engine group: custom_gpu_engine
+term_zerotty,term_zutty,lineage/engine,0.45,shared engine group: custom_gpu_engine
+term_cool_retro_term,term_deepin_terminal,lineage/engine,0.45,shared engine group: qt_based
+term_extraterm,term_konsole,lineage/engine,0.45,shared engine group: qt_based
+term_konsole,term_qterminal,lineage/engine,0.45,shared engine group: qt_based
+term_qterminal,term_station,lineage/engine,0.45,shared engine group: qt_based
+term_station,term_yakuake,lineage/engine,0.45,shared engine group: qt_based
+term_tabby,term_wave_terminal,lineage/engine,0.45,shared engine group: electron_web_stack
+term_final_term,term_warp,semantic/workspace,0.45,shared semantic layer: workflow
+term_warp,term_wave_terminal,semantic/workspace,0.45,shared semantic layer: workflow
+term_domterm,term_extraterm,semantic/workspace,0.45,shared semantic layer: document
+term_extraterm,term_tess,semantic/workspace,0.45,shared semantic layer: document
+term_deepin_terminal,term_electerm,semantic/workspace,0.45,shared workspace model: session_grouping
+term_electerm,term_extraterm,semantic/workspace,0.45,shared workspace model: session_grouping
+term_extraterm,term_gnome_terminal,semantic/workspace,0.45,shared workspace model: session_grouping
+term_ghostty,term_gnome_terminal,semantic/workspace,0.45,shared workspace model: session_grouping
+term_ghostty,term_guake,semantic/workspace,0.45,shared workspace model: session_grouping
+term_guake,term_hyper,semantic/workspace,0.45,shared workspace model: session_grouping
+term_hyper,term_kitty,semantic/workspace,0.45,shared workspace model: session_grouping
+term_kitty,term_konsole,semantic/workspace,0.45,shared workspace model: session_grouping
+term_konsole,term_station,semantic/workspace,0.45,shared workspace model: session_grouping
+term_station,term_tabby,semantic/workspace,0.45,shared workspace model: session_grouping
+term_tabby,term_terminator,semantic/workspace,0.45,shared workspace model: session_grouping
+term_terminator,term_tilix,semantic/workspace,0.45,shared workspace model: session_grouping
+term_tilix,term_wezterm,semantic/workspace,0.45,shared workspace model: session_grouping
+term_wezterm,term_yakuake,semantic/workspace,0.45,shared workspace model: session_grouping
+term_contour,term_cool_retro_term,historical/context,0.25,shared ecosystem: standalone_or_independent
+term_eterm,term_extraterm,historical/context,0.25,shared ecosystem: standalone_or_independent

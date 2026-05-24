@@ -1,0 +1,45 @@
+{
+  "version": "v6.0",
+  "principle": "Use only same-level structural abstractions for core similarity; keep implementation, ecosystem, platform, and maturity as context/metadata.",
+  "structural_core": [
+    "RenderingModelGroup",
+    "EngineFamily",
+    "InteractionComplexity"
+  ],
+  "structural_extended": [
+    "RenderingModelGroup",
+    "EngineFamily",
+    "InteractionComplexity",
+    "SemanticLayer",
+    "WorkspaceModel"
+  ],
+  "context": [
+    "EngineImplementationClass",
+    "HostPlatform",
+    "RuntimeEnvironment",
+    "EcosystemFamily",
+    "EcosystemContext",
+    "PrimaryLanguage",
+    "ImplementationStyle"
+  ],
+  "metadata": [
+    "FirstReleaseYear",
+    "ArchitectureVersionEpoch",
+    "ActivitySignal",
+    "PublicLifecycleLabel",
+    "MaturityScore",
+    "PublicMaturityLabel"
+  ],
+  "recommended_similarity_weights_core": {
+    "RenderingModelGroup": 0.35,
+    "EngineFamily": 0.35,
+    "InteractionComplexity": 0.3
+  },
+  "recommended_similarity_weights_extended": {
+    "RenderingModelGroup": 0.25,
+    "EngineFamily": 0.25,
+    "InteractionComplexity": 0.2,
+    "SemanticLayer": 0.15,
+    "WorkspaceModel": 0.15
+  }
+}

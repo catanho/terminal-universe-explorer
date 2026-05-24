@@ -1,0 +1,15 @@
+{
+  "release_candidate": "3.0.0-rc.1",
+  "base": "Terminal Universe Dataset v6.0",
+  "status": "PASS",
+  "records": 67,
+  "fields": 41,
+  "tooling": {
+    "npm_validate": 0,
+    "npm_audit": 0,
+    "npm_audit_science": 0,
+    "legacy_playful_smoke": 0
+  },
+  "blockers": 0,
+  "passes": 9
+}
