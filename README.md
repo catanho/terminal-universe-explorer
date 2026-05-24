@@ -10,15 +10,7 @@ Workbench Mode:
 
 https://catanho.github.io/terminal-universe-explorer/science.html
 
-## Live app
 
-Explore Mode:
-
-https://catanho.github.io/terminal-universe-explorer/
-
-Workbench Mode:
-
-https://catanho.github.io/terminal-universe-explorer/science.html
 
 Source-grounded structural explorer for the Unix/Linux terminal emulator design space.
 
