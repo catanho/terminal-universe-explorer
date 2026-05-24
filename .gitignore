@@ -2,3 +2,11 @@ node_modules/
 .DS_Store
 __pycache__/
 *.pyc
+
+# generated science outputs
+assets/science/*.svg
+assets/science/*.csv
+assets/science/*.zip
+!assets/science/nearest_neighbor_pathway_graph.svg
+!assets/science/clustering_similarity_heatmap.svg
+

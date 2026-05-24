@@ -1,7 +1,0 @@
-cluster,count
-Classic terminals,11
-GPU-native terminals,13
-Minimal terminals,6
-Qt terminals,7
-VTE terminals,23
-Web/Electron terminals,7
