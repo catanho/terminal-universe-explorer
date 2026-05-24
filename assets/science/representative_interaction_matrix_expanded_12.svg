@@ -1,174 +1,186 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="756" height="711" viewBox="0 0 756 711">
+<svg xmlns="http://www.w3.org/2000/svg" width="1017" height="902" viewBox="0 0 1017 902">
 <rect width="100%" height="100%" fill="#ffffff"/>
-<text x="378.0" y="34" text-anchor="middle" font-family="Inter,Arial" font-size="24" font-weight="700" fill="#111">Terminal Universe Explorer v3.0 - Dataset v6.0</text>
-<text x="378.0" y="64" text-anchor="middle" font-family="Inter,Arial" font-size="20" fill="#111">Expanded 12</text>
-<text x="378.0" y="91" text-anchor="middle" font-family="Inter,Arial" font-size="13" fill="#555">Representative-set interaction matrix. Color indicates structural similarity.</text>
-<text x="192" y="169" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#111">Alacritty</text>
-<text x="209" y="135" transform="rotate(-58 209,135)" font-family="Inter,Arial" font-size="10" fill="#111">Alacritty</text>
-<text x="192" y="207" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#111">Extraterm</text>
-<text x="247" y="135" transform="rotate(-58 247,135)" font-family="Inter,Arial" font-size="10" fill="#111">Extraterm</text>
-<text x="192" y="245" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#111">Foot</text>
-<text x="285" y="135" transform="rotate(-58 285,135)" font-family="Inter,Arial" font-size="10" fill="#111">Foot</text>
-<text x="192" y="283" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#111">GNOME Terminal</text>
-<text x="323" y="135" transform="rotate(-58 323,135)" font-family="Inter,Arial" font-size="10" fill="#111">GNOME Terminal</text>
-<text x="192" y="321" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#111">Kitty</text>
-<text x="361" y="135" transform="rotate(-58 361,135)" font-family="Inter,Arial" font-size="10" fill="#111">Kitty</text>
-<text x="192" y="359" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#111">Konsole</text>
-<text x="399" y="135" transform="rotate(-58 399,135)" font-family="Inter,Arial" font-size="10" fill="#111">Konsole</text>
-<text x="192" y="397" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#111">Linux console</text>
-<text x="437" y="135" transform="rotate(-58 437,135)" font-family="Inter,Arial" font-size="10" fill="#111">Linux console</text>
-<text x="192" y="435" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#111">Mate Terminal</text>
-<text x="475" y="135" transform="rotate(-58 475,135)" font-family="Inter,Arial" font-size="10" fill="#111">Mate Terminal</text>
-<text x="192" y="473" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#111">Wave Terminal</text>
-<text x="513" y="135" transform="rotate(-58 513,135)" font-family="Inter,Arial" font-size="10" fill="#111">Wave Terminal</text>
-<text x="192" y="511" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#111">xterm</text>
-<text x="551" y="135" transform="rotate(-58 551,135)" font-family="Inter,Arial" font-size="10" fill="#111">xterm</text>
-<text x="192" y="549" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#111">Rio</text>
-<text x="589" y="135" transform="rotate(-58 589,135)" font-family="Inter,Arial" font-size="10" fill="#111">Rio</text>
-<text x="192" y="587" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#111">st</text>
-<text x="627" y="135" transform="rotate(-58 627,135)" font-family="Inter,Arial" font-size="10" fill="#111">st</text>
-<rect x="200" y="145" width="36" height="36" fill="#fde725"><title>Alacritty × Alacritty: 100%</title></rect>
-<rect x="238" y="145" width="36" height="36" fill="#32113a"><title>Alacritty × Extraterm: 0%</title></rect>
-<rect x="276" y="145" width="36" height="36" fill="#fde725"><title>Alacritty × Foot: 100%</title></rect>
-<rect x="314" y="145" width="36" height="36" fill="#32113a"><title>Alacritty × GNOME Terminal: 0%</title></rect>
-<rect x="352" y="145" width="36" height="36" fill="#38c98b"><title>Alacritty × Kitty: 70%</title></rect>
-<rect x="390" y="145" width="36" height="36" fill="#32113a"><title>Alacritty × Konsole: 0%</title></rect>
-<rect x="428" y="145" width="36" height="36" fill="#32113a"><title>Alacritty × Linux console: 30%</title></rect>
-<rect x="466" y="145" width="36" height="36" fill="#32113a"><title>Alacritty × Mate Terminal: 0%</title></rect>
-<rect x="504" y="145" width="36" height="36" fill="#32113a"><title>Alacritty × Wave Terminal: 0%</title></rect>
-<rect x="542" y="145" width="36" height="36" fill="#32113a"><title>Alacritty × xterm: 30%</title></rect>
-<rect x="580" y="145" width="36" height="36" fill="#fde725"><title>Alacritty × Rio: 100%</title></rect>
-<rect x="618" y="145" width="36" height="36" fill="#32113a"><title>Alacritty × st: 30%</title></rect>
-<rect x="200" y="183" width="36" height="36" fill="#32113a"><title>Extraterm × Alacritty: 0%</title></rect>
-<rect x="238" y="183" width="36" height="36" fill="#fde725"><title>Extraterm × Extraterm: 100%</title></rect>
-<rect x="276" y="183" width="36" height="36" fill="#32113a"><title>Extraterm × Foot: 0%</title></rect>
-<rect x="314" y="183" width="36" height="36" fill="#38c98b"><title>Extraterm × GNOME Terminal: 70%</title></rect>
-<rect x="352" y="183" width="36" height="36" fill="#32113a"><title>Extraterm × Kitty: 0%</title></rect>
-<rect x="390" y="183" width="36" height="36" fill="#38c98b"><title>Extraterm × Konsole: 70%</title></rect>
-<rect x="428" y="183" width="36" height="36" fill="#32113a"><title>Extraterm × Linux console: 0%</title></rect>
-<rect x="466" y="183" width="36" height="36" fill="#38c98b"><title>Extraterm × Mate Terminal: 70%</title></rect>
-<rect x="504" y="183" width="36" height="36" fill="#32113a"><title>Extraterm × Wave Terminal: 0%</title></rect>
-<rect x="542" y="183" width="36" height="36" fill="#38c98b"><title>Extraterm × xterm: 70%</title></rect>
-<rect x="580" y="183" width="36" height="36" fill="#32113a"><title>Extraterm × Rio: 0%</title></rect>
-<rect x="618" y="183" width="36" height="36" fill="#32113a"><title>Extraterm × st: 35%</title></rect>
-<rect x="200" y="221" width="36" height="36" fill="#fde725"><title>Foot × Alacritty: 100%</title></rect>
-<rect x="238" y="221" width="36" height="36" fill="#32113a"><title>Foot × Extraterm: 0%</title></rect>
-<rect x="276" y="221" width="36" height="36" fill="#fde725"><title>Foot × Foot: 100%</title></rect>
-<rect x="314" y="221" width="36" height="36" fill="#32113a"><title>Foot × GNOME Terminal: 0%</title></rect>
-<rect x="352" y="221" width="36" height="36" fill="#38c98b"><title>Foot × Kitty: 70%</title></rect>
-<rect x="390" y="221" width="36" height="36" fill="#32113a"><title>Foot × Konsole: 0%</title></rect>
-<rect x="428" y="221" width="36" height="36" fill="#32113a"><title>Foot × Linux console: 30%</title></rect>
-<rect x="466" y="221" width="36" height="36" fill="#32113a"><title>Foot × Mate Terminal: 0%</title></rect>
-<rect x="504" y="221" width="36" height="36" fill="#32113a"><title>Foot × Wave Terminal: 0%</title></rect>
-<rect x="542" y="221" width="36" height="36" fill="#32113a"><title>Foot × xterm: 30%</title></rect>
-<rect x="580" y="221" width="36" height="36" fill="#fde725"><title>Foot × Rio: 100%</title></rect>
-<rect x="618" y="221" width="36" height="36" fill="#32113a"><title>Foot × st: 30%</title></rect>
-<rect x="200" y="259" width="36" height="36" fill="#32113a"><title>GNOME Terminal × Alacritty: 0%</title></rect>
-<rect x="238" y="259" width="36" height="36" fill="#38c98b"><title>GNOME Terminal × Extraterm: 70%</title></rect>
-<rect x="276" y="259" width="36" height="36" fill="#32113a"><title>GNOME Terminal × Foot: 0%</title></rect>
-<rect x="314" y="259" width="36" height="36" fill="#fde725"><title>GNOME Terminal × GNOME Terminal: 100%</title></rect>
-<rect x="352" y="259" width="36" height="36" fill="#32113a"><title>GNOME Terminal × Kitty: 30%</title></rect>
-<rect x="390" y="259" width="36" height="36" fill="#fde725"><title>GNOME Terminal × Konsole: 100%</title></rect>
-<rect x="428" y="259" width="36" height="36" fill="#32113a"><title>GNOME Terminal × Linux console: 0%</title></rect>
-<rect x="466" y="259" width="36" height="36" fill="#fde725"><title>GNOME Terminal × Mate Terminal: 100%</title></rect>
-<rect x="504" y="259" width="36" height="36" fill="#32113a"><title>GNOME Terminal × Wave Terminal: 0%</title></rect>
-<rect x="542" y="259" width="36" height="36" fill="#38c98b"><title>GNOME Terminal × xterm: 70%</title></rect>
-<rect x="580" y="259" width="36" height="36" fill="#32113a"><title>GNOME Terminal × Rio: 0%</title></rect>
-<rect x="618" y="259" width="36" height="36" fill="#32113a"><title>GNOME Terminal × st: 35%</title></rect>
-<rect x="200" y="297" width="36" height="36" fill="#38c98b"><title>Kitty × Alacritty: 70%</title></rect>
-<rect x="238" y="297" width="36" height="36" fill="#32113a"><title>Kitty × Extraterm: 0%</title></rect>
-<rect x="276" y="297" width="36" height="36" fill="#38c98b"><title>Kitty × Foot: 70%</title></rect>
-<rect x="314" y="297" width="36" height="36" fill="#32113a"><title>Kitty × GNOME Terminal: 30%</title></rect>
-<rect x="352" y="297" width="36" height="36" fill="#fde725"><title>Kitty × Kitty: 100%</title></rect>
-<rect x="390" y="297" width="36" height="36" fill="#32113a"><title>Kitty × Konsole: 30%</title></rect>
-<rect x="428" y="297" width="36" height="36" fill="#32113a"><title>Kitty × Linux console: 0%</title></rect>
-<rect x="466" y="297" width="36" height="36" fill="#32113a"><title>Kitty × Mate Terminal: 30%</title></rect>
-<rect x="504" y="297" width="36" height="36" fill="#32113a"><title>Kitty × Wave Terminal: 0%</title></rect>
-<rect x="542" y="297" width="36" height="36" fill="#32113a"><title>Kitty × xterm: 0%</title></rect>
-<rect x="580" y="297" width="36" height="36" fill="#38c98b"><title>Kitty × Rio: 70%</title></rect>
-<rect x="618" y="297" width="36" height="36" fill="#32113a"><title>Kitty × st: 0%</title></rect>
-<rect x="200" y="335" width="36" height="36" fill="#32113a"><title>Konsole × Alacritty: 0%</title></rect>
-<rect x="238" y="335" width="36" height="36" fill="#38c98b"><title>Konsole × Extraterm: 70%</title></rect>
-<rect x="276" y="335" width="36" height="36" fill="#32113a"><title>Konsole × Foot: 0%</title></rect>
-<rect x="314" y="335" width="36" height="36" fill="#fde725"><title>Konsole × GNOME Terminal: 100%</title></rect>
-<rect x="352" y="335" width="36" height="36" fill="#32113a"><title>Konsole × Kitty: 30%</title></rect>
-<rect x="390" y="335" width="36" height="36" fill="#fde725"><title>Konsole × Konsole: 100%</title></rect>
-<rect x="428" y="335" width="36" height="36" fill="#32113a"><title>Konsole × Linux console: 0%</title></rect>
-<rect x="466" y="335" width="36" height="36" fill="#fde725"><title>Konsole × Mate Terminal: 100%</title></rect>
-<rect x="504" y="335" width="36" height="36" fill="#32113a"><title>Konsole × Wave Terminal: 0%</title></rect>
-<rect x="542" y="335" width="36" height="36" fill="#38c98b"><title>Konsole × xterm: 70%</title></rect>
-<rect x="580" y="335" width="36" height="36" fill="#32113a"><title>Konsole × Rio: 0%</title></rect>
-<rect x="618" y="335" width="36" height="36" fill="#32113a"><title>Konsole × st: 35%</title></rect>
-<rect x="200" y="373" width="36" height="36" fill="#32113a"><title>Linux console × Alacritty: 30%</title></rect>
-<rect x="238" y="373" width="36" height="36" fill="#32113a"><title>Linux console × Extraterm: 0%</title></rect>
-<rect x="276" y="373" width="36" height="36" fill="#32113a"><title>Linux console × Foot: 30%</title></rect>
-<rect x="314" y="373" width="36" height="36" fill="#32113a"><title>Linux console × GNOME Terminal: 0%</title></rect>
-<rect x="352" y="373" width="36" height="36" fill="#32113a"><title>Linux console × Kitty: 0%</title></rect>
-<rect x="390" y="373" width="36" height="36" fill="#32113a"><title>Linux console × Konsole: 0%</title></rect>
-<rect x="428" y="373" width="36" height="36" fill="#fde725"><title>Linux console × Linux console: 100%</title></rect>
-<rect x="466" y="373" width="36" height="36" fill="#32113a"><title>Linux console × Mate Terminal: 0%</title></rect>
-<rect x="504" y="373" width="36" height="36" fill="#32113a"><title>Linux console × Wave Terminal: 0%</title></rect>
-<rect x="542" y="373" width="36" height="36" fill="#32113a"><title>Linux console × xterm: 30%</title></rect>
-<rect x="580" y="373" width="36" height="36" fill="#32113a"><title>Linux console × Rio: 30%</title></rect>
-<rect x="618" y="373" width="36" height="36" fill="#2b82b8"><title>Linux console × st: 65%</title></rect>
-<rect x="200" y="411" width="36" height="36" fill="#32113a"><title>Mate Terminal × Alacritty: 0%</title></rect>
-<rect x="238" y="411" width="36" height="36" fill="#38c98b"><title>Mate Terminal × Extraterm: 70%</title></rect>
-<rect x="276" y="411" width="36" height="36" fill="#32113a"><title>Mate Terminal × Foot: 0%</title></rect>
-<rect x="314" y="411" width="36" height="36" fill="#fde725"><title>Mate Terminal × GNOME Terminal: 100%</title></rect>
-<rect x="352" y="411" width="36" height="36" fill="#32113a"><title>Mate Terminal × Kitty: 30%</title></rect>
-<rect x="390" y="411" width="36" height="36" fill="#fde725"><title>Mate Terminal × Konsole: 100%</title></rect>
-<rect x="428" y="411" width="36" height="36" fill="#32113a"><title>Mate Terminal × Linux console: 0%</title></rect>
-<rect x="466" y="411" width="36" height="36" fill="#fde725"><title>Mate Terminal × Mate Terminal: 100%</title></rect>
-<rect x="504" y="411" width="36" height="36" fill="#32113a"><title>Mate Terminal × Wave Terminal: 0%</title></rect>
-<rect x="542" y="411" width="36" height="36" fill="#38c98b"><title>Mate Terminal × xterm: 70%</title></rect>
-<rect x="580" y="411" width="36" height="36" fill="#32113a"><title>Mate Terminal × Rio: 0%</title></rect>
-<rect x="618" y="411" width="36" height="36" fill="#32113a"><title>Mate Terminal × st: 35%</title></rect>
-<rect x="200" y="449" width="36" height="36" fill="#32113a"><title>Wave Terminal × Alacritty: 0%</title></rect>
-<rect x="238" y="449" width="36" height="36" fill="#32113a"><title>Wave Terminal × Extraterm: 0%</title></rect>
-<rect x="276" y="449" width="36" height="36" fill="#32113a"><title>Wave Terminal × Foot: 0%</title></rect>
-<rect x="314" y="449" width="36" height="36" fill="#32113a"><title>Wave Terminal × GNOME Terminal: 0%</title></rect>
-<rect x="352" y="449" width="36" height="36" fill="#32113a"><title>Wave Terminal × Kitty: 0%</title></rect>
-<rect x="390" y="449" width="36" height="36" fill="#32113a"><title>Wave Terminal × Konsole: 0%</title></rect>
-<rect x="428" y="449" width="36" height="36" fill="#32113a"><title>Wave Terminal × Linux console: 0%</title></rect>
-<rect x="466" y="449" width="36" height="36" fill="#32113a"><title>Wave Terminal × Mate Terminal: 0%</title></rect>
-<rect x="504" y="449" width="36" height="36" fill="#fde725"><title>Wave Terminal × Wave Terminal: 100%</title></rect>
-<rect x="542" y="449" width="36" height="36" fill="#32113a"><title>Wave Terminal × xterm: 0%</title></rect>
-<rect x="580" y="449" width="36" height="36" fill="#32113a"><title>Wave Terminal × Rio: 0%</title></rect>
-<rect x="618" y="449" width="36" height="36" fill="#32113a"><title>Wave Terminal × st: 0%</title></rect>
-<rect x="200" y="487" width="36" height="36" fill="#32113a"><title>xterm × Alacritty: 30%</title></rect>
-<rect x="238" y="487" width="36" height="36" fill="#38c98b"><title>xterm × Extraterm: 70%</title></rect>
-<rect x="276" y="487" width="36" height="36" fill="#32113a"><title>xterm × Foot: 30%</title></rect>
-<rect x="314" y="487" width="36" height="36" fill="#38c98b"><title>xterm × GNOME Terminal: 70%</title></rect>
-<rect x="352" y="487" width="36" height="36" fill="#32113a"><title>xterm × Kitty: 0%</title></rect>
-<rect x="390" y="487" width="36" height="36" fill="#38c98b"><title>xterm × Konsole: 70%</title></rect>
-<rect x="428" y="487" width="36" height="36" fill="#32113a"><title>xterm × Linux console: 30%</title></rect>
-<rect x="466" y="487" width="36" height="36" fill="#38c98b"><title>xterm × Mate Terminal: 70%</title></rect>
-<rect x="504" y="487" width="36" height="36" fill="#32113a"><title>xterm × Wave Terminal: 0%</title></rect>
-<rect x="542" y="487" width="36" height="36" fill="#fde725"><title>xterm × xterm: 100%</title></rect>
-<rect x="580" y="487" width="36" height="36" fill="#32113a"><title>xterm × Rio: 30%</title></rect>
-<rect x="618" y="487" width="36" height="36" fill="#2b82b8"><title>xterm × st: 65%</title></rect>
-<rect x="200" y="525" width="36" height="36" fill="#fde725"><title>Rio × Alacritty: 100%</title></rect>
-<rect x="238" y="525" width="36" height="36" fill="#32113a"><title>Rio × Extraterm: 0%</title></rect>
-<rect x="276" y="525" width="36" height="36" fill="#fde725"><title>Rio × Foot: 100%</title></rect>
-<rect x="314" y="525" width="36" height="36" fill="#32113a"><title>Rio × GNOME Terminal: 0%</title></rect>
-<rect x="352" y="525" width="36" height="36" fill="#38c98b"><title>Rio × Kitty: 70%</title></rect>
-<rect x="390" y="525" width="36" height="36" fill="#32113a"><title>Rio × Konsole: 0%</title></rect>
-<rect x="428" y="525" width="36" height="36" fill="#32113a"><title>Rio × Linux console: 30%</title></rect>
-<rect x="466" y="525" width="36" height="36" fill="#32113a"><title>Rio × Mate Terminal: 0%</title></rect>
-<rect x="504" y="525" width="36" height="36" fill="#32113a"><title>Rio × Wave Terminal: 0%</title></rect>
-<rect x="542" y="525" width="36" height="36" fill="#32113a"><title>Rio × xterm: 30%</title></rect>
-<rect x="580" y="525" width="36" height="36" fill="#fde725"><title>Rio × Rio: 100%</title></rect>
-<rect x="618" y="525" width="36" height="36" fill="#32113a"><title>Rio × st: 30%</title></rect>
-<rect x="200" y="563" width="36" height="36" fill="#32113a"><title>st × Alacritty: 30%</title></rect>
-<rect x="238" y="563" width="36" height="36" fill="#32113a"><title>st × Extraterm: 35%</title></rect>
-<rect x="276" y="563" width="36" height="36" fill="#32113a"><title>st × Foot: 30%</title></rect>
-<rect x="314" y="563" width="36" height="36" fill="#32113a"><title>st × GNOME Terminal: 35%</title></rect>
-<rect x="352" y="563" width="36" height="36" fill="#32113a"><title>st × Kitty: 0%</title></rect>
-<rect x="390" y="563" width="36" height="36" fill="#32113a"><title>st × Konsole: 35%</title></rect>
-<rect x="428" y="563" width="36" height="36" fill="#2b82b8"><title>st × Linux console: 65%</title></rect>
-<rect x="466" y="563" width="36" height="36" fill="#32113a"><title>st × Mate Terminal: 35%</title></rect>
-<rect x="504" y="563" width="36" height="36" fill="#32113a"><title>st × Wave Terminal: 0%</title></rect>
-<rect x="542" y="563" width="36" height="36" fill="#2b82b8"><title>st × xterm: 65%</title></rect>
-<rect x="580" y="563" width="36" height="36" fill="#32113a"><title>st × Rio: 30%</title></rect>
-<rect x="618" y="563" width="36" height="36" fill="#fde725"><title>st × st: 100%</title></rect>
+<text x="508.5" y="36" text-anchor="middle" font-family="Inter,Arial" font-size="24" font-weight="700" fill="#111">Terminal Universe Explorer v3.0 - Dataset v6.0</text>
+<text x="508.5" y="70" text-anchor="middle" font-family="Inter,Arial" font-size="20" fill="#111">Expanded 12</text>
+<text x="508.5" y="102" text-anchor="middle" font-family="Inter,Arial" font-size="13" fill="#555">Representative-set interaction matrix. Color indicates shared structural similarity.</text>
+<line x1="285" y1="235" x2="833" y2="235" stroke="#bbb"/>
+<line x1="275" y1="245" x2="275" y2="793" stroke="#bbb"/>
+<text x="267" y="271.0" text-anchor="end" font-family="Inter,Arial" font-size="13" fill="#111">Alacritty</text>
+<text x="267" y="317.0" text-anchor="end" font-family="Inter,Arial" font-size="13" fill="#111">Extraterm</text>
+<text x="267" y="363.0" text-anchor="end" font-family="Inter,Arial" font-size="13" fill="#111">Foot</text>
+<text x="267" y="409.0" text-anchor="end" font-family="Inter,Arial" font-size="13" fill="#111">GNOME Terminal</text>
+<text x="267" y="455.0" text-anchor="end" font-family="Inter,Arial" font-size="13" fill="#111">Kitty</text>
+<text x="267" y="501.0" text-anchor="end" font-family="Inter,Arial" font-size="13" fill="#111">Konsole</text>
+<text x="267" y="547.0" text-anchor="end" font-family="Inter,Arial" font-size="13" fill="#111">Linux console</text>
+<text x="267" y="593.0" text-anchor="end" font-family="Inter,Arial" font-size="13" fill="#111">Mate Terminal</text>
+<text x="267" y="639.0" text-anchor="end" font-family="Inter,Arial" font-size="13" fill="#111">Wave Terminal</text>
+<text x="267" y="685.0" text-anchor="end" font-family="Inter,Arial" font-size="13" fill="#111">xterm</text>
+<text x="267" y="731.0" text-anchor="end" font-family="Inter,Arial" font-size="13" fill="#111">Rio</text>
+<text x="267" y="777.0" text-anchor="end" font-family="Inter,Arial" font-size="13" fill="#111">st</text>
+<text x="306.0" y="219" text-anchor="end" font-family="Inter,Arial" font-size="12" fill="#111" transform="rotate(-48 306.0,219)">Alacritty</text>
+<text x="352.0" y="219" text-anchor="end" font-family="Inter,Arial" font-size="12" fill="#111" transform="rotate(-48 352.0,219)">Extraterm</text>
+<text x="398.0" y="219" text-anchor="end" font-family="Inter,Arial" font-size="12" fill="#111" transform="rotate(-48 398.0,219)">Foot</text>
+<text x="444.0" y="219" text-anchor="end" font-family="Inter,Arial" font-size="12" fill="#111" transform="rotate(-48 444.0,219)">GNOME Terminal</text>
+<text x="490.0" y="219" text-anchor="end" font-family="Inter,Arial" font-size="12" fill="#111" transform="rotate(-48 490.0,219)">Kitty</text>
+<text x="536.0" y="219" text-anchor="end" font-family="Inter,Arial" font-size="12" fill="#111" transform="rotate(-48 536.0,219)">Konsole</text>
+<text x="582.0" y="219" text-anchor="end" font-family="Inter,Arial" font-size="12" fill="#111" transform="rotate(-48 582.0,219)">Linux console</text>
+<text x="628.0" y="219" text-anchor="end" font-family="Inter,Arial" font-size="12" fill="#111" transform="rotate(-48 628.0,219)">Mate Terminal</text>
+<text x="674.0" y="219" text-anchor="end" font-family="Inter,Arial" font-size="12" fill="#111" transform="rotate(-48 674.0,219)">Wave Terminal</text>
+<text x="720.0" y="219" text-anchor="end" font-family="Inter,Arial" font-size="12" fill="#111" transform="rotate(-48 720.0,219)">xterm</text>
+<text x="766.0" y="219" text-anchor="end" font-family="Inter,Arial" font-size="12" fill="#111" transform="rotate(-48 766.0,219)">Rio</text>
+<text x="812.0" y="219" text-anchor="end" font-family="Inter,Arial" font-size="12" fill="#111" transform="rotate(-48 812.0,219)">st</text>
+<rect x="285" y="245" width="42" height="42" rx="4" fill="#fde725"><title>Alacritty × Alacritty: 100%</title></rect>
+<rect x="331" y="245" width="42" height="42" rx="4" fill="#32113a"><title>Alacritty × Extraterm: 0%</title></rect>
+<rect x="377" y="245" width="42" height="42" rx="4" fill="#fde725"><title>Alacritty × Foot: 100%</title></rect>
+<rect x="423" y="245" width="42" height="42" rx="4" fill="#32113a"><title>Alacritty × GNOME Terminal: 0%</title></rect>
+<rect x="469" y="245" width="42" height="42" rx="4" fill="#38c98b"><title>Alacritty × Kitty: 70%</title></rect>
+<rect x="515" y="245" width="42" height="42" rx="4" fill="#32113a"><title>Alacritty × Konsole: 0%</title></rect>
+<rect x="561" y="245" width="42" height="42" rx="4" fill="#32113a"><title>Alacritty × Linux console: 30%</title></rect>
+<rect x="607" y="245" width="42" height="42" rx="4" fill="#32113a"><title>Alacritty × Mate Terminal: 0%</title></rect>
+<rect x="653" y="245" width="42" height="42" rx="4" fill="#32113a"><title>Alacritty × Wave Terminal: 0%</title></rect>
+<rect x="699" y="245" width="42" height="42" rx="4" fill="#32113a"><title>Alacritty × xterm: 30%</title></rect>
+<rect x="745" y="245" width="42" height="42" rx="4" fill="#fde725"><title>Alacritty × Rio: 100%</title></rect>
+<rect x="791" y="245" width="42" height="42" rx="4" fill="#32113a"><title>Alacritty × st: 30%</title></rect>
+<rect x="285" y="291" width="42" height="42" rx="4" fill="#32113a"><title>Extraterm × Alacritty: 0%</title></rect>
+<rect x="331" y="291" width="42" height="42" rx="4" fill="#fde725"><title>Extraterm × Extraterm: 100%</title></rect>
+<rect x="377" y="291" width="42" height="42" rx="4" fill="#32113a"><title>Extraterm × Foot: 0%</title></rect>
+<rect x="423" y="291" width="42" height="42" rx="4" fill="#38c98b"><title>Extraterm × GNOME Terminal: 70%</title></rect>
+<rect x="469" y="291" width="42" height="42" rx="4" fill="#32113a"><title>Extraterm × Kitty: 0%</title></rect>
+<rect x="515" y="291" width="42" height="42" rx="4" fill="#38c98b"><title>Extraterm × Konsole: 70%</title></rect>
+<rect x="561" y="291" width="42" height="42" rx="4" fill="#32113a"><title>Extraterm × Linux console: 0%</title></rect>
+<rect x="607" y="291" width="42" height="42" rx="4" fill="#38c98b"><title>Extraterm × Mate Terminal: 70%</title></rect>
+<rect x="653" y="291" width="42" height="42" rx="4" fill="#32113a"><title>Extraterm × Wave Terminal: 0%</title></rect>
+<rect x="699" y="291" width="42" height="42" rx="4" fill="#38c98b"><title>Extraterm × xterm: 70%</title></rect>
+<rect x="745" y="291" width="42" height="42" rx="4" fill="#32113a"><title>Extraterm × Rio: 0%</title></rect>
+<rect x="791" y="291" width="42" height="42" rx="4" fill="#32113a"><title>Extraterm × st: 35%</title></rect>
+<rect x="285" y="337" width="42" height="42" rx="4" fill="#fde725"><title>Foot × Alacritty: 100%</title></rect>
+<rect x="331" y="337" width="42" height="42" rx="4" fill="#32113a"><title>Foot × Extraterm: 0%</title></rect>
+<rect x="377" y="337" width="42" height="42" rx="4" fill="#fde725"><title>Foot × Foot: 100%</title></rect>
+<rect x="423" y="337" width="42" height="42" rx="4" fill="#32113a"><title>Foot × GNOME Terminal: 0%</title></rect>
+<rect x="469" y="337" width="42" height="42" rx="4" fill="#38c98b"><title>Foot × Kitty: 70%</title></rect>
+<rect x="515" y="337" width="42" height="42" rx="4" fill="#32113a"><title>Foot × Konsole: 0%</title></rect>
+<rect x="561" y="337" width="42" height="42" rx="4" fill="#32113a"><title>Foot × Linux console: 30%</title></rect>
+<rect x="607" y="337" width="42" height="42" rx="4" fill="#32113a"><title>Foot × Mate Terminal: 0%</title></rect>
+<rect x="653" y="337" width="42" height="42" rx="4" fill="#32113a"><title>Foot × Wave Terminal: 0%</title></rect>
+<rect x="699" y="337" width="42" height="42" rx="4" fill="#32113a"><title>Foot × xterm: 30%</title></rect>
+<rect x="745" y="337" width="42" height="42" rx="4" fill="#fde725"><title>Foot × Rio: 100%</title></rect>
+<rect x="791" y="337" width="42" height="42" rx="4" fill="#32113a"><title>Foot × st: 30%</title></rect>
+<rect x="285" y="383" width="42" height="42" rx="4" fill="#32113a"><title>GNOME Terminal × Alacritty: 0%</title></rect>
+<rect x="331" y="383" width="42" height="42" rx="4" fill="#38c98b"><title>GNOME Terminal × Extraterm: 70%</title></rect>
+<rect x="377" y="383" width="42" height="42" rx="4" fill="#32113a"><title>GNOME Terminal × Foot: 0%</title></rect>
+<rect x="423" y="383" width="42" height="42" rx="4" fill="#fde725"><title>GNOME Terminal × GNOME Terminal: 100%</title></rect>
+<rect x="469" y="383" width="42" height="42" rx="4" fill="#32113a"><title>GNOME Terminal × Kitty: 30%</title></rect>
+<rect x="515" y="383" width="42" height="42" rx="4" fill="#fde725"><title>GNOME Terminal × Konsole: 100%</title></rect>
+<rect x="561" y="383" width="42" height="42" rx="4" fill="#32113a"><title>GNOME Terminal × Linux console: 0%</title></rect>
+<rect x="607" y="383" width="42" height="42" rx="4" fill="#fde725"><title>GNOME Terminal × Mate Terminal: 100%</title></rect>
+<rect x="653" y="383" width="42" height="42" rx="4" fill="#32113a"><title>GNOME Terminal × Wave Terminal: 0%</title></rect>
+<rect x="699" y="383" width="42" height="42" rx="4" fill="#38c98b"><title>GNOME Terminal × xterm: 70%</title></rect>
+<rect x="745" y="383" width="42" height="42" rx="4" fill="#32113a"><title>GNOME Terminal × Rio: 0%</title></rect>
+<rect x="791" y="383" width="42" height="42" rx="4" fill="#32113a"><title>GNOME Terminal × st: 35%</title></rect>
+<rect x="285" y="429" width="42" height="42" rx="4" fill="#38c98b"><title>Kitty × Alacritty: 70%</title></rect>
+<rect x="331" y="429" width="42" height="42" rx="4" fill="#32113a"><title>Kitty × Extraterm: 0%</title></rect>
+<rect x="377" y="429" width="42" height="42" rx="4" fill="#38c98b"><title>Kitty × Foot: 70%</title></rect>
+<rect x="423" y="429" width="42" height="42" rx="4" fill="#32113a"><title>Kitty × GNOME Terminal: 30%</title></rect>
+<rect x="469" y="429" width="42" height="42" rx="4" fill="#fde725"><title>Kitty × Kitty: 100%</title></rect>
+<rect x="515" y="429" width="42" height="42" rx="4" fill="#32113a"><title>Kitty × Konsole: 30%</title></rect>
+<rect x="561" y="429" width="42" height="42" rx="4" fill="#32113a"><title>Kitty × Linux console: 0%</title></rect>
+<rect x="607" y="429" width="42" height="42" rx="4" fill="#32113a"><title>Kitty × Mate Terminal: 30%</title></rect>
+<rect x="653" y="429" width="42" height="42" rx="4" fill="#32113a"><title>Kitty × Wave Terminal: 0%</title></rect>
+<rect x="699" y="429" width="42" height="42" rx="4" fill="#32113a"><title>Kitty × xterm: 0%</title></rect>
+<rect x="745" y="429" width="42" height="42" rx="4" fill="#38c98b"><title>Kitty × Rio: 70%</title></rect>
+<rect x="791" y="429" width="42" height="42" rx="4" fill="#32113a"><title>Kitty × st: 0%</title></rect>
+<rect x="285" y="475" width="42" height="42" rx="4" fill="#32113a"><title>Konsole × Alacritty: 0%</title></rect>
+<rect x="331" y="475" width="42" height="42" rx="4" fill="#38c98b"><title>Konsole × Extraterm: 70%</title></rect>
+<rect x="377" y="475" width="42" height="42" rx="4" fill="#32113a"><title>Konsole × Foot: 0%</title></rect>
+<rect x="423" y="475" width="42" height="42" rx="4" fill="#fde725"><title>Konsole × GNOME Terminal: 100%</title></rect>
+<rect x="469" y="475" width="42" height="42" rx="4" fill="#32113a"><title>Konsole × Kitty: 30%</title></rect>
+<rect x="515" y="475" width="42" height="42" rx="4" fill="#fde725"><title>Konsole × Konsole: 100%</title></rect>
+<rect x="561" y="475" width="42" height="42" rx="4" fill="#32113a"><title>Konsole × Linux console: 0%</title></rect>
+<rect x="607" y="475" width="42" height="42" rx="4" fill="#fde725"><title>Konsole × Mate Terminal: 100%</title></rect>
+<rect x="653" y="475" width="42" height="42" rx="4" fill="#32113a"><title>Konsole × Wave Terminal: 0%</title></rect>
+<rect x="699" y="475" width="42" height="42" rx="4" fill="#38c98b"><title>Konsole × xterm: 70%</title></rect>
+<rect x="745" y="475" width="42" height="42" rx="4" fill="#32113a"><title>Konsole × Rio: 0%</title></rect>
+<rect x="791" y="475" width="42" height="42" rx="4" fill="#32113a"><title>Konsole × st: 35%</title></rect>
+<rect x="285" y="521" width="42" height="42" rx="4" fill="#32113a"><title>Linux console × Alacritty: 30%</title></rect>
+<rect x="331" y="521" width="42" height="42" rx="4" fill="#32113a"><title>Linux console × Extraterm: 0%</title></rect>
+<rect x="377" y="521" width="42" height="42" rx="4" fill="#32113a"><title>Linux console × Foot: 30%</title></rect>
+<rect x="423" y="521" width="42" height="42" rx="4" fill="#32113a"><title>Linux console × GNOME Terminal: 0%</title></rect>
+<rect x="469" y="521" width="42" height="42" rx="4" fill="#32113a"><title>Linux console × Kitty: 0%</title></rect>
+<rect x="515" y="521" width="42" height="42" rx="4" fill="#32113a"><title>Linux console × Konsole: 0%</title></rect>
+<rect x="561" y="521" width="42" height="42" rx="4" fill="#fde725"><title>Linux console × Linux console: 100%</title></rect>
+<rect x="607" y="521" width="42" height="42" rx="4" fill="#32113a"><title>Linux console × Mate Terminal: 0%</title></rect>
+<rect x="653" y="521" width="42" height="42" rx="4" fill="#32113a"><title>Linux console × Wave Terminal: 0%</title></rect>
+<rect x="699" y="521" width="42" height="42" rx="4" fill="#32113a"><title>Linux console × xterm: 30%</title></rect>
+<rect x="745" y="521" width="42" height="42" rx="4" fill="#32113a"><title>Linux console × Rio: 30%</title></rect>
+<rect x="791" y="521" width="42" height="42" rx="4" fill="#2b82b8"><title>Linux console × st: 65%</title></rect>
+<rect x="285" y="567" width="42" height="42" rx="4" fill="#32113a"><title>Mate Terminal × Alacritty: 0%</title></rect>
+<rect x="331" y="567" width="42" height="42" rx="4" fill="#38c98b"><title>Mate Terminal × Extraterm: 70%</title></rect>
+<rect x="377" y="567" width="42" height="42" rx="4" fill="#32113a"><title>Mate Terminal × Foot: 0%</title></rect>
+<rect x="423" y="567" width="42" height="42" rx="4" fill="#fde725"><title>Mate Terminal × GNOME Terminal: 100%</title></rect>
+<rect x="469" y="567" width="42" height="42" rx="4" fill="#32113a"><title>Mate Terminal × Kitty: 30%</title></rect>
+<rect x="515" y="567" width="42" height="42" rx="4" fill="#fde725"><title>Mate Terminal × Konsole: 100%</title></rect>
+<rect x="561" y="567" width="42" height="42" rx="4" fill="#32113a"><title>Mate Terminal × Linux console: 0%</title></rect>
+<rect x="607" y="567" width="42" height="42" rx="4" fill="#fde725"><title>Mate Terminal × Mate Terminal: 100%</title></rect>
+<rect x="653" y="567" width="42" height="42" rx="4" fill="#32113a"><title>Mate Terminal × Wave Terminal: 0%</title></rect>
+<rect x="699" y="567" width="42" height="42" rx="4" fill="#38c98b"><title>Mate Terminal × xterm: 70%</title></rect>
+<rect x="745" y="567" width="42" height="42" rx="4" fill="#32113a"><title>Mate Terminal × Rio: 0%</title></rect>
+<rect x="791" y="567" width="42" height="42" rx="4" fill="#32113a"><title>Mate Terminal × st: 35%</title></rect>
+<rect x="285" y="613" width="42" height="42" rx="4" fill="#32113a"><title>Wave Terminal × Alacritty: 0%</title></rect>
+<rect x="331" y="613" width="42" height="42" rx="4" fill="#32113a"><title>Wave Terminal × Extraterm: 0%</title></rect>
+<rect x="377" y="613" width="42" height="42" rx="4" fill="#32113a"><title>Wave Terminal × Foot: 0%</title></rect>
+<rect x="423" y="613" width="42" height="42" rx="4" fill="#32113a"><title>Wave Terminal × GNOME Terminal: 0%</title></rect>
+<rect x="469" y="613" width="42" height="42" rx="4" fill="#32113a"><title>Wave Terminal × Kitty: 0%</title></rect>
+<rect x="515" y="613" width="42" height="42" rx="4" fill="#32113a"><title>Wave Terminal × Konsole: 0%</title></rect>
+<rect x="561" y="613" width="42" height="42" rx="4" fill="#32113a"><title>Wave Terminal × Linux console: 0%</title></rect>
+<rect x="607" y="613" width="42" height="42" rx="4" fill="#32113a"><title>Wave Terminal × Mate Terminal: 0%</title></rect>
+<rect x="653" y="613" width="42" height="42" rx="4" fill="#fde725"><title>Wave Terminal × Wave Terminal: 100%</title></rect>
+<rect x="699" y="613" width="42" height="42" rx="4" fill="#32113a"><title>Wave Terminal × xterm: 0%</title></rect>
+<rect x="745" y="613" width="42" height="42" rx="4" fill="#32113a"><title>Wave Terminal × Rio: 0%</title></rect>
+<rect x="791" y="613" width="42" height="42" rx="4" fill="#32113a"><title>Wave Terminal × st: 0%</title></rect>
+<rect x="285" y="659" width="42" height="42" rx="4" fill="#32113a"><title>xterm × Alacritty: 30%</title></rect>
+<rect x="331" y="659" width="42" height="42" rx="4" fill="#38c98b"><title>xterm × Extraterm: 70%</title></rect>
+<rect x="377" y="659" width="42" height="42" rx="4" fill="#32113a"><title>xterm × Foot: 30%</title></rect>
+<rect x="423" y="659" width="42" height="42" rx="4" fill="#38c98b"><title>xterm × GNOME Terminal: 70%</title></rect>
+<rect x="469" y="659" width="42" height="42" rx="4" fill="#32113a"><title>xterm × Kitty: 0%</title></rect>
+<rect x="515" y="659" width="42" height="42" rx="4" fill="#38c98b"><title>xterm × Konsole: 70%</title></rect>
+<rect x="561" y="659" width="42" height="42" rx="4" fill="#32113a"><title>xterm × Linux console: 30%</title></rect>
+<rect x="607" y="659" width="42" height="42" rx="4" fill="#38c98b"><title>xterm × Mate Terminal: 70%</title></rect>
+<rect x="653" y="659" width="42" height="42" rx="4" fill="#32113a"><title>xterm × Wave Terminal: 0%</title></rect>
+<rect x="699" y="659" width="42" height="42" rx="4" fill="#fde725"><title>xterm × xterm: 100%</title></rect>
+<rect x="745" y="659" width="42" height="42" rx="4" fill="#32113a"><title>xterm × Rio: 30%</title></rect>
+<rect x="791" y="659" width="42" height="42" rx="4" fill="#2b82b8"><title>xterm × st: 65%</title></rect>
+<rect x="285" y="705" width="42" height="42" rx="4" fill="#fde725"><title>Rio × Alacritty: 100%</title></rect>
+<rect x="331" y="705" width="42" height="42" rx="4" fill="#32113a"><title>Rio × Extraterm: 0%</title></rect>
+<rect x="377" y="705" width="42" height="42" rx="4" fill="#fde725"><title>Rio × Foot: 100%</title></rect>
+<rect x="423" y="705" width="42" height="42" rx="4" fill="#32113a"><title>Rio × GNOME Terminal: 0%</title></rect>
+<rect x="469" y="705" width="42" height="42" rx="4" fill="#38c98b"><title>Rio × Kitty: 70%</title></rect>
+<rect x="515" y="705" width="42" height="42" rx="4" fill="#32113a"><title>Rio × Konsole: 0%</title></rect>
+<rect x="561" y="705" width="42" height="42" rx="4" fill="#32113a"><title>Rio × Linux console: 30%</title></rect>
+<rect x="607" y="705" width="42" height="42" rx="4" fill="#32113a"><title>Rio × Mate Terminal: 0%</title></rect>
+<rect x="653" y="705" width="42" height="42" rx="4" fill="#32113a"><title>Rio × Wave Terminal: 0%</title></rect>
+<rect x="699" y="705" width="42" height="42" rx="4" fill="#32113a"><title>Rio × xterm: 30%</title></rect>
+<rect x="745" y="705" width="42" height="42" rx="4" fill="#fde725"><title>Rio × Rio: 100%</title></rect>
+<rect x="791" y="705" width="42" height="42" rx="4" fill="#32113a"><title>Rio × st: 30%</title></rect>
+<rect x="285" y="751" width="42" height="42" rx="4" fill="#32113a"><title>st × Alacritty: 30%</title></rect>
+<rect x="331" y="751" width="42" height="42" rx="4" fill="#32113a"><title>st × Extraterm: 35%</title></rect>
+<rect x="377" y="751" width="42" height="42" rx="4" fill="#32113a"><title>st × Foot: 30%</title></rect>
+<rect x="423" y="751" width="42" height="42" rx="4" fill="#32113a"><title>st × GNOME Terminal: 35%</title></rect>
+<rect x="469" y="751" width="42" height="42" rx="4" fill="#32113a"><title>st × Kitty: 0%</title></rect>
+<rect x="515" y="751" width="42" height="42" rx="4" fill="#32113a"><title>st × Konsole: 35%</title></rect>
+<rect x="561" y="751" width="42" height="42" rx="4" fill="#2b82b8"><title>st × Linux console: 65%</title></rect>
+<rect x="607" y="751" width="42" height="42" rx="4" fill="#32113a"><title>st × Mate Terminal: 35%</title></rect>
+<rect x="653" y="751" width="42" height="42" rx="4" fill="#32113a"><title>st × Wave Terminal: 0%</title></rect>
+<rect x="699" y="751" width="42" height="42" rx="4" fill="#2b82b8"><title>st × xterm: 65%</title></rect>
+<rect x="745" y="751" width="42" height="42" rx="4" fill="#32113a"><title>st × Rio: 30%</title></rect>
+<rect x="791" y="751" width="42" height="42" rx="4" fill="#fde725"><title>st × st: 100%</title></rect>
+<text x="872" y="227" font-family="Inter,Arial" font-size="12" fill="#111">Similarity</text>
+<rect x="872" y="245" width="22" height="18" rx="3" fill="#32113a"/>
+<text x="904" y="259" font-family="Inter,Arial" font-size="11" fill="#111">low</text>
+<rect x="872" y="273" width="22" height="18" rx="3" fill="#2b82b8"/>
+<text x="904" y="287" font-family="Inter,Arial" font-size="11" fill="#111">mid</text>
+<rect x="872" y="301" width="22" height="18" rx="3" fill="#38c98b"/>
+<text x="904" y="315" font-family="Inter,Arial" font-size="11" fill="#111">high</text>
+<rect x="872" y="329" width="22" height="18" rx="3" fill="#fde725"/>
+<text x="904" y="343" font-family="Inter,Arial" font-size="11" fill="#111">same</text>
+<text x="508.5" y="867" text-anchor="middle" font-family="Inter,Arial" font-size="13" fill="#555">Rows and columns show representative terminals; cells encode shared core structural properties.</text>
 </svg>
