@@ -167,7 +167,6 @@ body{overflow-x:hidden}
 [data-theme="light"] .card,
 [data-theme="light"] .distribution-card,
 [data-theme="light"] .matrix-wrap,
-[data-theme="light"] .gap-cell,
 [data-theme="light"] .dialog{
   background:#ffffff!important;
   color:#122018!important;
@@ -258,7 +257,6 @@ body{overflow-x:hidden}
 }
 [data-theme="light"] input,
 [data-theme="light"] select,
-[data-theme="light"] button,
 [data-theme="light"] .secondary{
   background:#ffffff!important;
   color:#102018!important;
@@ -532,6 +530,76 @@ body{overflow-x:hidden}
 @media(max-width:760px){
   .dialog .details{columns:1!important}
 }
+
+
+/* v3.0.1 hotfix: preserve analytical matrix colors in light mode */
+[data-theme="light"] .matrix-cell,
+[data-theme="light"] .matrix-cell.search-matched,
+[data-theme="light"] .matrix-cell.search-unmatched,
+[data-theme="light"] .matrix-cell.search-selected{
+  background-color: inherit;
+}
+
+[data-theme="light"] .matrix-cell[style]{
+  background: revert-layer;
+}
+
+[data-theme="light"] .gap-cell[style],
+[data-theme="light"] .gap-matrix [style],
+[data-theme="light"] .matrix-grid .matrix-cell[style]{
+  background: unset;
+}
+
+/* prevent generic light-mode button/card rules from whitening analytical cells */
+[data-theme="light"] .matrix-grid button.matrix-cell{
+  color: transparent!important;
+  border-color: rgba(0,0,0,.08)!important;
+}
+
+/* keep gap cells colored instead of card-white */
+[data-theme="light"] .gap-cell{
+  background: inherit;
+}
+
+
+/* v3.0.1 hotfix: preserve Workbench analytical colors in light mode */
+
+/* Matrix cells are data, not normal buttons/cards */
+[data-theme="light"] .matrix-grid button.matrix-cell,
+[data-theme="light"] .matrix-grid .matrix-cell {
+  color: transparent !important;
+  border-color: rgba(30,45,40,.18) !important;
+}
+
+/* Do not let light-mode button/card rules overwrite inline heatmap colors */
+[data-theme="light"] .matrix-grid .matrix-cell[style] {
+  background-color: var(--cell-color) !important;
+}
+
+/* Gap Explorer cells */
+[data-theme="light"] .gap-cell.observed,
+[data-theme="light"] .gap-cell.present,
+[data-theme="light"] .gap-cell.has-value {
+  background: #dff7ed !important;
+  color: #102018 !important;
+  border-color: rgba(45,201,139,.35) !important;
+}
+
+[data-theme="light"] .gap-cell.empty,
+[data-theme="light"] .gap-cell.absent,
+[data-theme="light"] .gap-cell.zero {
+  background: #f7dbe5 !important;
+  color: #102018 !important;
+  border-color: rgba(200,51,101,.25) !important;
+}
+
+/* fallback: numeric cells in Gap Explorer */
+[data-theme="light"] .gap-cell {
+  color: #102018 !important;
+  border-color: rgba(30,45,40,.16) !important;
+}
+
+/* If the cell contains 0, JS will mark it absent; if >0, observed */
 
 </style>
 </head>
@@ -853,7 +921,30 @@ Promise.all([
  fetch('./data/representative_matrix_downloads_v6.json').then(r=>r.json()),
  fetch('./data/gap_matrix_downloads_v6.json').then(r=>r.json()),
  fetch('./data/workbench_explanations_v6.json').then(r=>r.json())
-]).then(([rows,g,m,r,gp,dist,repDl,gapDl,expl])=>{data=rows;graphData=g;matrixData=m;reps=r;gaps=gp;distributionPlots=dist;repDownloads=repDl;gapDownloads=gapDl;explanations=expl;if($('terminalNameList'))$('terminalNameList').innerHTML=[...data].sort((a,b)=>a.Name.localeCompare(b.Name)).map(d=>`<option value="${esc(d.Name)}"></option>`).join('');setView('graph');setGraphPreset('similarity')}).catch(err=>{console.error(err);document.querySelector('main').insertAdjacentHTML('afterbegin','<div class="notice"><strong>Load error:</strong> Workbench data could not be loaded. Check the local server path and JSON files.</div>')});
+]).then(([rows,g,m,r,gp,dist,repDl,gapDl,expl])=>{data=rows;graphData=g;matrixData=m;reps=r;gaps=gp;distributionPlots=dist;repDownloads=repDl;gapDownloads=gapDl;explanations=expl;if($('terminalNameList'))$('terminalNameList').innerHTML=[...data].sort((a,b)=>a.Name.localeCompare(b.Name)).map(d=>`<option value="${esc(d.Name)}"></option>`).join('');setView(location.hash ? location.hash.replace('#','') : 'overview');}).catch(err=>{console.error(err);document.querySelector('main').insertAdjacentHTML('afterbegin','<div class="notice"><strong>Load error:</strong> Workbench data could not be loaded. Check the local server path and JSON files.</div>')});
+
+const originalSetViewForColorFix = window.setView;
+setTimeout(()=>applyMatrixColorFixes(), 250);
+document.addEventListener('click',()=>setTimeout(applyMatrixColorFixes,80));
+document.addEventListener('change',()=>setTimeout(applyMatrixColorFixes,80));
+
+function applyMatrixColorFixes(){
+  document.querySelectorAll('.matrix-cell[style]').forEach(el=>{
+    const bg = el.style.background || el.style.backgroundColor;
+    if(bg) el.style.setProperty('--cell-color', bg);
+  });
+
+  document.querySelectorAll('.gap-cell').forEach(el=>{
+    const n = Number((el.textContent || '').trim());
+    if(!Number.isNaN(n)){
+      el.classList.toggle('zero', n === 0);
+      el.classList.toggle('absent', n === 0);
+      el.classList.toggle('observed', n > 0);
+      el.classList.toggle('has-value', n > 0);
+    }
+  });
+}
+
 </script>
 </body>
 </html>
