@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500">
+<text x="480.0" y="34" text-anchor="middle" font-family="Inter,Arial" font-size="24" font-weight="700" fill="#e9edf3">Terminal Universe Explorer v3.0 - Dataset v6.0</text>
+<text x="480.0" y="64" text-anchor="middle" font-family="Inter,Arial" font-size="20" fill="#e9edf3">Graph community sizes</text>
+<line x1="100" y1="405" x2="890" y2="405" stroke="#7b8794"/>
+<line x1="100" y1="95" x2="100" y2="405" stroke="#7b8794"/>
+<rect x="135" y="120.0" width="80" height="285.0" rx="5" fill="#38c98b"/>
+<text x="175.0" y="112.0" text-anchor="middle" font-family="Inter,Arial" font-size="14" fill="#e9edf3">23</text>
+<text x="175.0" y="425" transform="rotate(-32 175.0,425)" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#e9edf3">VTE terminals</text>
+<rect x="265" y="243.91304347826087" width="80" height="161.08695652173913" rx="5" fill="#f5a623"/>
+<text x="305.0" y="235.91304347826087" text-anchor="middle" font-family="Inter,Arial" font-size="14" fill="#e9edf3">13</text>
+<text x="305.0" y="425" transform="rotate(-32 305.0,425)" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#e9edf3">GPU-native terminals</text>
+<rect x="395" y="268.695652173913" width="80" height="136.30434782608697" rx="5" fill="#a9b4c2"/>
+<text x="435.0" y="260.695652173913" text-anchor="middle" font-family="Inter,Arial" font-size="14" fill="#e9edf3">11</text>
+<text x="435.0" y="425" transform="rotate(-32 435.0,425)" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#e9edf3">Classic terminals</text>
+<rect x="525" y="318.2608695652174" width="80" height="86.73913043478261" rx="5" fill="#4db6e8"/>
+<text x="565.0" y="310.2608695652174" text-anchor="middle" font-family="Inter,Arial" font-size="14" fill="#e9edf3">7</text>
+<text x="565.0" y="425" transform="rotate(-32 565.0,425)" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#e9edf3">Qt terminals</text>
+<rect x="655" y="318.2608695652174" width="80" height="86.73913043478261" rx="5" fill="#a88cff"/>
+<text x="695.0" y="310.2608695652174" text-anchor="middle" font-family="Inter,Arial" font-size="14" fill="#e9edf3">7</text>
+<text x="695.0" y="425" transform="rotate(-32 695.0,425)" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#e9edf3">Web/Electron terminals</text>
+<rect x="785" y="330.6521739130435" width="80" height="74.34782608695652" rx="5" fill="#d03d6c"/>
+<text x="825.0" y="322.6521739130435" text-anchor="middle" font-family="Inter,Arial" font-size="14" fill="#e9edf3">6</text>
+<text x="825.0" y="425" transform="rotate(-32 825.0,425)" text-anchor="end" font-family="Inter,Arial" font-size="11" fill="#e9edf3">Minimal terminals</text>
+<text x="480.0" y="468" text-anchor="middle" font-family="Inter,Arial" font-size="15" fill="#e9edf3">Graph community</text>
+<text x="28" y="250.0" transform="rotate(-90 28,250.0)" text-anchor="middle" font-family="Inter,Arial" font-size="15" fill="#e9edf3">Number of terminals</text>
+</svg>

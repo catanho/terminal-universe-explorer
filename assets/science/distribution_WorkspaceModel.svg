@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440">
+<text x="500.0" y="34" text-anchor="middle" font-family="Inter,Arial" font-size="23" font-weight="700" fill="#e9edf3">Terminal Universe Explorer v3.0 - Dataset v6.0</text>
+<text x="500.0" y="66" text-anchor="middle" font-family="Inter,Arial" font-size="19" fill="#e9edf3">Workspace model distribution</text>
+<text x="500.0" y="94" text-anchor="middle" font-family="Inter,Arial" font-size="13" fill="#aab3bf">Session, workspace, and console organization patterns.</text>
+<line x1="315" y1="345" x2="910" y2="345" stroke="#7b8794" stroke-width="1.2"/>
+<line x1="315" y1="125" x2="315" y2="345" stroke="#7b8794" stroke-width="1.2"/>
+<text x="303" y="156.08" text-anchor="end" font-family="Inter,Arial" font-size="14" fill="#e9edf3">Workspace Orchestrated</text>
+<rect x="315" y="135.0" width="22.0" height="31.0" rx="5" fill="#38c98b"/>
+<text x="346.0" y="156.08" font-family="Inter,Arial" font-size="14" fill="#e9edf3">2</text>
+<text x="303" y="206.08" text-anchor="end" font-family="Inter,Arial" font-size="14" fill="#e9edf3">System Console</text>
+<rect x="315" y="185.0" width="43.9" height="31.0" rx="5" fill="#38c98b"/>
+<text x="367.9" y="206.08" font-family="Inter,Arial" font-size="14" fill="#e9edf3">4</text>
+<text x="303" y="256.08" text-anchor="end" font-family="Inter,Arial" font-size="14" fill="#e9edf3">Session Grouping</text>
+<rect x="315" y="235.0" width="164.7" height="31.0" rx="5" fill="#38c98b"/>
+<text x="488.7" y="256.08" font-family="Inter,Arial" font-size="14" fill="#e9edf3">15</text>
+<text x="303" y="306.08" text-anchor="end" font-family="Inter,Arial" font-size="14" fill="#e9edf3">None</text>
+<rect x="315" y="285.0" width="505.0" height="31.0" rx="5" fill="#38c98b"/>
+<text x="829.0" y="306.08" font-family="Inter,Arial" font-size="14" fill="#e9edf3">46</text>
+<text x="612.5" y="396" text-anchor="middle" font-family="Inter,Arial" font-size="15" fill="#e9edf3">Number of terminals</text>
+<text x="55" y="235.0" transform="rotate(-90 55,235.0)" text-anchor="middle" font-family="Inter,Arial" font-size="15" fill="#e9edf3">WorkspaceModel</text>
+<text x="685" y="396" font-family="Inter,Arial" font-size="12" fill="#aab3bf">Legend: bar length = terminal count</text>
+</svg>
