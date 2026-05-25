@@ -532,7 +532,7 @@ body{overflow-x:hidden}
 }
 
 
-/* v3.0.1 hotfix: preserve analytical matrix colors in light mode */
+/* v3.0.2 hotfix: preserve analytical matrix colors in light mode */
 [data-theme="light"] .matrix-cell,
 [data-theme="light"] .matrix-cell.search-matched,
 [data-theme="light"] .matrix-cell.search-unmatched,
@@ -562,7 +562,7 @@ body{overflow-x:hidden}
 }
 
 
-/* v3.0.1 hotfix: preserve Workbench analytical colors in light mode */
+/* v3.0.2 hotfix: preserve Workbench analytical colors in light mode */
 
 /* Matrix cells are data, not normal buttons/cards */
 [data-theme="light"] .matrix-grid button.matrix-cell,
@@ -600,6 +600,13 @@ body{overflow-x:hidden}
 }
 
 /* If the cell contains 0, JS will mark it absent; if >0, observed */
+
+
+/* v3.0.2 hotfix: hide empty/low-information differentiation cards */
+.explain-box:has(span:first-child:nth-last-child(1)),
+.explain-box:empty {
+  display:none!important;
+}
 
 </style>
 </head>
@@ -684,7 +691,7 @@ body{overflow-x:hidden}
       <article class="science-panel"><h3>Graph model</h3><p class="science-note">Connections link structural neighbors and selected lineage/context pathways under the model.</p></article>
       <article class="science-panel"><h3>Interpretation</h3><p class="science-note">This is a design-space map, not a ranking. Distance reflects modeled similarity, not quality or popularity.</p></article>
     </div>
-    <div class="relation-legend"><span><span class="legend-line similarity"></span>core similarity</span><span><span class="legend-line lineage"></span>lineage / engine</span><span><span class="legend-line semantic"></span>semantic / workspace</span><span><span class="legend-line context"></span>contextual pathway</span></div>
+    <div class="relation-legend"><span></div>
     <div class="download-row"><a class="download-link" href="assets/science/nearest_neighbor_pathway_graph.svg" download>Download graph SVG</a><a class="download-link" href="assets/science/nearest_neighbor_pathway_graph_nodes.csv" download>Download nodes CSV</a><a class="download-link" href="assets/science/nearest_neighbor_pathway_graph_edges.csv" download>Download edges CSV</a></div>
     <div class="graph-toolbar">
       <button id="graphZoomIn" class="secondary">Zoom in</button>
@@ -699,7 +706,6 @@ body{overflow-x:hidden}
       <label><input type="checkbox" data-edge-toggle="similarity" checked> Similarity only</label>
       <label><input type="checkbox" data-edge-toggle="lineage/engine"> Lineage/engine only</label>
       <label><input type="checkbox" data-edge-toggle="semantic/workspace"> Semantic/workspace only</label>
-      <label><input type="checkbox" data-edge-toggle="historical/context"> Contextual pathways</label>
     </div>
     <div id="graphWrap" class="graph-wrap"><div id="graphCanvas" class="graph-canvas"></div></div>
     <div id="roleSummary" class="science-grid"></div>
@@ -944,6 +950,21 @@ function applyMatrixColorFixes(){
     }
   });
 }
+
+
+/* v3.0.2: suppress empty Workbench explanation boxes */
+function suppressEmptyWorkbenchExplanations(){
+  document.querySelectorAll('.explain-box, .field').forEach(el=>{
+    const label = (el.querySelector('span')?.textContent || '').trim().toLowerCase();
+    const raw = (el.textContent || '').replace(el.querySelector('span')?.textContent || '', '').trim();
+    const lowInfo = !raw || raw === 'None' || raw === 'none' || raw === '-' || raw === 'Unknown';
+    if(label.includes('what makes it different') && lowInfo){
+      el.style.display='none';
+    }
+  });
+}
+setInterval(suppressEmptyWorkbenchExplanations, 500);
+document.addEventListener('click',()=>setTimeout(suppressEmptyWorkbenchExplanations,80));
 
 </script>
 </body>

@@ -121,3 +121,11 @@ Consistency and traceability matter more than completeness.
 
 Code: MIT  
 Data/documentation: see `DATA_LICENSE.md`.
+
+
+## v3.0.2 patch notes
+
+- Hide the misleading sparse Contextual pathways graph layer pending redesign.
+- Hide empty/low-information Workbench differentiation cards.
+- Keep the v3.0.x production dataset unchanged.
+
